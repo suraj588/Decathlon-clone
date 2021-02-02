@@ -1,0 +1,236 @@
+{
+    "fitness_essentials": [
+      {
+        "id": 1,
+        "name": "Regular Skipping Rope",
+        "mrp": 599,
+        "current_price": 359,
+        "rating": 4.1,
+        "img": "https://contents.mediadecathlon.com/p1709851/04c01420b81518df6a0d0b0dcadc9a3f/p1709851.jpg?f=260x260&format=auto&format=auto"
+      },
+      {
+        "name": "Cross Training Elastic Training Band 25kg",
+        "mrp": 999,
+        "current_price": 699,
+        "rating": 4.4,
+        "img": "https://contents.mediadecathlon.com/p1248556/2f6f907bc739c38795f117ec842866ae/p1248556.jpg?f=260x260&format=auto&format=auto",
+        "id": 2
+      },
+      {
+        "name": "Ab wheel",
+        "mrp": 1099,
+        "current_price": 699,
+        "rating": 4.7,
+        "img": "https://contents.mediadecathlon.com/p1924078/e72f912dcfce82bfa115761989a4f5a2/p1924078.jpg?f=260x260&format=auto&format=auto",
+        "id": 3
+      },
+      {
+        "name": "Men's Eco friendly cardio Training Short",
+        "mrp": 799,
+        "current_price": 499,
+        "rating": 4.5,
+        "img": "https://contents.mediadecathlon.com/p1851233/cac900e006b222532d61bf8b896573b0/p1851233.jpg?f=260x260&format=auto&format=auto",
+        "id": 4
+      },
+      {
+        "name": "Cardio Fitness Sauna Belt - Black",
+        "mrp": 799,
+        "current_price": 499,
+        "rating": 4.2,
+        "img": "https://contents.mediadecathlon.com/p1094738/461e46fb43df5444dd7cec0e7684dc4e/p1094738.jpg?f=260x260&format=auto&format=auto",
+        "id": 5
+      },
+      {
+        "name": "15L Cardio Fitness Training Backpack-Yellow",
+        "mrp": 799,
+        "current_price": 599,
+        "rating": 5,
+        "img": "https://contents.mediadecathlon.com/p1872678/32091467531e5d7357d6f58aacee5274/p1872678.jpg?f=260x260&format=auto&format=auto",
+        "id": 6
+      },
+      {
+        "name": "Yoga Foam Block - Dark Gray",
+        "mrp": 499,
+        "current_price": 299,
+        "rating": 4.3,
+        "img": "https://contents.mediadecathlon.com/p1588822/k$5d39144dbcf00fc891254c22b3729244/yoga-foam-block-dark-grey.jpg?&f=250x250&format=auto",
+        "id": 7
+      },
+      {
+        "name": "FPA 120 Cardio Fitness Bottoms - Gray",
+        "mrp": 999,
+        "current_price": 699,
+        "rating": 4.3,
+        "img": "https://contents.mediadecathlon.com/p1516283/k$83b6bf1735cb22ea753ee03119bcf606/fpa120-cardio-fitness-bottoms-grey.jpg?&f=250x250&format=auto",
+        "id": 8
+      },
+      {
+        "name": "Essential Beginner Yoga Mat 4mm - Blue",
+        "mrp": 599,
+        "current_price": 399,
+        "rating": 3.9,
+        "img": "https://contents.mediadecathlon.com/p1501617/k$f29dc70abfda6af14873c8e25d299ca7/essential-beginner-yoga-mat-4mm-blue.jpg?&f=250x250&format=auto",
+        "id": 9
+      },
+      {
+        "name": "Fitness 5-6-7 kg Short Elastic Rubber Bands Tri-Pack",
+        "mrp": 499,
+        "current_price": 299,
+        "rating": 3.3,
+        "img": "https://contents.mediadecathlon.com/p1788545/k$a5528cda21757a089a766115ea9f3184/fitness-5-6-7-kg-short-elastic-rubber-bands-tri-pack-turquoise-burgundy-black.jpg?&f=250x250&format=auto",
+        "id": 10
+      },
+      {
+          "name": "100 Women's Zip-Up Fitness Crdio Training Sports Bra- Mottled Gray",
+          "mrp": 699,
+          "current_price": 499,
+          "rating": 4.3,
+          "img": "https://contents.mediadecathlon.com/p1708677/k$98d2d6790dbacce554a39ac14ea434c9/100-women-s-zip-up-fitness-cardio-training-sports-bra-mottled-grey.jpg?&f=250x250&format=auto",
+          "id": 11
+      },
+      {
+          "name": "Organic Cotton Toga Strap - Grey",
+          "mrp": 599,
+          "current_price": 299,
+          "rating": 4.4,
+          "img": "https://contents.mediadecathlon.com/p1588866/k$883c80e054ad5b26cb78892ac5b345d2/organic-cotton-yoga-strap-grey.jpg?&f=250x250&format=auto",
+          "id": 12
+      },
+      {
+          "name": "500 Women's Fitness Cardio Training Sports Bra - Black",
+          "mrp": 899,
+          "current_price": 699,
+          "rating": 4.2,
+          "img": "https://contents.mediadecathlon.com/p1850849/k$5eeb640b78c197b55b74cc5dfa335f61/500-women-s-fitness-cardio-training-sports-bra-black.jpg?&f=250x250&format=auto",
+          "id": 13
+      },
+      {
+          "name": "Hex Dumbell 2.5kg",
+          "mrp": 999,
+          "current_price": 799,
+          "rating": 4.9,
+          "img": "https://contents.mediadecathlon.com/p1248558/k$746a24221019789aebc18e4467810833/hex-dumbbell-25-kg.jpg?&f=250x250&format=auto",
+          "id": 14
+      },
+      {
+          "name": "Cross Training Push-Up Bar Grips",
+          "mrp": 499,
+          "current_price": 399,
+          "rating": 4.6,
+          "img": "https://contents.mediadecathlon.com/p1030211/k$536aa7aaab21e2a33dd054d4189c24db/cross-training-push-up-bar-grips.jpg?&f=250x250&format=auto",
+          "id": 15
+      },
+      {
+          "name": "Adjustable Hand Grip",
+          "mrp": 799,
+          "current_price": 399,
+          "rating": 4.3,
+          "img": "https://contents.mediadecathlon.com/p91666/k$615ed8660aea0c1175cccf41d7bef293/adjustable-hand-grip.jpg?&f=250x250&format=auto",
+          "id": 16
+      },
+      {
+          "name": "120 Women's Fitness Cardio Training Leggings-Burgundy",
+          "mrp": 1099,
+          "current_price": 899,
+          "rating": 4.5,
+          "img": "https://contents.mediadecathlon.com/p1705805/k$9bc321f7b4ef51b39e26ff25771d7d05/120-women-s-fitness-cardio-training-leggings-burgundy.jpg?&f=250x250&format=auto",
+          "id": 17
+      },
+      {
+          "name": "Toning Resistance Tube with Handles - 10 kg Medium",
+          "mrp": 999,
+          "current_price": 699,
+          "rating": 4.3,
+          "img": "https://contents.mediadecathlon.com/p701805/k$dc0dfcf46b0d21bf9512195230c7693f/toning-resistance-tube-with-handles-10-kg-medium.jpg?&f=250x250&format=auto",
+          "id": 18
+      },
+      {
+          "name": "Fitness 1kg Dumbell Twin-Pack- Green",
+          "mrp": 899,
+          "current_price": 499,
+          "rating": 4.6,
+          "img": "https://contents.mediadecathlon.com/p1833694/k$7371d614fb7e289832b1d07789ad7559/fitness-1-kg-dumbbells-twin-pack-green.jpg?&f=250x250&format=auto",
+          "id": 19
+      },
+      {
+          "name": "Regular Skipping Rope",
+          "mrp": 599,
+          "current_price": 359,
+          "rating": 4.1,
+          "img": "https://contents.mediadecathlon.com/p1709851/k$04c01420b81518df6a0d0b0dcadc9a3f/regular-skipping-rope-yellow.jpg?&f=250x250&format=auto",
+          "id": 20
+      },
+      {
+          "name": "Yoga Knee & Wrist Pad - Green",
+          "mrp": 499,
+          "current_price": 299,
+          "rating": 4.7,
+          "img": "https://contents.mediadecathlon.com/p1789747/k$27d6a1a0277bf6ff6da1a2ab3ac60789/yoga-knee-wrist-pad-green.jpg?&f=250x250&format=auto",
+          "id": 21
+      },
+      {
+          "name": "Women's Cardio Fitness T-shirt 120-White/Printed Yellow",
+          "mrp": 699,
+          "current_price": 599,
+          "rating": 4.6,
+          "img": "https://contents.mediadecathlon.com/p1782186/k$14fcf8534c36730799c5d576d3575e9b/women-s-cardio-fitness-t-shirt-120-white-printed-yellow.jpg?&f=250x250&format=auto",
+          "id": 22
+      },
+      {
+          "name": "Versatile Cross Training Push-Up Wheel Grips-Red/Black",
+          "mrp": 1099,
+          "current_price": 999,
+          "rating": 4.5,
+          "img": "https://contents.mediadecathlon.com/p1113578/k$592983277aa7012e3eb746bd1fe69e5b/versatile-cross-training-push-up-wheel-grips-red-black.jpg?&f=250x250&format=auto",
+          "id": 23
+      },
+      {
+          "name": "Yoga Mat Cover - Grey",
+          "mrp": 499,
+          "current_price": 299,
+          "rating": 4.5,
+          "img": "https://contents.mediadecathlon.com/p1587570/k$4f7401ff54f9a3d2baf44cd9dede4b2d/yoga-mat-cover-grey.jpg?&f=250x250&format=auto",
+          "id": 24
+      },
+      {
+          "name": "Ankle Weight 2*0.75 Kg",
+          "mrp": 999,
+          "current_price": 599,
+          "rating": 4.7,
+          "img": "https://contents.mediadecathlon.com/p188780/k$5c513c3dd9678c93ae2dc6ad5a4f3d51/ankle-weight-2075-kg.jpg?&f=250x250&format=auto",
+          "id": 25
+      },
+      {
+          "name": "700ml First Shaker - Clear",
+          "mrp": 699,
+          "current_price": 359,
+          "rating": 4.5,
+          "img": "https://contents.mediadecathlon.com/p1035863/k$bd37421f9c337ac180e17fe799f3b8b1/700-ml-first-shaker-clear.jpg?&f=250x250&format=auto",
+          "id": 26
+      },
+      {
+          "name": "Kettlebell 4 kg",
+          "mrp": 1299,
+          "current_price": 999,
+          "rating": 4.9,
+          "img": "https://contents.mediadecathlon.com/p1248535/k$04bf197d37359252cc11916fab681b18/kettlebell-4-kg.jpg?&f=250x250&format=auto",
+          "id": 27
+      },
+      {
+          "name": "Women's Cardio Fitness Training Bra 900 - White/Black Print",
+          "mrp": 1299,
+          "current_price": 999,
+          "rating": 4.7,
+          "img": "https://contents.mediadecathlon.com/p188780/k$5c513c3dd9678c93ae2dc6ad5a4f3d51/ankle-weight-2075-kg.jpg?&f=250x250&format=auto",
+          "id": 28
+      },
+      {
+          "name": "Kids' Yoga Mat 5mm - Blue Bear",
+          "mrp": 1399,
+          "current_price": 999,
+          "rating": 3.6,
+          "img": "https://contents.mediadecathlon.com/p1288263/k$4b80ca273a6d67ce8b63ba356bc52c4f/kids-yoga-mat-5-mm-blue-bear.jpg?&f=250x250&format=auto",
+          "id": 29
+      }
+    ]
+  }
