@@ -1,0 +1,92 @@
+body{
+    font-family: "Roboto Condensed", sans-serif
+}
+.backgroundCover{
+    width: 100%;
+}
+.backgroundCover>:nth-child(1){
+    width: 100%;
+    height: auto;
+    background-color: #424353;
+    display: flex;
+    gap: 20px;
+    padding: 10px;
+    justify-content: center;
+}
+.backgroundCover>:nth-child(1)>div{
+    color: white;
+    font-weight: normal;
+}
+.backgroundCover>:nth-child(1)>div>span{
+    font-weight: 900;
+}
+.backgroundCover>:nth-child(1)>button{
+    color: white;
+    border: 1px solid white;
+    background-color: #424353;
+}
+.backgroundCover>:nth-child(2){
+    width: auto;
+    background-image: url('https://contents.mediadecathlon.com/s831554/k$6dc2f275bb302022fb56e821b4925ae4/categorypagedeafultimage.jpg?format=auto');
+    background-repeat: no-repeat;
+    background-size: 100% 170px;
+    height: 170px;
+    color: white;
+    margin: 0px;
+    
+}
+.backgroundCover>:nth-child(2)>:nth-child(1){
+    display: flex;
+    padding-top: 20px;
+    margin-left: 20px;
+}
+.backgroundCover>:nth-child(2)>:nth-child(2){
+    margin-top: 50px;
+    color: white;
+    margin-left: 20px;
+    width: fit-content;
+    font-weight: 900;
+    font-size: 28px;
+    margin-bottom: 50px;
+}
+.filterBarAndProducts{
+    width: 100%;
+    background-color: white;
+
+}
+.filterBar{
+    
+    display: flex;
+    color: #515360;
+    padding: 30px;
+    font-size: 15px;
+    font-weight: 700;
+    margin: auto;
+}
+.filterBar>div{
+    width: fit-content;
+
+}
+.filterBar>:nth-child(1){
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.flexOptions{
+    width: fit-content;
+    display: flex;
+    gap: 20px;
+}
+.genderSizeMargin{
+    margin-left: 10%;
+    margin-top: 10px;
+}
+.sortRelevantMargin{
+    margin-left: 55%;
+}
+.sortRelevantMargin>:nth-child(2){
+    border: 1px solid black;
+    padding: 10px;
+}
+.sortRelevantMargin>:nth-child(1){
+    margin-top: 10px;
+}
