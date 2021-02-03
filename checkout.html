@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout</title>
+    <link rel="stylesheet" href="checkout.css">
+</head>
+<body>
+    <div class="cartNavbar">
+        <div class="logo">
+            <img src="https://cdn.decathlon.in/_next/static/images/logo-93d12d8cff484ab736d2a39f15bf66d8.svg"/>
+        </div>
+        <div class="cartOption">
+            <div>
+                <label for="cart">Cart</label>
+                 <input type="radio" value="cart">
+            </div>
+            <div>
+                <label for="address">Address & Delivery</label>
+                 <input type="radio" value="address">
+            </div>
+            <div>
+                <label for="payment">Payment</label>
+                 <input type="radio" value="payment">
+            </div>
+        </div>
+        <div class="rightLogo">
+            <div>
+                <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzNy40MjciIGhlaWdodD0iNDMuODcxIiB2aWV3Qm94PSIwIDAgMzcuNDI3IDQzLjg3MSI+PGRlZnM+PHN0eWxlPi5he2ZpbGw6I2YyNjYwMDtzdHJva2U6I2YyNjYwMDt9LmJ7ZmlsbDojMDA4MWM2O3N0cm9rZTojMDA4MWM2O308L3N0eWxlPjwvZGVmcz48ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMTczNy41IC0yNC41KSI+PGcgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMTc1MCAzNykiPjxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKDApIj48cGF0aCBjbGFzcz0iYSIgZD0iTS40MzMsMTkuNzExYS40NTEuNDUxLDAsMCwxLS4yNzctLjFBLjQ2LjQ2LDAsMCwxLDAsMTkuMjc3VjkuNzRhLjQzMy40MzMsMCwwLDEsLjM1NS0uNDMzbDExLjY1Mi0yLjFhLjQ0Mi40NDIsMCwwLDEsLjM1NS4wODcuNDUxLjQ1MSwwLDAsMSwuMTQ3LjMzOHY5LjUzN2EuNDMzLjQzMywwLDAsMS0uMzU1LjQzM0wuNTEyLDE5LjdaTS44NjcsMTAuMDd2OC42N2wxMC43NzctMS45MjVWOC4xNDVaIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgwIC0wLjk1OCkiLz48cGF0aCBjbGFzcz0iYSIgZD0iTTMuMzEzLDguMzU4YS40MzMuNDMzLDAsMCwxLS40MzMtLjQzM1YzLjc2M2EzLjc2MywzLjc2MywwLDEsMSw3LjUyNSwwVjYuNjc2YS40NDIuNDQyLDAsMCwxLS40MzMuNDMzLjQzMy40MzMsMCwwLDEtLjQzMy0uNDMzVjMuNzYzYTIuOSwyLjksMCwwLDAtNS43OTIsMFY3LjkyNEEuNDMzLjQzMywwLDAsMSwzLjMxMyw4LjM1OFoiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0wLjM4MyAwKSIvPjwvZz48L2c+PGcgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMTczOCAyNSkiPjxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKDAgMCkiPjxwYXRoIGNsYXNzPSJiIiBkPSJNMTguMjA5LDQyLjg1OUMxNi4zNTQsNDIuODU5LDAsMzUuNDE4LDAsOC43YS43MzkuNzM5LDAsMCwxLC41NjktLjczOUMuNjk1LDcuOTQ5LDEzLjMsNC45LDE3LjY3Ny4yMTlhLjczOS43MzksMCwwLDEsMS4wNzIsMGM0LjQsNC42OTMsMTcsNy43MywxNy4xMDgsNy43NmEuNzM5LjczOSwwLDAsMSwuNTY5LjczOUMzNi40MjYsMzUuNDE4LDIwLjA3MSw0Mi44NTksMTguMjA5LDQyLjg1OVpNMS40NzgsOS4yNzJDMS43MDcsMzQuMSwxNi41MjQsNDEuMzM3LDE4LjIxNiw0MS4zODFTMzQuNzMzLDM0LjEsMzQuOTQ4LDkuMjcyQzMyLjQ1Nyw4LjYzNiwyMi43LDUuOTA5LDE4LjIwOSwxLjc2MywxMy43MjMsNS45MDksMy45NjgsOC42MzYsMS40NzgsOS4yNzJaIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgwIDAuMDExKSIvPjwvZz48L2c+PC9nPjwvc3ZnPg=="/>
+            </div>
+            <div class="rightLogoText">
+                <p>100%</p>
+                <p>SECURE PAYMENT</p>
+            </div>
+        </div>
+    </div>
+    <div class="checkoutSection">
+        <div class="addressSection">
+            <div class="selectAddress">
+                <p><strong>Address</strong></strong></p>
+                <p>Please select your address for delivery and billing purpose</p>
+                <div id="newAddress">
+                    <div><button>ADD NEW ADDRESS</button></div>
+                </div>
+            </div>
+            <div class="deliveryBtn">
+                <button>SELECT DELIVERY OPTIONS</button>
+            </div>
+        </div>
+        <div class="orderSection">
+            <div class="itemsSection">
+                <div class="items">
+                    <div class="itemImg">
+                        <img src="https://contents.mediadecathlon.com/p1949673/e381a1ca10cbd5534c34c793f3f55e8a/p1949673.jpg?f=150x150"/>
+                    </div>
+                    <div class= "itemDesc">
+                        <div class="itemDescName">
+                            <p>MEN'S MOUNTAIN TREKKING</p>
+                        </div>
+                        <div class="itemOrderDetail">
+                            <p>Size: <strong>M</strong></p>
+                            <p>Quantity: <strong>2</strong></p>
+                            <p><strong>1998</strong></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="shippingDetails">
+                    <div class="shipping">
+                        <p>Shipping</p>
+                        <p>FREE</p>
+                    </div>
+                    <div class="orderAmt">
+                        <p><strong>TOTAL</strong></p>
+                        <p><strong>1998</strong></p>
+                    </div>
+                    <div>
+                        <p><a>VIEW DETAILS</a></p>
+                    </div>
+                </div> 
+                <div class="adSection">
+                    <div class="adBox">
+                        <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NC42IDU4IiBmaWxsPSIjNDI0NTUzIj48cGF0aCBkPSJNNS43IDE1LjVsMjYuOC01VjIwYTEgMSAwIDAgMCAxIDEgMS4xIDEuMSAwIDAgMCAuNi0uMkw1MiA4YTEgMSAwIDAgMC0uMi0xLjhsLTE4LTZhMSAxIDAgMCAwLTEuMyAxbC0uMSA3LjMtMjcgNUE2IDYgMCAwIDAgMCAxOS42djI2LjJoMlYxOS42YTQuMSA0LjEgMCAwIDEgMy43LTQuMXptMjguOC0xM2wxNC43IDVMMzQuNSAxOHptMTggOS43djI2LjJhNC4xIDQuMSAwIDAgMS0zLjcgNC4xbC0yNi44IDVWMzhhMSAxIDAgMCAwLTEuNi0uOEwyLjcgNTBhMSAxIDAgMCAwIC4zIDEuOEwyMSA1OGExIDEgMCAwIDAgLjMuMS45LjkgMCAwIDAgLjYtLjIgMSAxIDAgMCAwIC40LS44di03LjNoLjJsMjYuOC01YTYgNiAwIDAgMCA1LjQtNi4xVjEyLjJ6TTIwIDU1LjZsLTE0LjctNUwyMCA0MHoiLz48L3N2Zz4="/>
+                        <p>Easy 90 days return</p>
+                    </div>
+                    <div class="adBox">
+                        <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0OS4yOSA1Ny45OSI+PGRlZnM+PHN0eWxlPi5jbHMtMXtmaWxsOiM0MjQ1NTM7fTwvc3R5bGU+PC9kZWZzPjx0aXRsZT5Bc3NldCAyM2FjY2VzczwvdGl0bGU+PGcgaWQ9IkxheWVyXzIiIGRhdGEtbmFtZT0iTGF5ZXIgMiI+PGcgaWQ9IkNhbHF1ZV8yIiBkYXRhLW5hbWU9IkNhbHF1ZSAyIj48cGF0aCBjbGFzcz0iY2xzLTEiIGQ9Ik0yNC42NCw1OEMyMi4xMyw1OCwwLDQ3LjkzLDAsMTEuNzdhMSwxLDAsMCwxLC43Ny0xQy45NCwxMC43NiwxOCw2LjY0LDIzLjkyLjNhMSwxLDAsMCwxLDEuNDUsMGM1Ljk1LDYuMzQsMjMsMTAuNDYsMjMuMTUsMTAuNWExLDEsMCwwLDEsLjc3LDFDNDkuMjksNDcuOTMsMjcuMTYsNTgsMjQuNjQsNThaTTIsMTIuNTVDMi4zMSw0Ni4xNSwyMi4zNiw1NS45NCwyNC42NSw1NlM0Nyw0Ni4xNSw0Ny4yOSwxMi41NUM0My45MiwxMS42OSwzMC43Miw4LDI0LjY0LDIuMzksMTguNTcsOCw1LjM3LDExLjY5LDIsMTIuNTVaIi8+PHBhdGggY2xhc3M9ImNscy0xIiBkPSJNMjIuODEsMzUuNDFoMGExLDEsMCwwLDEtLjctLjNsLTYuODQtNi44NGExLDEsMCwxLDEsMS40MS0xLjQxTDIyLjgxLDMzLDM1LjcsMjAuMTFhMSwxLDAsMCwxLDEuNDIsMCwxLDEsMCwwLDEsMCwxLjQxTDIzLjUyLDM1LjExQTEsMSwwLDAsMSwyMi44MSwzNS40MVoiLz48L2c+PC9nPjwvc3ZnPg=="/>
+                        <p>Home Delivery at Your Doorstep</p>
+                    </div>
+                    <div class="adBox">
+                        <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1Ni4xOSA1Ni45NCI+PHBhdGggZD0iTTI4LjE0IDI0LjQzaDIzdjUuNzJoLTIzeiIgZmlsbD0iIzQyNDU1MyIvPjxnIGZpbGw9IiNmZmYiPjxwYXRoIGQ9Ik0zMi4yIDI1LjgzaDEuN3YuNjRoLS45M3YuNDhoLjh2LjY0aC0uOHYuNTNoLjkzdi42NGgtMS43di0yLjkzeiIvPjxwYXRoIGQ9Ik0zNy4zNiAyNS44MmwtMS4wOCAxLjhhLjkuOSAwIDAgMS0uNzIuNDUuNzYuNzYgMCAwIDEtLjgyLS43OS43OS43OSAwIDAgMSAuNzctLjc5IDEuMjQgMS4yNCAwIDAgMSAuODcuNDZsLjQtLjYyYTEuNjEgMS42MSAwIDAgMC0xLjI1LS41OCAxLjUzIDEuNTMgMCAwIDAtLjE4IDMuMDYgMS42NSAxLjY1IDAgMCAwIDEuMzktLjVoLjd2LjQ0aC43M1YyNS44em0uMDcgMS45SDM3bC40LS42N3ptMS40NyAxLjA1di0yLjI0aC0uNnYtLjdoMS45NHYuN2gtLjZ2Mi4yNGgtLjc2em0zLjA1LTEuMTNoLS43OHYxLjEzaC0uNzZ2LTIuOTVoLjc2djEuMTJoLjc4di0xLjEyaC43NnYyLjk1aC0uNzZ2LTEuMTN6bTEgMS4xM3YtMi45NWguNzZ2Mi4zaC45di42NmgtMS42NXoiLz48cGF0aCBkPSJNNDQuNiAyNi4yYTEuNTcgMS41NyAwIDAgMSAxLjEtLjQzIDEuNTQgMS41NCAwIDAgMSAxLjA3LjQ0IDEuNDggMS40OCAwIDAgMSAuNDYgMS4wOCAxLjUyIDEuNTIgMCAwIDEtMS41NCAxLjU1IDEuNTUgMS41NSAwIDAgMS0xLjA5LTIuNjRtMS4xIDEuOWEuOC44IDAgMSAwLS43OS0uODIuODEuODEgMCAwIDAgLjc5LjgyIi8+PHBhdGggZD0iTTQ3LjE2IDI4Ljc3di0yLjk1aC43TDQ5IDI3LjQ2di0xLjY0aC43NnYyLjk1aC0uNjdsLTEuMTYtMS42NHYxLjY0aC0uNzZ6bS0xNy42MiAwdi0yLjk1aDEuMDZhMS41NiAxLjU2IDAgMCAxIDEuMTYuMzYgMS40MyAxLjQzIDAgMCAxIC40NSAxLjEzIDEuNDIgMS40MiAwIDAgMS0uNDUgMS4wOSAxLjM0IDEuMzQgMCAwIDEtMS4wNi4zN3ptMS45Mi0xLjVhLjc2Ljc2IDAgMCAwLS44Ni0uODJoLS4zdjEuNjZoLjNjLjU4IDAgLjg2LS4yNi44Ni0uODQiLz48L2c+PHBhdGggZD0iTTU1LjIgMTkuNmgtOC4xdi01LjI1YS44OC44OCAwIDAgMCAuMDYtLjI4di0uMDVhLjg0Ljg0IDAgMCAwLS4wNy0uMzV2LS4wNWEuODEuODEgMCAwIDAtLjEtLjE4TDM3IC40YTEgMSAwIDAgMC0uOC0uMzlIMTFhMSAxIDAgMCAwLS44LjM5bC05Ljk1IDEzYS44MS44MSAwIDAgMC0uMS4xOHYuMDVBLjg0Ljg0IDAgMCAwIDAgMTR2MzUuMjVhMSAxIDAgMCAwIDEgMWgyMS43N2ExLjA3IDEuMDcgMCAwIDAgLjMyLS4wNnY1Ljc1YTEgMSAwIDAgMCAxIDFoLjE4bDMxLjEtNS40YTEgMSAwIDAgMCAuODMtMVYyMC42YTEgMSAwIDAgMC0xLTF6TTM1Ljc0IDJsOC40MyAxMUgyNC42VjJ6bS0yNC4zIDBIMjIuNnYxMUgzek0yNC4xIDE5LjZhMSAxIDAgMCAwLTEgMXYyNy43YS44My44MyAwIDAgMC0uMzItLjA3SDJWMTVoNDMuMXY0LjZ6bTE5LjUgMzEuOTNsLTcuOSAxLjM4VjQyLjA1aDcuOXptMTAuNi0xLjg0bC04LjYgMS41VjQxLjA1YTEgMSAwIDAgMC0xLTFoLTkuOWExIDEgMCAwIDAtMSAxdjEyLjJsLTguNiAxLjVWMjEuNmgyOS4xeiIgZmlsbD0iIzQyNDU1MyIvPjwvc3ZnPg=="/>
+                        <p>Drive through/Free pickup in stores</p>
+                    </div>
+                </div>
+            </div> 
+        </div>
+    </div>
+</body>
+</html>
