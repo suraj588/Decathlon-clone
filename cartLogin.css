@@ -1,0 +1,243 @@
+
+/* Nav Bar */
+.cartNavbar {
+    height: fit-content;
+    padding: 10px;
+    width: 99%;
+    background-color: white;
+    /* position: fixed; */
+    z-index: -1;
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: 1px solid whitesmoke;
+    align-items: center;
+    top:0;
+}
+
+.logo {
+    margin-left: 30px;
+    height: 40px;
+    width: 120px;
+}
+
+.logo img, .rightLogo img {
+    width: 100%;
+    height: 100%;
+}
+
+.cartOption {
+    width: 500px;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: grey;
+    font-size: 12px;
+}
+
+.rightLogo {
+    display: flex;
+    /* margin-right: 10px; */
+    width: 250px;
+    height: 30px;
+}
+
+.rightLogo > div {
+    height: 30px;
+    margin-left: 5px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.rightLogoText{
+    line-height: 2px;
+    margin-top: -5px;
+}
+/* Nav Bar */
+
+/* Cart Body */
+body {
+    background-color:whitesmoke;
+    font-family: "Roboto Condensed", sans-serif !important;
+    color: #424453;
+    margin: 0%;
+    padding: 0%;
+
+}
+.cartBody {
+    margin: 150px auto;
+    width: 400px;
+    color: rgb(66,68,83);
+    text-align: justify;
+}
+
+.cartBody div {
+    padding: 5px;
+}
+
+.cartBody > div p, .cartBody h2,.cartImg {
+    width: 280px;
+    padding: 2px;
+    margin: auto;
+}
+
+.cartBody p {
+    font-size: 14px;
+}
+
+.cartButton {
+    display: flex;
+}
+
+.cartButton div {
+    width: 100%;
+}
+
+@media only screen and (max-width: 900px) {
+    .cartButton div {
+        width: 100%;
+    }
+    .cartButton {
+        flex-wrap: wrap;
+    }
+}
+
+.cartButton button{
+    width: 100%;
+    height: 40px;
+    margin-top: 10px;
+    outline: none;
+    border-radius: 5px;
+    font-size: 12px;
+}
+
+.blueBtn {
+    background-color: rgb(0,120,180);
+    color: white;
+    border: none;
+}
+
+.whiteBtn {
+    border: 2px solid rgb(0,120,180);
+    background-color: white;
+    
+}
+
+.copyright {
+    text-align: center;
+    font-size: 12px;
+}
+
+.pageBody {
+    height: 95vh;
+    width: 100%;
+    /* position: relative; */
+}
+/* Cart Body */
+
+/* Login card */
+.loginCard {
+    position: fixed;
+    display: none;
+    top:25%;
+    left: 10%;
+    right: 10%;
+    margin: auto;
+    height: 400px;
+    width:700px;
+    background-color: white;
+    transition: 1s ease;  
+    border-radius: 5px;
+    z-index: 100;
+}
+
+.topSection {
+    height: 25px;
+    padding: 5px;
+    float: right;
+}
+
+.topSection button {
+    background-color: transparent;
+    outline: none;
+    border: none;
+}
+
+.bottomSection {
+    margin-top: 30px;
+    height: 370px ;
+    display: flex;
+}
+
+.bottomSection > div {
+    width: 45%;
+}
+
+.bottomLeft h3 {
+    letter-spacing: 0.25em;
+}
+
+.bottomLeft img{
+    height: 50px;
+    width: 50px;
+    float: right;
+}
+
+.bottomLeft p {
+    font-size: 25px;
+    width: 100%;
+}
+
+.bottomLeft {
+    padding: 20px;
+    background-color: whitesmoke;
+}
+
+.bottomRight {
+    padding: 20px;
+    margin-left: 5%;
+}
+
+.bottomRight > div {
+    margin: 30px auto;
+    text-align: center;
+}
+
+.login > div{
+    width: 50%;
+    font-weight: 700;
+}
+
+.login {
+    width: 100%;
+    display: flex;
+}
+
+
+.bottomRight input {
+    width: 98%;
+    height: 40px;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    border: none;
+}
+
+.bottomRight button {
+    width: 100%;
+    height: 40px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+
+.blueLoginBtn {
+    background-color: rgb(0,120,180); 
+    color: white;
+}
+
+.bottomRight p {
+    font-size: 12px;
+}
+
+/* Login card */
