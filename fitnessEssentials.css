@@ -37,8 +37,13 @@ body{
 .backgroundCover>:nth-child(2)>:nth-child(1){
     display: flex;
     padding-top: 20px;
-    margin-left: 20px;
+    margin-left: 20px;   
 }
+.backgroundCover>:nth-child(2)>:nth-child(1)>:nth-child(1):hover{
+    cursor: pointer;
+    color:  #14658e;
+}
+
 .backgroundCover>:nth-child(2)>:nth-child(2){
     margin-top: 50px;
     color: white;
@@ -64,7 +69,7 @@ body{
 }
 .filterBar>div{
     width: fit-content;
-
+    cursor: pointer;
 }
 .filterBar>:nth-child(1){
     margin-top: 10px;
@@ -136,6 +141,10 @@ body{
     flex-flow: column;
     gap: 5px;
 }
+.priceFilterCover>:nth-child(3){
+    display: flex;
+    justify-content: space-between;
+}
 .productsCard{
     display: flex;
     flex-flow: row wrap;
@@ -143,26 +152,34 @@ body{
     gap: 3%;
     margin: auto;
 }
+.cardCover:hover{
+    cursor: pointer;
+    width: 22%;
+    z-index: 2;
+    /* height:fit-content; */
+    box-shadow: 10px 10px 18px #5f6878;
+}
 .cardCover{
     width: 20%;
-    height: 400px;
+    
     margin-bottom: 20px;
     margin-top: 50px;
+    transition: width 2s, z-index 4s,height 2s;
+    border:1px solid #ededed;
 }
 .cardImgCover{
     width: 100%;
-    height: 300px;
-    border:1px solid #ededed;
+    height: 280px;
+    /* border:1px solid #ededed; */
 }
 .cardImgCover>img{
     width: 100%;
-    height: inherit;
-    background-color: none;
+    height: 280px;
 }
 .cardDataCover{
     width: 100%;
-    height: 150px;
-    border: 1px solid  #ededed;
+    height: fit-content;
+    border-top: 1px solid  #ededed;
     display: flex;
     flex-flow: column;
     gap: 10px;
@@ -200,4 +217,7 @@ body{
 }
 .checked{
     color:  #fdb65d;
+}
+.productNature:hover,.productClr,.productBrand,input{
+    cursor: pointer;
 }

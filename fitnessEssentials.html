@@ -18,7 +18,7 @@
         <div>
 
             <div>
-                <div>HOME /</div>
+                <div onclick="redirectHome()">HOME /</div>
                 <div>BACK TO FITNESS /</div>
                 <div style="color: #14658e;">FITNESS ESSENTIALS BELOW 999</div>
             </div>
@@ -56,7 +56,7 @@
                     <h5>PRODUCT NATURE</h5>
                     <div class="productNature" id="leggings">
                         <input type="checkbox"/>
-                        <div class="leggings">Leggings</div>
+                        <div>Leggings</div>
                     </div>
                     <div class="productNature" id="bra">
                         <input type="checkbox"/>
@@ -117,41 +117,47 @@
                 </div>
                 <div class="colorsFilterCover">
                     <h5>COLOR</h5>
-                    <div id="black">
+                    <div class="productClr" id="black">
                         <input type="checkbox"/>
                         <div style="background-color: black;"></div>
                     </div>
-                    <div id="white">
+                    <div class="productClr" id="white">
                         <input type="checkbox"/>
                         <div style="background-color: white;"></div>
                     </div>
-                    <div id="red">
+                    <div class="productClr" id="red">
                         <input type="checkbox"/>
                         <div style="background-color: red;"></div>
                     </div>
-                    <div id="green">
+                    <div class="productClr" id="green">
                         <input type="checkbox"/>
                         <div style="background-color: green;"></div>
                     </div>
                 </div>
                 <div class="brandsFilterCover">
                     <h5>BRAND</h5>
-                    <div id="domyos">
+                    <div class="productBrand" id="domyos">
                         <input type="checkbox"/>
                         <div>DOMYOS</div>
                     </div>
-                    <div id="kimjaly">
+                    <div class="productBrand" id="kimjaly">
                         <input type="checkbox"/>
                         <div>KIMJALY</div>
                     </div>
-                    <div id="nyamba">
+                    <div class="productBrand" id="nyamba">
                         <input type="checkbox"/>
                         <div>NYAMBA</div>
                     </div>
                 </div>
                 <div class="priceFilterCover">
                     <h5>PRICE</h5>
-                    <div></div>
+                    <input id="priceChanger" type="range" min="0" max="999" value="500"/>
+                    <div class="priceValue">
+                        <div>0</div>
+                        <div>500</div>
+                        <div>999</div>
+                    </div> 
+                   
                 </div>
             </div>
             <div class="productsCard" id="productsCard">

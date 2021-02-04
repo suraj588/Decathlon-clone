@@ -6,7 +6,9 @@
         "mrp": 599,
         "current_price": 359,
         "rating": 4.1,
-        "img": "https://contents.mediadecathlon.com/p1709851/04c01420b81518df6a0d0b0dcadc9a3f/p1709851.jpg?f=260x260&format=auto&format=auto"
+        "img": "https://contents.mediadecathlon.com/p1709851/04c01420b81518df6a0d0b0dcadc9a3f/p1709851.jpg?f=260x260&format=auto&format=auto",
+        "brand":"nyamba",
+        "nature":"skippingRope"
       },
       {
         "name": "Cross Training Elastic Training Band 25kg",
@@ -14,7 +16,8 @@
         "current_price": 699,
         "rating": 4.4,
         "img": "https://contents.mediadecathlon.com/p1248556/2f6f907bc739c38795f117ec842866ae/p1248556.jpg?f=260x260&format=auto&format=auto",
-        "id": 2
+        "id": 2,
+        "brand":"domyos"
       },
       {
         "name": "Ab wheel",
@@ -22,7 +25,8 @@
         "current_price": 699,
         "rating": 4.7,
         "img": "https://contents.mediadecathlon.com/p1924078/e72f912dcfce82bfa115761989a4f5a2/p1924078.jpg?f=260x260&format=auto&format=auto",
-        "id": 3
+        "id": 3,
+        "brand":"domyos"
       },
       {
         "name": "Men's Eco friendly cardio Training Short",
@@ -30,14 +34,17 @@
         "current_price": 499,
         "rating": 4.5,
         "img": "https://contents.mediadecathlon.com/p1851233/cac900e006b222532d61bf8b896573b0/p1851233.jpg?f=260x260&format=auto&format=auto",
-        "id": 4
+        "id": 4,
+        "nature":"shorts",
+        "color":"black",
+        "brand":"domyos"
       },
       {
         "name": "Cardio Fitness Sauna Belt - Black",
         "mrp": 799,
         "current_price": 499,
         "rating": 4.2,
-        "img": "https://contents.mediadecathlon.com/p1094738/461e46fb43df5444dd7cec0e7684dc4e/p1094738.jpg?f=260x260&format=auto&format=auto",
+        "img": "https://contents.mediadecathlon.com/p1094738/461e46fb43df5444dd7cec0e7684dc4e/p1094738.png?f=260x260&format=auto&format=auto",
         "id": 5
       },
       {
@@ -54,7 +61,8 @@
         "current_price": 299,
         "rating": 4.3,
         "img": "https://contents.mediadecathlon.com/p1588822/k$5d39144dbcf00fc891254c22b3729244/yoga-foam-block-dark-grey.jpg?&f=250x250&format=auto",
-        "id": 7
+        "id": 7,
+        "brand":"domyos"
       },
       {
         "name": "FPA 120 Cardio Fitness Bottoms - Gray",
@@ -62,7 +70,9 @@
         "current_price": 699,
         "rating": 4.3,
         "img": "https://contents.mediadecathlon.com/p1516283/k$83b6bf1735cb22ea753ee03119bcf606/fpa120-cardio-fitness-bottoms-grey.jpg?&f=250x250&format=auto",
-        "id": 8
+        "id": 8,
+        "brand":"domyos",
+        "nature":"trousers"
       },
       {
         "name": "Essential Beginner Yoga Mat 4mm - Blue",
@@ -70,7 +80,8 @@
         "current_price": 399,
         "rating": 3.9,
         "img": "https://contents.mediadecathlon.com/p1501617/k$f29dc70abfda6af14873c8e25d299ca7/essential-beginner-yoga-mat-4mm-blue.jpg?&f=250x250&format=auto",
-        "id": 9
+        "id": 9,
+        "brand":"domyos"
       },
       {
         "name": "Fitness 5-6-7 kg Short Elastic Rubber Bands Tri-Pack",
@@ -86,15 +97,17 @@
           "current_price": 499,
           "rating": 4.3,
           "img": "https://contents.mediadecathlon.com/p1708677/k$98d2d6790dbacce554a39ac14ea434c9/100-women-s-zip-up-fitness-cardio-training-sports-bra-mottled-grey.jpg?&f=250x250&format=auto",
-          "id": 11
+          "id": 11,
+          "brand":"domyos"
       },
       {
-          "name": "Organic Cotton Toga Strap - Grey",
+          "name": "Organic Cotton Yoga Strap - Grey",
           "mrp": 599,
           "current_price": 299,
           "rating": 4.4,
           "img": "https://contents.mediadecathlon.com/p1588866/k$883c80e054ad5b26cb78892ac5b345d2/organic-cotton-yoga-strap-grey.jpg?&f=250x250&format=auto",
-          "id": 12
+          "id": 12,
+          "brand":"domyos"
       },
       {
           "name": "500 Women's Fitness Cardio Training Sports Bra - Black",
@@ -102,7 +115,9 @@
           "current_price": 699,
           "rating": 4.2,
           "img": "https://contents.mediadecathlon.com/p1850849/k$5eeb640b78c197b55b74cc5dfa335f61/500-women-s-fitness-cardio-training-sports-bra-black.jpg?&f=250x250&format=auto",
-          "id": 13
+          "id": 13,
+          "nature":"bra",
+          "brand":"domyos"
       },
       {
           "name": "Hex Dumbell 2.5kg",
@@ -110,7 +125,9 @@
           "current_price": 799,
           "rating": 4.9,
           "img": "https://contents.mediadecathlon.com/p1248558/k$746a24221019789aebc18e4467810833/hex-dumbbell-25-kg.jpg?&f=250x250&format=auto",
-          "id": 14
+          "id": 14,
+          "brand":"domyos",
+          "nature":"dumbbell"
       },
       {
           "name": "Cross Training Push-Up Bar Grips",
@@ -118,7 +135,8 @@
           "current_price": 399,
           "rating": 4.6,
           "img": "https://contents.mediadecathlon.com/p1030211/k$536aa7aaab21e2a33dd054d4189c24db/cross-training-push-up-bar-grips.jpg?&f=250x250&format=auto",
-          "id": 15
+          "id": 15,
+          "brand":"domyos"
       },
       {
           "name": "Adjustable Hand Grip",
@@ -126,7 +144,8 @@
           "current_price": 399,
           "rating": 4.3,
           "img": "https://contents.mediadecathlon.com/p91666/k$615ed8660aea0c1175cccf41d7bef293/adjustable-hand-grip.jpg?&f=250x250&format=auto",
-          "id": 16
+          "id": 16,
+          "brand":"domyos"
       },
       {
           "name": "120 Women's Fitness Cardio Training Leggings-Burgundy",
@@ -134,7 +153,9 @@
           "current_price": 899,
           "rating": 4.5,
           "img": "https://contents.mediadecathlon.com/p1705805/k$9bc321f7b4ef51b39e26ff25771d7d05/120-women-s-fitness-cardio-training-leggings-burgundy.jpg?&f=250x250&format=auto",
-          "id": 17
+          "id": 17,
+          "nature":"leggings",
+          "brand":"domyos"
       },
       {
           "name": "Toning Resistance Tube with Handles - 10 kg Medium",
@@ -166,7 +187,8 @@
           "current_price": 299,
           "rating": 4.7,
           "img": "https://contents.mediadecathlon.com/p1789747/k$27d6a1a0277bf6ff6da1a2ab3ac60789/yoga-knee-wrist-pad-green.jpg?&f=250x250&format=auto",
-          "id": 21
+          "id": 21,
+          "brand":"kimjaly"
       },
       {
           "name": "Women's Cardio Fitness T-shirt 120-White/Printed Yellow",
@@ -174,7 +196,9 @@
           "current_price": 599,
           "rating": 4.6,
           "img": "https://contents.mediadecathlon.com/p1782186/k$14fcf8534c36730799c5d576d3575e9b/women-s-cardio-fitness-t-shirt-120-white-printed-yellow.jpg?&f=250x250&format=auto",
-          "id": 22
+          "id": 22,
+          "nature":"t-shirt",
+          "color":"white"
       },
       {
           "name": "Versatile Cross Training Push-Up Wheel Grips-Red/Black",
@@ -230,7 +254,8 @@
           "current_price": 999,
           "rating": 3.6,
           "img": "https://contents.mediadecathlon.com/p1288263/k$4b80ca273a6d67ce8b63ba356bc52c4f/kids-yoga-mat-5-mm-blue-bear.jpg?&f=250x250&format=auto",
-          "id": 29
+          "id": 29,
+          "brand":"kimjaly"
       }
     ]
   }
