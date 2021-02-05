@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout</title>
+    <link rel="stylesheet" href="orderedCart.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+    <div class="pageBody">
+        <div class="cartNavbar">
+            <div class="logo">
+                <img src="https://cdn.decathlon.in/_next/static/images/logo-93d12d8cff484ab736d2a39f15bf66d8.svg"/>
+            </div>
+            <div class="cartOption">
+                <div>
+                    <label for="cart">Cart</label>
+                     <input type="radio" value="cart">
+                </div>
+                <div>
+                    <label for="address">Address & Delivery</label>
+                     <input type="radio" value="address">
+                </div>
+                <div>
+                    <label for="payment">Payment</label>
+                     <input type="radio" value="payment">
+                </div>
+            </div>
+            <div class="rightLogo">
+                <div>
+                    <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzNy40MjciIGhlaWdodD0iNDMuODcxIiB2aWV3Qm94PSIwIDAgMzcuNDI3IDQzLjg3MSI+PGRlZnM+PHN0eWxlPi5he2ZpbGw6I2YyNjYwMDtzdHJva2U6I2YyNjYwMDt9LmJ7ZmlsbDojMDA4MWM2O3N0cm9rZTojMDA4MWM2O308L3N0eWxlPjwvZGVmcz48ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMTczNy41IC0yNC41KSI+PGcgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMTc1MCAzNykiPjxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKDApIj48cGF0aCBjbGFzcz0iYSIgZD0iTS40MzMsMTkuNzExYS40NTEuNDUxLDAsMCwxLS4yNzctLjFBLjQ2LjQ2LDAsMCwxLDAsMTkuMjc3VjkuNzRhLjQzMy40MzMsMCwwLDEsLjM1NS0uNDMzbDExLjY1Mi0yLjFhLjQ0Mi40NDIsMCwwLDEsLjM1NS4wODcuNDUxLjQ1MSwwLDAsMSwuMTQ3LjMzOHY5LjUzN2EuNDMzLjQzMywwLDAsMS0uMzU1LjQzM0wuNTEyLDE5LjdaTS44NjcsMTAuMDd2OC42N2wxMC43NzctMS45MjVWOC4xNDVaIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgwIC0wLjk1OCkiLz48cGF0aCBjbGFzcz0iYSIgZD0iTTMuMzEzLDguMzU4YS40MzMuNDMzLDAsMCwxLS40MzMtLjQzM1YzLjc2M2EzLjc2MywzLjc2MywwLDEsMSw3LjUyNSwwVjYuNjc2YS40NDIuNDQyLDAsMCwxLS40MzMuNDMzLjQzMy40MzMsMCwwLDEtLjQzMy0uNDMzVjMuNzYzYTIuOSwyLjksMCwwLDAtNS43OTIsMFY3LjkyNEEuNDMzLjQzMywwLDAsMSwzLjMxMyw4LjM1OFoiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0wLjM4MyAwKSIvPjwvZz48L2c+PGcgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMTczOCAyNSkiPjxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKDAgMCkiPjxwYXRoIGNsYXNzPSJiIiBkPSJNMTguMjA5LDQyLjg1OUMxNi4zNTQsNDIuODU5LDAsMzUuNDE4LDAsOC43YS43MzkuNzM5LDAsMCwxLC41NjktLjczOUMuNjk1LDcuOTQ5LDEzLjMsNC45LDE3LjY3Ny4yMTlhLjczOS43MzksMCwwLDEsMS4wNzIsMGM0LjQsNC42OTMsMTcsNy43MywxNy4xMDgsNy43NmEuNzM5LjczOSwwLDAsMSwuNTY5LjczOUMzNi40MjYsMzUuNDE4LDIwLjA3MSw0Mi44NTksMTguMjA5LDQyLjg1OVpNMS40NzgsOS4yNzJDMS43MDcsMzQuMSwxNi41MjQsNDEuMzM3LDE4LjIxNiw0MS4zODFTMzQuNzMzLDM0LjEsMzQuOTQ4LDkuMjcyQzMyLjQ1Nyw4LjYzNiwyMi43LDUuOTA5LDE4LjIwOSwxLjc2MywxMy43MjMsNS45MDksMy45NjgsOC42MzYsMS40NzgsOS4yNzJaIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgwIDAuMDExKSIvPjwvZz48L2c+PC9nPjwvc3ZnPg=="/>
+                </div>
+                <div class="rightLogoText">
+                    <p>100%</p>
+                    <p>SECURE PAYMENT</p>
+                </div>
+            </div>
+        </div>
+        <div class="checkoutSection">
+            <div class="addressSection">
+                <div class="servicablityInfo">
+                    <p id="pin">Delivering to <strong>752101 Bhubaneswar</strong></p>
+                    <button onclick="changePin()">CHANGE</button>
+                </div>
+                <div class="shippingOfferSection">
+                    <p><span><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDIwIDIwIj48ZGVmcz48c3R5bGU+LmF7ZmlsbDojMDJiZThhO30uYntmaWxsOiNmZmY7c3Ryb2tlOiNmZmY7fTwvc3R5bGU+PC9kZWZzPjxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0yOTggLTIyOSkiPjxyZWN0IGNsYXNzPSJhIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiIHJ4PSIxMCIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMjk4IDIyOSkiLz48ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSgzMDIuNjk0IDIzNS43NzQpIj48ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSgwKSI+PHBhdGggY2xhc3M9ImIiIGQ9Ik0xMC4zNi4xMWEuMzUxLjM1MSwwLDAsMC0uNDk0LDBsLTYuMyw2LjNMLjU0LDMuMzgyYS4zNTEuMzUxLDAsMSwwLS40OTQuNUwzLjMxOCw3LjE1MmEuMzU0LjM1NCwwLDAsMCwuNSwwTDEwLjM2LjZhLjM1MS4zNTEsMCwwLDAsMC0uNDk0WiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMC4wNyAtMC4wMDgpIi8+PC9nPjwvZz48L2c+PC9zdmc+"/></span><strong>Your are eligible for</strong></p>
+                    <p><span><img style="height: 30px" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDI1LjAuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPgo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IgoJIHZpZXdCb3g9IjAgMCA1Ni44IDU2LjEiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDU2LjggNTYuMTsiIHhtbDpzcGFjZT0icHJlc2VydmUiPgo8c3R5bGUgdHlwZT0idGV4dC9jc3MiPgoJLnN0MHtmaWxsOiNFN0YzRjk7fQoJLnN0MXtmaWxsOiNGOEY5Rjk7fQoJLnN0MntmaWxsOiMzNzNENDA7fQo8L3N0eWxlPgo8ZyBpZD0iR3JvdXBfOTM4OSIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTE5NS41MjkgLTEyNy41MTIpIj4KCTxnIGlkPSJHcm91cF85MzIzIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgxOTUuNTI5IDEyNy41MTIpIj4KCQk8cGF0aCBpZD0iUmVjdGFuZ2xlXzQ5ODciIGNsYXNzPSJzdDAiIGQ9Ik03LjksMy42bDEyLjUtMi4yYzQuNC0wLjgsOC41LDIuMSw5LjMsNi41bDYuMSwzNC44YzAuOCw0LjQtMi4xLDguNS02LjUsOS4zbC0xMi41LDIuMgoJCQljLTQuNCwwLjgtOC41LTIuMS05LjMtNi41TDEuNCwxMi45QzAuNiw4LjUsMy41LDQuNCw3LjksMy42eiIvPgoJCTxwYXRoIGlkPSJQYXRoXzE5NjMwIiBjbGFzcz0ic3QxIiBkPSJNMzMuMywxLjRMNTIsNC43YzIuNiwwLjUsNC40LDMsNCw1LjZsMCwwbC03LjIsNDFjLTAuNSwyLjYtMyw0LjQtNS42LDRMMjQuNCw1MgoJCQljLTIuNi0wLjUtNC40LTMtNC01LjZsNy4yLTQxQzI4LjIsMi43LDMwLjcsMSwzMy4zLDEuNEMzMy4zLDEuNCwzMy4zLDEuNCwzMy4zLDEuNHoiLz4KCTwvZz4KCTxwYXRoIGNsYXNzPSJzdDIiIGQ9Ik0yNDUuOCwxNTguNUMyNDUuOCwxNTguNSwyNDUuOCwxNTguNSwyNDUuOCwxNTguNWwwLTkuMWMwLTAuMy0wLjEtMC41LTAuNC0wLjdsLTkuNy01LjUKCQljLTAuMS0wLjEtMC4zLTAuMS0wLjUtMC4xbC01LjMsMC44di01LjdjMC0wLjItMC4xLTAuNC0wLjMtMC42Yy0wLjItMC4xLTAuNC0wLjItMC42LTAuMmwtMjUuNiw0LjRjLTAuNCwwLjEtMC42LDAuNC0wLjYsMC43djIyLjkKCQljMCwwLjIsMC4xLDAuNCwwLjMsMC42YzAuMSwwLjIsMC40LDAuMywwLjYsMC4zYzAsMCwwLjEsMCwwLjEsMGw0LjYtMC44YzAuNywxLjksMi42LDMuMyw0LjgsMy4zYzIuOCwwLDUuMS0yLjMsNS4yLTUuMWwxMy45LTIuNQoJCWMwLjgsMS44LDIuNiwzLjEsNC43LDMuMWMyLjgsMCw1LTIuMiw1LjEtNC45bDIuOS0wLjVjMCwwLDAsMCwwLjEsMGMwLjEsMCwwLjEsMCwwLjItMC4xYzAsMCwwLjEsMCwwLjEtMC4xYzAsMCwwLjEtMC4xLDAuMS0wLjEKCQljMCwwLDAtMC4xLDAuMS0wLjFjMCwwLDAtMC4xLDAuMS0wLjFDMjQ1LjgsMTU4LjYsMjQ1LjgsMTU4LjYsMjQ1LjgsMTU4LjV6IE0yMjguNCwxMzkuMXY1Ljd2Ni40bC0yNC4xLDQuMnYtMTIuMkwyMjguNCwxMzkuMXoKCQkgTTIwNC40LDE2NC44VjE1N2wyNC4xLTQuMnY3LjhsLTEwLjIsMS44Yy0wLjYtMi4xLTIuNi0zLjctNC45LTMuN2MtMi44LDAtNS4yLDIuMy01LjIsNS4yYzAsMC4xLDAsMC4yLDAsMC4zTDIwNC40LDE2NC44egoJCSBNMjEzLjMsMTY3LjVjLTIsMC0zLjctMS42LTMuNy0zLjdzMS42LTMuNywzLjctMy43czMuNywxLjYsMy43LDMuN1MyMTUuMywxNjcuNSwyMTMuMywxNjcuNXogTTIyOS45LDE2MC4zdi0xNC45bDUuMy0wLjhsOS4xLDUuMgoJCXY3LjlsLTIuMiwwLjRjLTAuNi0yLjMtMi42LTMuOS01LTMuOWMtMi44LDAtNS4yLDIuMy01LjIsNS4yYzAsMC4yLDAsMC40LDAuMSwwLjZMMjI5LjksMTYwLjN6IE0yMzcuMSwxNjMuMWMtMiwwLTMuNy0xLjYtMy43LTMuNwoJCXMxLjYtMy43LDMuNy0zLjdzMy43LDEuNiwzLjcsMy43UzIzOS4xLDE2My4xLDIzNy4xLDE2My4xeiIvPgo8L2c+Cjwvc3ZnPgo="/> </span><span class="shippingOffer"></span></p>
+                </div>
+                <!-- <div class="orderItemSection">
+                    <div class="orderItemImg">
+                        <img src="https://contents.mediadecathlon.com/p1516283/k$83b6bf1735cb22ea753ee03119bcf606/fpa120-cardio-fitness-bottoms-grey.jpg?&f=250x250&format=auto"/>
+                    </div>
+                    <div class="orderItemDesc">
+                        <div class="orderLine1">
+                            <p class="orderItemName">MEN'S MOUNTAIN TREKKING PADDED JACKET - TEMP RATING 10°C - TREK 50 - BLACK</p>
+                            <button><span><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMy43MjciIGhlaWdodD0iMTkuMjE4IiB2aWV3Qm94PSIwIDAgMTMuNzI3IDE5LjIxOCI+PGRlZnM+PHN0eWxlPi5he2ZpbGw6IzQyNDU1MztvcGFjaXR5OjAuNTt9PC9zdHlsZT48L2RlZnM+PHBhdGggY2xhc3M9ImEiIGQ9Ik0uNjg3LDE5LjIxOEEuNjg2LjY4NiwwLDAsMSwwLDE4LjUzMlY2LjE3OGEuNjg2LjY4NiwwLDEsMSwxLjM3MywwVjE3Ljg0NUgxMi4zNTRWNi4xNzhhLjY4Ni42ODYsMCwxLDEsMS4zNzIsMFYxOC41MzJhLjY4Ni42ODYsMCwwLDEtLjY4Ni42ODZabTIuNzQ1LTQuOFY3LjU1YS42ODYuNjg2LDAsMSwxLDEuMzczLDB2Ni44NjNhLjY4Ni42ODYsMCwxLDEtMS4zNzMsMFptMi43NDYtMS4zNzNWNy41NWEuNjg2LjY4NiwwLDEsMSwxLjM3MiwwdjUuNDkxYS42ODYuNjg2LDAsMCwxLTEuMzcyLDBabTIuNzQ1LTEuMzczVjcuNTVhLjY4Ni42ODYsMCwxLDEsMS4zNzMsMHY0LjExOGEuNjg2LjY4NiwwLDAsMS0xLjM3MywwWm0tLjY4Ny03LjU1SC42ODdhLjY4Ny42ODcsMCwxLDEsMC0xLjM3M0g0LjhWLjY4N0EuNjg3LjY4NywwLDAsMSw1LjQ5MSwwSDguMjM2YS42ODYuNjg2LDAsMCwxLC42ODcuNjg3VjIuNzQ1aDQuMTE4YS42ODcuNjg3LDAsMCwxLDAsMS4zNzNaTTYuMTc4LDIuNzQ1SDcuNTVWMS4zNzNINi4xNzhaIi8+PC9zdmc+"/></span></button>
+                        </div>
+                        <div class="orderLine2">
+                            <div class="rating">
+                            </div>
+                            <div class="size">
+                            </div>
+                        </div>
+                        <div class="orderItemQtyPrice" >
+                            <div class="orderItemQty">
+                                <p>Qty</p>
+                                <button id="minusBtn">-</button>
+                                <div><p id="quantity">1</p></div>
+                                <button id="addBtn">+</button>
+                            </div>
+                            <div class="orderValue">
+                            </div>
+                            
+                        </div>              
+                    </div>
+                </div> -->
+                <div class="security">
+                    <div class="securityLeft">
+                        <div class="">
+                            <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzNy40MjciIGhlaWdodD0iNDMuODcxIiB2aWV3Qm94PSIwIDAgMzcuNDI3IDQzLjg3MSI+PGRlZnM+PHN0eWxlPi5he2ZpbGw6I2YyNjYwMDtzdHJva2U6I2YyNjYwMDt9LmJ7ZmlsbDojMDA4MWM2O3N0cm9rZTojMDA4MWM2O308L3N0eWxlPjwvZGVmcz48ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMTczNy41IC0yNC41KSI+PGcgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMTc1MCAzNykiPjxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKDApIj48cGF0aCBjbGFzcz0iYSIgZD0iTS40MzMsMTkuNzExYS40NTEuNDUxLDAsMCwxLS4yNzctLjFBLjQ2LjQ2LDAsMCwxLDAsMTkuMjc3VjkuNzRhLjQzMy40MzMsMCwwLDEsLjM1NS0uNDMzbDExLjY1Mi0yLjFhLjQ0Mi40NDIsMCwwLDEsLjM1NS4wODcuNDUxLjQ1MSwwLDAsMSwuMTQ3LjMzOHY5LjUzN2EuNDMzLjQzMywwLDAsMS0uMzU1LjQzM0wuNTEyLDE5LjdaTS44NjcsMTAuMDd2OC42N2wxMC43NzctMS45MjVWOC4xNDVaIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgwIC0wLjk1OCkiLz48cGF0aCBjbGFzcz0iYSIgZD0iTTMuMzEzLDguMzU4YS40MzMuNDMzLDAsMCwxLS40MzMtLjQzM1YzLjc2M2EzLjc2MywzLjc2MywwLDEsMSw3LjUyNSwwVjYuNjc2YS40NDIuNDQyLDAsMCwxLS40MzMuNDMzLjQzMy40MzMsMCwwLDEtLjQzMy0uNDMzVjMuNzYzYTIuOSwyLjksMCwwLDAtNS43OTIsMFY3LjkyNEEuNDMzLjQzMywwLDAsMSwzLjMxMyw4LjM1OFoiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0wLjM4MyAwKSIvPjwvZz48L2c+PGcgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMTczOCAyNSkiPjxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKDAgMCkiPjxwYXRoIGNsYXNzPSJiIiBkPSJNMTguMjA5LDQyLjg1OUMxNi4zNTQsNDIuODU5LDAsMzUuNDE4LDAsOC43YS43MzkuNzM5LDAsMCwxLC41NjktLjczOUMuNjk1LDcuOTQ5LDEzLjMsNC45LDE3LjY3Ny4yMTlhLjczOS43MzksMCwwLDEsMS4wNzIsMGM0LjQsNC42OTMsMTcsNy43MywxNy4xMDgsNy43NmEuNzM5LjczOSwwLDAsMSwuNTY5LjczOUMzNi40MjYsMzUuNDE4LDIwLjA3MSw0Mi44NTksMTguMjA5LDQyLjg1OVpNMS40NzgsOS4yNzJDMS43MDcsMzQuMSwxNi41MjQsNDEuMzM3LDE4LjIxNiw0MS4zODFTMzQuNzMzLDM0LjEsMzQuOTQ4LDkuMjcyQzMyLjQ1Nyw4LjYzNiwyMi43LDUuOTA5LDE4LjIwOSwxLjc2MywxMy43MjMsNS45MDksMy45NjgsOC42MzYsMS40NzgsOS4yNzJaIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgwIDAuMDExKSIvPjwvZz48L2c+PC9nPjwvc3ZnPg=="/>
+                        </div>
+                        <div>
+                            <h4>100% SECURE TRANSACTION</h4>
+                            <p>Secure SSL encryption</p>
+                        </div>
+                    </div>
+                    <div class="securityRight">
+                        <div>
+                            <p><span><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiIHZpZXdCb3g9IjAgMCAyMCAyMCI+CiAgPGRlZnM+CiAgICA8Y2xpcFBhdGggaWQ9ImNsaXAtcGF0aCI+CiAgICAgIDxyZWN0IGlkPSJSZWN0YW5nbGVfMSIgZGF0YS1uYW1lPSJSZWN0YW5nbGUgMSIgd2lkdGg9IjIwIiBoZWlnaHQ9IjIwIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgzODggNjA0KSIgZmlsbD0iI2ZmZiIvPgogICAgPC9jbGlwUGF0aD4KICA8L2RlZnM+CiAgPGcgaWQ9Ik1hc2tfR3JvdXBfMyIgZGF0YS1uYW1lPSJNYXNrIEdyb3VwIDMiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0zODggLTYwNCkiIGNsaXAtcGF0aD0idXJsKCNjbGlwLXBhdGgpIj4KICAgIDxwYXRoIGlkPSJQYXRoXzEwIiBkYXRhLW5hbWU9IlBhdGggMTAiIGQ9Ik0xNi4wNiw0LjUyMlYzLjJMMy4wODIsNS42OTFWNy4wMThabTAsMS42NTJMMy4wODIsOC42N3Y3LjI3NWwxMi45NzgtMi41Wk0yLjQzOSw0LjcxMywxNi41LDIuMDFhLjU0MS41NDEsMCwwLDEsLjY0My41MzFWMTMuOWEuNTQxLjU0MSwwLDAsMS0uNDM5LjUzMWwtMTQuMDYsMi43QS41NDEuNTQxLDAsMCwxLDIsMTYuNlY1LjI0NGEuNTQxLjU0MSwwLDAsMSwuNDM5LS41MzFaIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgzODguNSA2MDQuNSkiIGZpbGw9IiMzNzNkNDAiLz4KICA8L2c+Cjwvc3ZnPgo="/></span>  Credit card/Debit Card</p>
+                        </div>
+                        <div>
+                            <p><span><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiIHZpZXdCb3g9IjAgMCAyMCAyMCI+CiAgPGRlZnM+CiAgICA8Y2xpcFBhdGggaWQ9ImNsaXAtcGF0aCI+CiAgICAgIDxyZWN0IGlkPSJSZWN0YW5nbGVfMiIgZGF0YS1uYW1lPSJSZWN0YW5nbGUgMiIgd2lkdGg9IjIwIiBoZWlnaHQ9IjIwIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSg0OTggNjAyKSIgZmlsbD0iI2ZmZiIvPgogICAgPC9jbGlwUGF0aD4KICA8L2RlZnM+CiAgPGcgaWQ9Ik1hc2tfR3JvdXBfMiIgZGF0YS1uYW1lPSJNYXNrIEdyb3VwIDIiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC00OTggLTYwMikiIGNsaXAtcGF0aD0idXJsKCNjbGlwLXBhdGgpIj4KICAgIDxnIGlkPSJHcm91cF83IiBkYXRhLW5hbWU9Ikdyb3VwIDciIHRyYW5zZm9ybT0idHJhbnNsYXRlKDQ5OS4yMDEgNjAzLjgwNikiPgogICAgICA8ZyBpZD0iR3JvdXBfMiIgZGF0YS1uYW1lPSJHcm91cCAyIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMS4xNTIgMC4wMTEpIj4KICAgICAgICA8cGF0aCBpZD0iUGF0aF8yIiBkYXRhLW5hbWU9IlBhdGggMiIgZD0iTTkuMzA4LjM1N2ExLDEsMCwwLDEsMS4xMjQsMGw2LjM2Miw0LjNhMS4xNjUsMS4xNjUsMCwwLDEsLjQ1LDEuMjY2LDEuMDY1LDEuMDY1LDAsMCwxLTEuMDEyLjgxM0gzLjUwOUExLjA2NSwxLjA2NSwwLDAsMSwyLjUsNS45MjNhMS4xNjUsMS4xNjUsMCwwLDEsLjQ0OC0xLjI2NVoiIGZpbGw9Im5vbmUiLz4KICAgICAgICA8cGF0aCBpZD0iUGF0aF8zIiBkYXRhLW5hbWU9IlBhdGggMyIgZD0iTTkuODcsMS4zMDloMGwtNi4zNjIsNC4zSDE2LjIzMkw5Ljg3LDEuMzA5aDBtMC0xLjEyNmExLDEsMCwwLDEsLjU2Mi4xNzRsNi4zNjIsNC4zYTEuMTQxLDEuMTQxLDAsMCwxLS41NjIsMi4wNzlIMy41MDlhMS4xNDEsMS4xNDEsMCwwLDEtLjU2Mi0yLjA3OUw5LjMwOC4zNTdBMSwxLDAsMCwxLDkuODcuMTgzWiIgZmlsbD0iIzM3M2Q0MCIvPgogICAgICA8L2c+CiAgICAgIDxwYXRoIGlkPSJQYXRoXzQiIGRhdGEtbmFtZT0iUGF0aCA0IiBkPSJNNTYuNzg1LDQ4OC43MUg3MS4xMjciIHRyYW5zZm9ybT0idHJhbnNsYXRlKC01NC45OTMgLTQ3Mi45MTcpIiBmaWxsPSJub25lIiBzdHJva2U9IiMzNzNkNDAiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLXdpZHRoPSIxIi8+CiAgICAgIDxwYXRoIGlkPSJQYXRoXzUiIGRhdGEtbmFtZT0iUGF0aCA1IiBkPSJNMCwwSDUuNTA5IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSg1LjEyOCAxMy44OTMpIHJvdGF0ZSgtOTApIiBmaWxsPSJub25lIiBzdHJva2U9IiMzNzNkNDAiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLXdpZHRoPSIxIi8+CiAgICAgIDxwYXRoIGlkPSJQYXRoXzYiIGRhdGEtbmFtZT0iUGF0aCA2IiBkPSJNMCwwSDUuNTA5IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSg5LjIyMyAxMy44OTMpIHJvdGF0ZSgtOTApIiBmaWxsPSJub25lIiBzdHJva2U9IiMzNzNkNDAiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLXdpZHRoPSIxIi8+CiAgICAgIDxwYXRoIGlkPSJQYXRoXzciIGRhdGEtbmFtZT0iUGF0aCA3IiBkPSJNMCwwSDUuNTA5IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgxMy4zMTkgMTMuODkzKSByb3RhdGUoLTkwKSIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjMzczZDQwIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS13aWR0aD0iMSIvPgogICAgPC9nPgogIDwvZz4KPC9zdmc+Cg=="/></span>  Net Banking</p>
+                        </div>
+                        <div>
+                            <p><span><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiIHZpZXdCb3g9IjAgMCAyMCAyMCI+CiAgPGRlZnM+CiAgICA8Y2xpcFBhdGggaWQ9ImNsaXAtcGF0aCI+CiAgICAgIDxyZWN0IGlkPSJSZWN0YW5nbGVfMyIgZGF0YS1uYW1lPSJSZWN0YW5nbGUgMyIgd2lkdGg9IjIwIiBoZWlnaHQ9IjIwIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSg2MjkgNjA3KSIgZmlsbD0iI2ZmZiIvPgogICAgPC9jbGlwUGF0aD4KICA8L2RlZnM+CiAgPGcgaWQ9Ik1hc2tfR3JvdXBfMSIgZGF0YS1uYW1lPSJNYXNrIEdyb3VwIDEiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC02MjkgLTYwNykiIGNsaXAtcGF0aD0idXJsKCNjbGlwLXBhdGgpIj4KICAgIDxnIGlkPSJHcm91cF84IiBkYXRhLW5hbWU9Ikdyb3VwIDgiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDYzNCA2MTApIj4KICAgICAgPHBhdGggaWQ9IlBhdGhfOCIgZGF0YS1uYW1lPSJQYXRoIDgiIGQ9Ik04MjAuMjY1LDg1LjdsMy42LDcuMTUyTDgxNi4zLDEwMFoiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC04MTMuNjkgLTg1LjM5NSkiIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzM3M2Q0MCIgc3Ryb2tlLXdpZHRoPSIxIi8+CiAgICAgIDxwYXRoIGlkPSJQYXRoXzkiIGRhdGEtbmFtZT0iUGF0aCA5IiBkPSJNNzgxLjE3MSw4NS43bDMuNiw3LjE1Mkw3NzcuMiwxMDBaIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtNzc3LjIgLTg1LjcpIiBmaWxsPSJub25lIiBzdHJva2U9IiMzNzNkNDAiIHN0cm9rZS13aWR0aD0iMSIvPgogICAgPC9nPgogIDwvZz4KPC9zdmc+Cg=="/></span> UPI</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="deliveryBtn">
+                    <button>SELECT DELIVERY OPTIONS</button>
+                </div> -->
+            </div>
+            <div class="orderSection">
+                <div class="itemsSection">
+                    <div class="shippingDetails">
+                        <h4>Order Details</h4>
+                        <div class="orderAmt">
+                            <p><strong>Total Products(Inc gst)</strong></p>
+                            <p>₹<strong class="totalPrice">1998</strong></p>
+                        </div>
+                        <div class="shipping">
+                            <p>Estimated delivery</p>
+                            <p>₹ 129</p>
+                        </div>
+                        <div>
+                            <p>Total</p>
+                            <p class="total">₹ 999</p>
+                        </div>
+                    </div> 
+                    <div class="checkoutBtn">
+                        <button id="checkoutBtn">Proceed to Checkout</button>
+                    </div>
+                    <div class="adSection">
+                        <div class="adBox">
+                            <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NC42IDU4IiBmaWxsPSIjNDI0NTUzIj48cGF0aCBkPSJNNS43IDE1LjVsMjYuOC01VjIwYTEgMSAwIDAgMCAxIDEgMS4xIDEuMSAwIDAgMCAuNi0uMkw1MiA4YTEgMSAwIDAgMC0uMi0xLjhsLTE4LTZhMSAxIDAgMCAwLTEuMyAxbC0uMSA3LjMtMjcgNUE2IDYgMCAwIDAgMCAxOS42djI2LjJoMlYxOS42YTQuMSA0LjEgMCAwIDEgMy43LTQuMXptMjguOC0xM2wxNC43IDVMMzQuNSAxOHptMTggOS43djI2LjJhNC4xIDQuMSAwIDAgMS0zLjcgNC4xbC0yNi44IDVWMzhhMSAxIDAgMCAwLTEuNi0uOEwyLjcgNTBhMSAxIDAgMCAwIC4zIDEuOEwyMSA1OGExIDEgMCAwIDAgLjMuMS45LjkgMCAwIDAgLjYtLjIgMSAxIDAgMCAwIC40LS44di03LjNoLjJsMjYuOC01YTYgNiAwIDAgMCA1LjQtNi4xVjEyLjJ6TTIwIDU1LjZsLTE0LjctNUwyMCA0MHoiLz48L3N2Zz4="/>
+                            <p>Easy 90 days return</p>
+                        </div>
+                        <div class="adBox">
+                            <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0OS4yOSA1Ny45OSI+PGRlZnM+PHN0eWxlPi5jbHMtMXtmaWxsOiM0MjQ1NTM7fTwvc3R5bGU+PC9kZWZzPjx0aXRsZT5Bc3NldCAyM2FjY2VzczwvdGl0bGU+PGcgaWQ9IkxheWVyXzIiIGRhdGEtbmFtZT0iTGF5ZXIgMiI+PGcgaWQ9IkNhbHF1ZV8yIiBkYXRhLW5hbWU9IkNhbHF1ZSAyIj48cGF0aCBjbGFzcz0iY2xzLTEiIGQ9Ik0yNC42NCw1OEMyMi4xMyw1OCwwLDQ3LjkzLDAsMTEuNzdhMSwxLDAsMCwxLC43Ny0xQy45NCwxMC43NiwxOCw2LjY0LDIzLjkyLjNhMSwxLDAsMCwxLDEuNDUsMGM1Ljk1LDYuMzQsMjMsMTAuNDYsMjMuMTUsMTAuNWExLDEsMCwwLDEsLjc3LDFDNDkuMjksNDcuOTMsMjcuMTYsNTgsMjQuNjQsNThaTTIsMTIuNTVDMi4zMSw0Ni4xNSwyMi4zNiw1NS45NCwyNC42NSw1NlM0Nyw0Ni4xNSw0Ny4yOSwxMi41NUM0My45MiwxMS42OSwzMC43Miw4LDI0LjY0LDIuMzksMTguNTcsOCw1LjM3LDExLjY5LDIsMTIuNTVaIi8+PHBhdGggY2xhc3M9ImNscy0xIiBkPSJNMjIuODEsMzUuNDFoMGExLDEsMCwwLDEtLjctLjNsLTYuODQtNi44NGExLDEsMCwxLDEsMS40MS0xLjQxTDIyLjgxLDMzLDM1LjcsMjAuMTFhMSwxLDAsMCwxLDEuNDIsMCwxLDEsMCwwLDEsMCwxLjQxTDIzLjUyLDM1LjExQTEsMSwwLDAsMSwyMi44MSwzNS40MVoiLz48L2c+PC9nPjwvc3ZnPg=="/>
+                            <p>Home Delivery at Your Doorstep</p>
+                        </div>
+                        <div class="adBox">
+                            <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1Ni4xOSA1Ni45NCI+PHBhdGggZD0iTTI4LjE0IDI0LjQzaDIzdjUuNzJoLTIzeiIgZmlsbD0iIzQyNDU1MyIvPjxnIGZpbGw9IiNmZmYiPjxwYXRoIGQ9Ik0zMi4yIDI1LjgzaDEuN3YuNjRoLS45M3YuNDhoLjh2LjY0aC0uOHYuNTNoLjkzdi42NGgtMS43di0yLjkzeiIvPjxwYXRoIGQ9Ik0zNy4zNiAyNS44MmwtMS4wOCAxLjhhLjkuOSAwIDAgMS0uNzIuNDUuNzYuNzYgMCAwIDEtLjgyLS43OS43OS43OSAwIDAgMSAuNzctLjc5IDEuMjQgMS4yNCAwIDAgMSAuODcuNDZsLjQtLjYyYTEuNjEgMS42MSAwIDAgMC0xLjI1LS41OCAxLjUzIDEuNTMgMCAwIDAtLjE4IDMuMDYgMS42NSAxLjY1IDAgMCAwIDEuMzktLjVoLjd2LjQ0aC43M1YyNS44em0uMDcgMS45SDM3bC40LS42N3ptMS40NyAxLjA1di0yLjI0aC0uNnYtLjdoMS45NHYuN2gtLjZ2Mi4yNGgtLjc2em0zLjA1LTEuMTNoLS43OHYxLjEzaC0uNzZ2LTIuOTVoLjc2djEuMTJoLjc4di0xLjEyaC43NnYyLjk1aC0uNzZ2LTEuMTN6bTEgMS4xM3YtMi45NWguNzZ2Mi4zaC45di42NmgtMS42NXoiLz48cGF0aCBkPSJNNDQuNiAyNi4yYTEuNTcgMS41NyAwIDAgMSAxLjEtLjQzIDEuNTQgMS41NCAwIDAgMSAxLjA3LjQ0IDEuNDggMS40OCAwIDAgMSAuNDYgMS4wOCAxLjUyIDEuNTIgMCAwIDEtMS41NCAxLjU1IDEuNTUgMS41NSAwIDAgMS0xLjA5LTIuNjRtMS4xIDEuOWEuOC44IDAgMSAwLS43OS0uODIuODEuODEgMCAwIDAgLjc5LjgyIi8+PHBhdGggZD0iTTQ3LjE2IDI4Ljc3di0yLjk1aC43TDQ5IDI3LjQ2di0xLjY0aC43NnYyLjk1aC0uNjdsLTEuMTYtMS42NHYxLjY0aC0uNzZ6bS0xNy42MiAwdi0yLjk1aDEuMDZhMS41NiAxLjU2IDAgMCAxIDEuMTYuMzYgMS40MyAxLjQzIDAgMCAxIC40NSAxLjEzIDEuNDIgMS40MiAwIDAgMS0uNDUgMS4wOSAxLjM0IDEuMzQgMCAwIDEtMS4wNi4zN3ptMS45Mi0xLjVhLjc2Ljc2IDAgMCAwLS44Ni0uODJoLS4zdjEuNjZoLjNjLjU4IDAgLjg2LS4yNi44Ni0uODQiLz48L2c+PHBhdGggZD0iTTU1LjIgMTkuNmgtOC4xdi01LjI1YS44OC44OCAwIDAgMCAuMDYtLjI4di0uMDVhLjg0Ljg0IDAgMCAwLS4wNy0uMzV2LS4wNWEuODEuODEgMCAwIDAtLjEtLjE4TDM3IC40YTEgMSAwIDAgMC0uOC0uMzlIMTFhMSAxIDAgMCAwLS44LjM5bC05Ljk1IDEzYS44MS44MSAwIDAgMC0uMS4xOHYuMDVBLjg0Ljg0IDAgMCAwIDAgMTR2MzUuMjVhMSAxIDAgMCAwIDEgMWgyMS43N2ExLjA3IDEuMDcgMCAwIDAgLjMyLS4wNnY1Ljc1YTEgMSAwIDAgMCAxIDFoLjE4bDMxLjEtNS40YTEgMSAwIDAgMCAuODMtMVYyMC42YTEgMSAwIDAgMC0xLTF6TTM1Ljc0IDJsOC40MyAxMUgyNC42VjJ6bS0yNC4zIDBIMjIuNnYxMUgzek0yNC4xIDE5LjZhMSAxIDAgMCAwLTEgMXYyNy43YS44My44MyAwIDAgMC0uMzItLjA3SDJWMTVoNDMuMXY0LjZ6bTE5LjUgMzEuOTNsLTcuOSAxLjM4VjQyLjA1aDcuOXptMTAuNi0xLjg0bC04LjYgMS41VjQxLjA1YTEgMSAwIDAgMC0xLTFoLTkuOWExIDEgMCAwIDAtMSAxdjEyLjJsLTguNiAxLjVWMjEuNmgyOS4xeiIgZmlsbD0iIzQyNDU1MyIvPjwvc3ZnPg=="/>
+                            <p>Drive through/Free pickup in stores</p>
+                        </div>
+                    </div>
+                    <div class="voucherSection">
+                        <div>
+                            <span><img style="height: 30px;" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0Ny45MjkiIGhlaWdodD0iNDcuMzcxIiB2aWV3Qm94PSIwIDAgNDcuOTI5IDQ3LjM3MSI+PGRlZnM+PHN0eWxlPi5he2ZpbGw6I2U3ZjNmOTt9LmJ7ZmlsbDojZjhmOWY5O30uY3tmaWxsOiMzNzNkNDA7fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJhIiBkPSJNOCwwaDguMjA5YTgsOCwwLDAsMSw4LDhWNDMuMzIyYTAsMCwwLDAsMSwwLDBIOGE4LDgsMCwwLDEtOC04VjhBOCw4LDAsMCwxLDgsMFoiIHRyYW5zZm9ybT0ibWF0cml4KDAuOTg1LCAtMC4xNzQsIDAuMTc0LCAwLjk4NSwgMCwgNC4yMDQpIi8+PHJlY3QgY2xhc3M9ImIiIHdpZHRoPSIyNC4yMDkiIGhlaWdodD0iNDMuMzIyIiByeD0iOCIgdHJhbnNmb3JtPSJtYXRyaXgoMC45ODUsIDAuMTc0LCAtMC4xNzQsIDAuOTg1LCAyNC4wODcsIDAuNTA0KSIvPjxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKDExLjQxNCA4LjEzMikiPjxwYXRoIGNsYXNzPSJjIiBkPSJNNS4zODMsMzIuMTExSDUuMjU0YS41MTcuNTE3LDAsMCwxLS40LS40MzFMMCwzLjk1MWEuNTE3LjUxNywwLDAsMSwuNDMxLS42MTRMMTkuMjkxLDBhLjUzOC41MzgsMCwwLDEsLjYyNC40MzFMMjMuOTg0LDIzLjVhLjU0OS41NDksMCwwLDEtLjEyOS40NjNsLTUuNjczLDYuMjY1YS41NDkuNTQ5LDAsMCwxLS42MTQuMTRsLTguMDItMy40NTVMNS44NTcsMzEuODY0QS41ODEuNTgxLDAsMCwxLDUuMzgzLDMyLjExMVptLTQuMjItMjcuOEw1LjczOCwzMC4yNDlsMy4yMjktNC4zMDZhLjU0OS41NDksMCwwLDEsLjYxNC0uMTA4bDguMDYzLDMuNDU1TDIyLjg3NSwyMy41LDE4Ljk0NiwxLjE2M1oiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDAuMDEgMC4wMDgpIi8+PHBhdGggY2xhc3M9ImMiIGQ9Ik02LjY2MiwxMC43MzdhMy44MjEsMy44MjEsMCwwLDEsLjcxLTIuMjkzQTIuOCwyLjgsMCwwLDEsOS4xODEsNy4zYTEuODMsMS44MywwLDAsMSwxLjc2NS41NkEyLjY5MSwyLjY5MSwwLDAsMSwxMS42LDkuODU0di43NjRhMy45NTEsMy45NTEsMCwwLDEtLjcxLDIuMjcxLDIuOCwyLjgsMCwwLDEtMS44NDEsMS4xNDFBMS44NzMsMS44NzMsMCwwLDEsNy4zLDEzLjQzOWEyLjY3LDIuNjcsMCwwLDEtLjY1Ny0xLjk4MVpNOCwxMS4yODZhMi4yODIsMi4yODIsMCwwLDAsLjI1OCwxLjIzOC43NzUuNzc1LDAsMCwwLC44NS4zNDQsMS4yLDEuMiwwLDAsMCwuODI5LS42NjcsMi45MzksMi45MzksMCwwLDAsLjMyMy0xLjM0NnYtLjc2NGEyLjQsMi40LDAsMCwwLS4yNjktMS4yMzhBLjc1NC43NTQsMCwwLDAsOS4xODEsOC41YTEuMjE2LDEuMjE2LDAsMCwwLS44MjkuNjM1LDIuODc0LDIuODc0LDAsMCwwLS4zNDQsMS4zMTNabTEuMzM1LDkuNTI3LS45OC0uNDUyLDUuNzU5LTEyLjMuOTU4LjQ1MlpNMTIuMTYzLDE3LjlhMy45MjksMy45MjksMCwwLDEsLjcxLTIuMywyLjc1NiwyLjc1NiwwLDAsMSwxLjg1MS0xLjE0MUExLjgwOCwxLjgwOCwwLDAsMSwxNi40OSwxNWEyLjY5MSwyLjY5MSwwLDAsMSwuNjU3LDEuOTkxdi43NTRhMy45OTQsMy45OTQsMCwwLDEtLjcsMi4yOTMsMi44LDIuOCwwLDAsMS0xLjg4NCwxLjE0MSwxLjg2MiwxLjg2MiwwLDAsMS0xLjc4Ny0uNTQ5LDIuNjQ4LDIuNjQ4LDAsMCwxLS42NTctMS45OTFabTEuMzQ2LjUzOGEyLjA1NiwyLjA1NiwwLDAsMCwuMjgsMS4yMjcuNzY0Ljc2NCwwLDAsMCwuODQuMzU1LDEuMTczLDEuMTczLDAsMCwwLC44MjktLjY2NywyLjg2MywyLjg2MywwLDAsMCwuMzM0LTEuMzI0VjE3LjI2YTIuMjI4LDIuMjI4LDAsMCwwLS4yNjktMS4yMzguNzc1Ljc3NSwwLDAsMC0uODUtLjM1NSwxLjIyNywxLjIyNywwLDAsMC0uODI5LjY3OCwyLjg0MiwyLjg0MiwwLDAsMC0uMzU1LDEuMjgxWiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMC41MTcgMC41NjMpIi8+PC9nPjwvc3ZnPg=="/></span>
+                        </div>
+                        <div>
+                            <p>Apply Voucher Code</p>
+                        </div>
+                        <div>
+                            <span><img style="transform: rotate(-90deg);" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMi41ODMiIGhlaWdodD0iNy4yMjMiIHZpZXdCb3g9IjAgMCAxMi41ODMgNy4yMjMiPjxkZWZzPjxzdHlsZT4uYXtmaWxsOiM0MjQ0NTM7c3Ryb2tlOiM0MjQ0NTM7fTwvc3R5bGU+PC9kZWZzPjxnIHRyYW5zZm9ybT0ibWF0cml4KDAuMjU5LCAwLjk2NiwgLTAuOTY2LCAwLjI1OSwgMTAuMTIyLCA1LjQzOSkiPjxnIHRyYW5zZm9ybT0ibWF0cml4KDAuOTY2LCAwLjI1OSwgLTAuMjU5LCAwLjk2NiwgLTQuMjI2LCAtMy4xMDgpIj48cGF0aCBjbGFzcz0iYSIgZD0iTS4zODMsNi4xM2EuMzg0LjM4NCwwLDAsMS0uMjcxLS42NTVMNS40OTMuMDkyYS4zODQuMzg0LDAsMCwxLC41NDIuNTQyTC42NTQsNi4wMTZBLjM4NC4zODQsMCwwLDEsLjM4Myw2LjEzWiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMCA1LjQwMSkiLz48cGF0aCBjbGFzcz0iYSIgZD0iTTUuNzY0LDYuMTQ5YS4zODQuMzg0LDAsMCwxLS4yNzEtLjExM0wuMTEyLjY1NEEuMzgzLjM4MywwLDEsMSwuNjU0LjExMkw2LjAzNSw1LjQ5M2EuMzg0LjM4NCwwLDAsMS0uMjcxLjY1NVoiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDAgMCkiLz48L2c+PC9nPjwvc3ZnPg=="/></span>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+        </div>
+    </div>
+    <div class="modal">
+        <div class="modalContainer">
+            <div class="leftSection">
+                <div class="leftSectionHeading">
+                    <p>LOCATION</p>
+                </div>
+                <div>
+                    <p>Select your location/address to see accurate product delivery date</p>
+                </div>
+                <div class="leftSectionImg">
+                    <img src="https://cdncontent.decathlon.in/_next/static/images/delivery-truck-c40a8b92f5392fe19b284856137c64bd.svg"/>
+                </div>
+            </div>
+            <div class="rightSection">
+                <h4>SELECT ADDRESS</h4>
+                <div class="rightSectionAddress">
+                    <p>Sorry, no address found.</p>
+                    <button>Add <Address></Address></button>
+                </div>
+                <div>
+                    <p>OR</p>
+                </div>
+                <h4>PINCODE</h4>
+                <div>
+                    <p>Enter a pincode</p>
+                    <div>
+                        <input id="pincode">
+                        <button id="pinBlue">APPLY</button>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <script src="orderedCartCart.js"></script>
+</body>
+</html> 
