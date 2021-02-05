@@ -22,7 +22,7 @@ const createElements = (data) => {
         <div class="star">★</div>
         <div><large class="ml-2">\ ${Math.floor(Math.random() * 1000)}</large></div>
     </div>
-    <button type="button" class="review-btn btn btn-outline-secondary" id="addToCart" onclick="goToCartModal()">VIEW ALL REVIEW <img src="data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjUxMiIgdmlld0JveD0iMCAwIDE2IDE2IiB3aWR0aD0iNTEyIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9IiM0MjQ0NTMiPjxwYXRoIGQ9Im0xMi44NTMgMTYuMDkwNWMtLjA2ODg0NzcgMC0uMTM4MTg0LS4wMTQxODMtLjIwMzEyNS0uMDQzMDM4NGwtNC42MTgxNi0yLjA1NjA2LTQuNjE4MTYgMi4wNTYwNmMtLjE3MDg5OC4wNzU4MDY2LS4zNzAxMTcuMDQ5Mzk1Ni0uNTE1NjI1LS4wNjcwMDMzLS4xNDU5OTYtLjExNjg4OC0uMjE0MzU1LS4zMDU2Ny0uMTc3NzM0LS40ODkwNzJsMS4wMTg1NS01LjEwMjQ5LTMuNTYwNTUtMy41NjY4Yy0uMTMwMzcxLS4xMzA1ODItLjE3ODIyMy0uMzIyMjk5LS4xMjUtLjQ5OTM0My4wNTMyMjI3LS4xNzY1NTUuMTk5NzA3LS4zMDk1ODMuMzgwMzcxLS4zNDU3NzRsNS4xMDM1Mi0xLjAyMjY1IDIuMDM3Ni00LjU5MjM5Yy4xNjExMzMtLjM2MTkxMy43NTI5My0uMzYxOTEzLjkxNDA2MyAwbDIuMDM3NiA0LjU5MjM5IDUuMTAzNTIgMS4wMjI2NWMuMTgwNjY0LjAzNjE5MTUuMzI3MTQ4LjE2OTIxOS4zODAzNzEuMzQ1Nzc0LjA1MzIyMjcuMTc3MDQ0LjAwNTM3MTEuMzY4NzYxLS4xMjUuNDk5MzQzbC0zLjU2MDU1IDMuNTY2OCAxLjAxODU1IDUuMTAyNDljLjAzNjYyMTEuMTgzNDAyLS4wMzE3MzgzLjM3MjE4NC0uMTc3NzM0LjQ4OTA3Mi0uMDkwMzMyMS4wNzIzODMtLjIwMTE3Mi4xMTAwNDItLjMxMjUuMTEwMDQyem0tNC44MjEyOS0zLjE0ODE2Yy4wNjkzMzU5IDAgLjEzODY3Mi4wMTQxODMuMjAzMTI1LjA0MzAzODRsMy45Mzg0OCAxLjc1MzgxLS44ODE4MzYtNC40MTY4MWMtLjAzMjcxNDgtLjE2NDMyOC4wMTg1NTQ3LS4zMzQwMzYuMTM2NzE5LS40NTIzOTJsMy4wODkzNi0zLjA5NDM2LTQuNDQwOTItLjg5MDExMWMtLjE1OTE4LS4wMzE3ODk5LS4yOTI5NjktLjEzODg5Ny0uMzU4ODg3LS4yODc1NzVsLTEuNjg2MDQtMy43OTk2LTEuNjg2MDQgMy43OTk2Yy0uMDY1OTE4LjE0ODY3OC0uMTk5NzA3LjI1NTc4NS0uMzU4ODg3LjI4NzU3NWwtNC40NDA5Mi44OTAxMTEgMy4wODkzNiAzLjA5NDM2Yy4xMTgxNjQuMTE4MzU2LjE2OTQzNC4yODgwNjQuMTM2NzE5LjQ1MjM5MmwtLjg4MTgzNiA0LjQxNjgxIDMuOTM4NDgtMS43NTM4MWMuMDY0NDUzLS4wMjg4NTUzLjEzMzc4OS0uMDQzMDM4NC4yMDMxMjUtLjA0MzAzODR6IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtLjAzMiAtLjA5KSIvPjwvc3ZnPg==" alt="Rating"></button>`
+    <button type="button" class="review-btn btn btn-outline-secondary" id="addToCart" onclick="addToCart()">VIEW ALL REVIEW <img src="data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjUxMiIgdmlld0JveD0iMCAwIDE2IDE2IiB3aWR0aD0iNTEyIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9IiM0MjQ0NTMiPjxwYXRoIGQ9Im0xMi44NTMgMTYuMDkwNWMtLjA2ODg0NzcgMC0uMTM4MTg0LS4wMTQxODMtLjIwMzEyNS0uMDQzMDM4NGwtNC42MTgxNi0yLjA1NjA2LTQuNjE4MTYgMi4wNTYwNmMtLjE3MDg5OC4wNzU4MDY2LS4zNzAxMTcuMDQ5Mzk1Ni0uNTE1NjI1LS4wNjcwMDMzLS4xNDU5OTYtLjExNjg4OC0uMjE0MzU1LS4zMDU2Ny0uMTc3NzM0LS40ODkwNzJsMS4wMTg1NS01LjEwMjQ5LTMuNTYwNTUtMy41NjY4Yy0uMTMwMzcxLS4xMzA1ODItLjE3ODIyMy0uMzIyMjk5LS4xMjUtLjQ5OTM0My4wNTMyMjI3LS4xNzY1NTUuMTk5NzA3LS4zMDk1ODMuMzgwMzcxLS4zNDU3NzRsNS4xMDM1Mi0xLjAyMjY1IDIuMDM3Ni00LjU5MjM5Yy4xNjExMzMtLjM2MTkxMy43NTI5My0uMzYxOTEzLjkxNDA2MyAwbDIuMDM3NiA0LjU5MjM5IDUuMTAzNTIgMS4wMjI2NWMuMTgwNjY0LjAzNjE5MTUuMzI3MTQ4LjE2OTIxOS4zODAzNzEuMzQ1Nzc0LjA1MzIyMjcuMTc3MDQ0LjAwNTM3MTEuMzY4NzYxLS4xMjUuNDk5MzQzbC0zLjU2MDU1IDMuNTY2OCAxLjAxODU1IDUuMTAyNDljLjAzNjYyMTEuMTgzNDAyLS4wMzE3MzgzLjM3MjE4NC0uMTc3NzM0LjQ4OTA3Mi0uMDkwMzMyMS4wNzIzODMtLjIwMTE3Mi4xMTAwNDItLjMxMjUuMTEwMDQyem0tNC44MjEyOS0zLjE0ODE2Yy4wNjkzMzU5IDAgLjEzODY3Mi4wMTQxODMuMjAzMTI1LjA0MzAzODRsMy45Mzg0OCAxLjc1MzgxLS44ODE4MzYtNC40MTY4MWMtLjAzMjcxNDgtLjE2NDMyOC4wMTg1NTQ3LS4zMzQwMzYuMTM2NzE5LS40NTIzOTJsMy4wODkzNi0zLjA5NDM2LTQuNDQwOTItLjg5MDExMWMtLjE1OTE4LS4wMzE3ODk5LS4yOTI5NjktLjEzODg5Ny0uMzU4ODg3LS4yODc1NzVsLTEuNjg2MDQtMy43OTk2LTEuNjg2MDQgMy43OTk2Yy0uMDY1OTE4LjE0ODY3OC0uMTk5NzA3LjI1NTc4NS0uMzU4ODg3LjI4NzU3NWwtNC40NDA5Mi44OTAxMTEgMy4wODkzNiAzLjA5NDM2Yy4xMTgxNjQuMTE4MzU2LjE2OTQzNC4yODgwNjQuMTM2NzE5LjQ1MjM5MmwtLjg4MTgzNiA0LjQxNjgxIDMuOTM4NDgtMS43NTM4MWMuMDY0NDUzLS4wMjg4NTUzLjEzMzc4OS0uMDQzMDM4NC4yMDMxMjUtLjA0MzAzODR6IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtLjAzMiAtLjA5KSIvPjwvc3ZnPg==" alt="Rating"></button>`
 }
 
 // const goToCartModal = () => {
@@ -50,27 +50,32 @@ fetch("http://localhost:3000/cart", requestOptions)
 } 
 
 const goBack = () => {
-    window.location.href = './pro.html'
+    window.location.href = './fitnessEssentials.html'
 }
 
-const goToCart = () => {
-    // console.log(obj)
-    postData(itemObj)
+const goToCart = (id) => {
     url ="./orderedCart.html"
-    // url += `?id=${id}`
+    url += `?id=${id}`
     window.location.href = url
 }
 
-const showModal = (item) => {
+const gotoSamePage = () => {
+    location.reload()
+}
+
+const showModal = () => {
     document.querySelector('.orderModal').style.display = 'block'
     document.querySelector('.pageBody').style.opacity = '0.3';
 
 
     document.querySelector('.orderSection').innerHTML = `
 <div class="itemsSection">
+    <div class="successMsg">
+        <p><i style="color:green; font-size:22px" class="fas fa-check-circle"></i>    <strong style="font-size:22px; font-weight:900">Item added to cart!</strong></p>
+    </div>
     <div class="items">
         <div class="closeBtn">
-        <button onclick="goBack()">X</button>
+        <button onclick="gotoSamePage()">X</button>
         </div>
         <div class="itemImg">
             <img src="${itemObj.img}"/>
@@ -94,17 +99,28 @@ const showModal = (item) => {
                 <button class="whiteBtn" onclick="goBack()">Continue Shopping</button>
             </div>
             <div>
-                <button class="blueBtn" onclick="goToCart()">Go to Cart</button>
+                <button class="blueBtn" onclick="goToCart(${itemObj.id})">Go to Cart</button>
             </div>
         </div>
     </div>
+    <div>
+    <p style="font-size:22px; font-weight:700 ">Frequently Bought Together</p>
+    </div>
+    <div class="productsCard" id="productsCard">
+    ${showSuggestion()}
+    </div>
 </div> `
 }
+
+
+
 const addToCart = () => {
     let size = document.getElementById('sizeSelect').value;
     itemObj.size = size;
     itemObj.qty = 1;
-    showModal(itemObj)
+    postData(itemObj)
+    // console.log(itemObj)
+    showModal()
     
 }
 
@@ -130,3 +146,43 @@ const getPin= () => {
 document.getElementById('pinBlue').addEventListener('click', getPin)
 document.getElementById('cartBtn').addEventListener('click', addToCart)
 window.addEventListener('load', getItemInfo)
+
+const createSuggestionElements = (data) => {
+    let displayElement=document.getElementById("productsCard");
+    let output="";
+    for(i in data){
+        output+=`
+        <div id="${data[i].id}" class="cardCover">
+            <div class="cardImgCover">
+                <a href="./pro.html?id=${data[i].id}"><img src="${data[i].img}" alt="${data[i].name}"></a>
+            </div>
+            <div class="cardDataCover">
+                <div class="priceElement">
+                    <div>Rs ${data[i].current_price}</div>
+                    <div>MRP  Rs${data[i].mrp}</div>
+                </div>
+                <div>${data[i].name}</div>
+                <div>
+                    <div>${data[i].rating}/5    <span class="fa fa-star checked"></span></div>
+                </div>
+            </div>
+        </div>
+        `
+    }
+    displayElement.innerHTML=output;
+    let cards=document.getElementsByClassName('cardCover');
+    [...cards].forEach(el=>{
+        el.addEventListener('click',function(){
+            redirectToPlaceOrder(data);
+        })
+    })
+}
+
+// $( ".cardCover" ).click(function() {
+//     let id = event.id
+//     console.log(id)
+//   });
+const showSuggestion = () => {
+   url = `http://localhost:3000/fitness_essentials?q=${itemObj.current_price}`
+   fetch(url).then((data) => data.json()).then((data) => createSuggestionElements(data))
+}

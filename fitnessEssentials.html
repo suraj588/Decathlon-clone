@@ -18,7 +18,7 @@
         <div>
 
             <div>
-                <div>HOME /</div>
+                <div onclick="redirectHome()">HOME /</div>
                 <div>BACK TO FITNESS /</div>
                 <div style="color: #14658e;">FITNESS ESSENTIALS BELOW 999</div>
             </div>
@@ -48,17 +48,123 @@
             
         </div>
 
-        <div>
-            <div>
-                <div>
-                    <div></div>
+        <!-- Filter and Products -->
+
+        <div class="filtersAndProductsCover">
+            <div class="filtersCover">
+                <div class="productsFilterCover">
+                    <h5>PRODUCT NATURE</h5>
+                    <div class="productNature" id="leggings">
+                        <input type="checkbox"/>
+                        <div>Leggings</div>
+                    </div>
+                    <div class="productNature" id="bra">
+                        <input type="checkbox"/>
+                        <div>Bra</div>
+                    </div>
+                    <div class="productNature" id="shorts">
+                        <input type="checkbox"/>
+                        <div>Shorts</div>
+                    </div>
+                    <div class="productNature" id="t-shirt">
+                        <input type="checkbox"/>
+                        <div>T-shirt</div>
+                    </div>
+                    <div class="productNature" id="sportsBra">
+                        <input type="checkbox"/>
+                        <div>Sports Bra</div>
+                    </div>
+                    <div class="productNature" id="trousers">
+                        <input type="checkbox"/>
+                        <div>Trousers</div>
+                    </div>
+                    <div class="productNature" id="skippingRope">
+                        <input type="checkbox"/>
+                        <div>Skipping rope</div>
+                    </div>
+                    <div class="productNature" id="dumbbell">
+                        <input type="checkbox"/>
+                        <div>Dumbbell</div>
+                    </div>
+                    <div class="productNature" id="elasticBand">
+                        <input type="checkbox"/>
+                        <div>Elastic band</div>
+                    </div>
+                    <div class="productNature">
+                        <input type="checkbox"/>
+                        <div>Pad</div>
+                    </div>
+                    <div class="productNature">
+                        <input type="checkbox"/>
+                        <div>Push up bar</div>
+                    </div>
+                    <div class="productNature">
+                        <input type="checkbox"/>
+                        <div>Yoga block</div>
+                    </div>
+                    <div class="productNature">
+                        <input type="checkbox"/>
+                        <div>Yoga mat</div>
+                    </div>
+                    <div class="productNature">
+                        <input type="checkbox"/>
+                        <div>Kettlebell</div>
+                    </div>
+                    <div class="productNature"> 
+                        <input type="checkbox"/>
+                        <div>Shaker</div>
+                    </div>
                 </div>
-                <div></div>
-                <div></div>
-                <div></div>
+                <div class="colorsFilterCover">
+                    <h5>COLOR</h5>
+                    <div class="productClr" id="black">
+                        <input type="checkbox"/>
+                        <div style="background-color: black;"></div>
+                    </div>
+                    <div class="productClr" id="white">
+                        <input type="checkbox"/>
+                        <div style="background-color: white;"></div>
+                    </div>
+                    <div class="productClr" id="red">
+                        <input type="checkbox"/>
+                        <div style="background-color: red;"></div>
+                    </div>
+                    <div class="productClr" id="green">
+                        <input type="checkbox"/>
+                        <div style="background-color: green;"></div>
+                    </div>
+                </div>
+                <div class="brandsFilterCover">
+                    <h5>BRAND</h5>
+                    <div class="productBrand" id="domyos">
+                        <input type="checkbox"/>
+                        <div>DOMYOS</div>
+                    </div>
+                    <div class="productBrand" id="kimjaly">
+                        <input type="checkbox"/>
+                        <div>KIMJALY</div>
+                    </div>
+                    <div class="productBrand" id="nyamba">
+                        <input type="checkbox"/>
+                        <div>NYAMBA</div>
+                    </div>
+                </div>
+                <div class="priceFilterCover">
+                    <h5>PRICE</h5>
+                    <input id="priceChanger" type="range" min="0" max="999" value="500"/>
+                    <div class="priceValue">
+                        <div>0</div>
+                        <div>500</div>
+                        <div>999</div>
+                    </div> 
+                   
+                </div>
             </div>
-            <div></div>
+            <div class="productsCard" id="productsCard">
+
+            </div>
         </div>
     </div>
+    <script src="fitnessEssentials.js"></script>
 </body>
 </html>

@@ -235,14 +235,14 @@
   ],
   "cart": [
     {
-      "id": 1,
-      "name": "Regular Skipping Rope",
-      "mrp": 599,
-      "current_price": 359,
-      "rating": 4.1,
-      "img": "https://contents.mediadecathlon.com/p1709851/04c01420b81518df6a0d0b0dcadc9a3f/p1709851.jpg?f=260x260&format=auto&format=auto",
-      "size": "m",
-      "qty": 1
+      "name": "Men's Eco friendly cardio Training Short",
+      "mrp": 799,
+      "current_price": 499,
+      "rating": 4.5,
+      "img": "https://contents.mediadecathlon.com/p1851233/cac900e006b222532d61bf8b896573b0/p1851233.jpg?f=260x260&format=auto&format=auto",
+      "id": 4,
+      "size": "2XL",
+      "qty": 2
     }
   ]
 }
