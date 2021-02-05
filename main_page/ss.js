@@ -1,7 +1,29 @@
 window.addEventListener("load",execute)
 function execute(){
-    document.querySelector(".slideshow-container").addEventListener("mouseleave",leave)
-    document.querySelector(".slideshow-container").addEventListener("mouseenter",enter)
+    document.querySelector(".slideshow-container").addEventListener("mouseleave",leave);
+    document.querySelector(".slideshow-container").addEventListener("mouseenter",enter);
+    document.getElementById("30").addEventListener('click',function(){
+      location.assign(`../pro.html?id=${30}`);
+    
+    });
+    document.getElementById("31").addEventListener('click',function(){
+      location.assign(`../pro.html?id=${31}`);
+    
+    });
+    document.getElementById("32").addEventListener('click',function(){
+      location.assign(`../pro.html?id=${32}`);
+    
+    });
+    document.getElementById("33").addEventListener('click',function(){
+      location.assign(`../pro.html?id=${33}`);
+    
+    });
+    document.getElementById('fitnessEssential').addEventListener('click',function(){
+      location.assign('../fitnessEssentials.html');
+    });
+    document.getElementById("support").addEventListener('click',function(){
+      location.assign('../support.html');
+    })
 }
 let sliding
 function leave(){
