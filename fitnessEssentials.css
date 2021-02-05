@@ -221,3 +221,288 @@ body{
 .productNature:hover,.productClr,.productBrand,input{
     cursor: pointer;
 }
+
+/* Footer css */
+
+body {
+    font-family: "Roboto Condensed", sans-serif !important;
+    /* color: #424453; */
+}
+.part1 {
+    display: flex;
+    /* background-color: #fff; */
+    /* width: 100%; */
+}
+.part1 .left-content {
+    flex-grow: 1;
+    flex-basis: 0%;
+    max-width: 77%;
+    padding-top: 10px;
+    padding-left: 40px;
+    height: auto;
+    /* position: sticky; */
+    z-index: 999;
+    top: 0;
+    font-family: "Roboto Condensed", sans-serif !important;
+    /* color: #424453; */
+    /* background: #f6f6f6; */
+    font-family: "Roboto Condensed", sans-serif !important;
+}
+/* right part starts here */
+.part1 .right-content {
+    flex-grow: 1;
+    flex-basis: 0%;
+    max-width: 23%;
+    padding-top: 10px;
+    padding-right: 40px;
+}
+.our-promise{
+    background: #f4f4f4;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-around;
+}
+.our-promise h5{
+    font-weight: 600;
+    font-size: 20px;
+}
+.our-promise > a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #424453;
+
+}
+.our-promise img{
+    /* margin-top: 25px; */
+    max-width: 50px;
+    vertical-align: middle;
+    /* border-style: none; */
+    align-items: center;
+}
+.useful_links{
+    margin-top: 50px;
+}
+.our-promise span{
+    float: left;
+}
+.useful_links{
+    display: flex;
+    justify-content: space-between;
+}
+.useful_links h4{
+    font-weight: 600;
+    font-size: 20px;
+}
+.foot-links a{
+    width: 100%;
+    display: block;
+    line-height: 3;
+    color: #424453;
+    text-decoration: none;
+}
+.secure_tran{
+    display: flex;
+}
+.secure{
+    display: flex !important;
+}
+.secure img{
+    max-width: 33px;
+}
+.secure_content {
+    margin-left: 15px;
+}
+.secure_content h6{
+    font-weight: 600;
+    font-size: 15px;
+}
+.secure_content p{
+    color: #bbbbbb;
+    margin-top: 5px;
+}
+.card-4{
+    display: flex;
+}
+.card{
+    width: 105px;
+    height: 87px;
+    margin-top: 20px;
+    padding: 10px;
+}
+.site_map{
+    margin-top: 60px;
+    margin-left: 30px;
+}
+.site_map a {
+    color: #424453;
+    padding: 18px 25px;
+    border-left: 1px solid #dee2e6 !important;
+    border-right: 1px solid #dee2e6 !important;
+    text-decoration: none;
+    /* margin-top: 20px; */
+}
+.decathlon{
+    display: flex;
+    margin-top: 60px;
+    font-size: 1.2rem;
+    margin-left: 25px;
+}
+.countries{
+    text-align: center;
+    margin-left: 55px;
+    margin-top: -30px;
+    /* padding-bottom: 20px; */
+    position: relative;
+    cursor: pointer;
+}
+.countries .p-c{
+    border: 1px solid;
+    padding: 12px 12px;
+    border-radius: 3px;
+}
+.app{
+    background: #f4f4f4;
+    border-radius: 4px;
+    margin-top: 0;
+    padding: 10px 20px;
+    margin-left: 7px;
+}
+.app h6{
+    margin-left: 10px;
+    /* text-align: center; */
+    margin-top: -1px;
+    margin-top: 10px;
+    font-weight: 600;
+    font-size: 16px;
+}
+.google_play a{
+    margin-left: 10px;
+}
+.follow{
+    background: #f4f4f4;
+    border-radius: 3px;
+    margin-top: 7px;
+    padding: 10px 20px;
+    margin-left: 10px;
+}
+.follow h6{
+    margin-left: 10px;
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: 16px;
+}
+.social_media{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+}
+.social_media a{
+    background: #424453;
+    width: 40px;
+    height: 40px;
+    line-height: 2;
+    text-align: center;
+    border-radius: 3px;
+    padding-top: 10px;
+}
+.blog h6{
+    margin-top: 50px;
+}
+.social_blog a{
+    /* width: 100%; */
+    display: block;
+    background: #fff;
+    text-align: center;
+    border-radius: 3px;
+    color: #424453;
+    padding: 20px;
+    text-decoration: none;
+}
+.explore h6{
+    margin-top: 60px;
+}
+.part2{
+    text-align: center;
+}
+.part2 h3{
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.75rem;
+}
+.sustain{
+    text-align: center;
+}
+.part2 p{
+    color: #0082c3;
+    font-size: 1.5rem;
+}
+.part2 p span{
+    color: #85bc4a;
+}
+.logo{
+    position: relative;
+}
+.logo img{
+    max-width: 1200px;
+    margin: 1.2rem auto 1.7rem auto;
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+.logo img::after{
+    background-image: url(images.png);
+    content: "";
+    width: 200px;
+    height: 200px;
+    right: 180px;
+    position: absolute;
+    top: -130px;
+    background-size: 100%;
+    background-position: center;
+    transform: translatey(0px);
+    animation: float 6s ease-in-out infinite;
+}
+.logo p{
+    color: #424453;
+    font-size: 20px;
+}
+.foot_bottom .blue{
+    width: 100%;
+    height: 7px;
+    background: #0082c3;
+    display: block;
+    float: left;
+    max-width: 500px;
+    min-width: 500px;
+}
+.foot_bottom .orange{
+    width: 100%;
+    height: 7px;
+    background: #ec6607;
+    display: inline-block;
+    max-width: 300px;
+    min-width: 300px;
+    float: left;
+}
+.foot_bottom .green{
+    width: 100%;
+    height: 7px;
+    background: #85bc4a;
+    max-width: 250px;
+    min-width: 250px;
+    float: left;
+}
+/* .part2::after{
+    background-image: url(images.png);
+    content: "";
+    height: 200px;
+    width: 200px;
+    background-size: cover;
+    position: absolute;
+    left: 0;
+    bottom: -20px;
+    z-index: 1;
+} */
+/* https://cdncontent.decathlon.in/_next/static/images/right-leaf-e1c4e49a470eee3c8b85a4708e0c2ba8.png */
