@@ -10,15 +10,15 @@ body{
     min-width: 320px;
 }
 .support_page{
-    max-width: 1500px;
+    max-width: 1000px;
     margin: 0 auto;
 }
 .logo{
     margin-top: 30px;
 }
 .logo img{
-    width: 300px;
-    height: 70px;
+    width: 200px;
+    height: 50px;
 }
 .heading{
     background: 0 0;
@@ -30,7 +30,7 @@ body{
 .heading h2{
     color: #fff;
     display: inline-block;
-    font-size: 60px;
+    font-size: 45px;
     font-style: normal;
     font-weight: 700;
     letter-spacing: 0;
@@ -43,9 +43,9 @@ body{
 }
 .search input{
     width: 100%;
-    border-radius: 4px;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    border-radius: 4x;
+    padding-top: 20px;
+    padding-bottom: 20px;
     border: 0;
     color: #183247;
     font-size: 20px;
@@ -57,12 +57,12 @@ body{
     margin-bottom: 15px;
     margin-left: -15px;
     margin-right: -15px;
-    padding: 19px 15px;
+    padding: 7px 15px;
     /* text-align: center; */
     /* width: calc(100% + 30px); */
     width: 97%;
     margin-left: 15px;
-    margin-top: 100px;
+    margin-top: 80px;
     font-size: 24px;
     font-weight: 700;
     line-height: 33px;
@@ -151,7 +151,7 @@ body{
     /* padding: 5px 0; */
     border: 0;
     font: inherit;
-    font-size: 20px;
+    font-size: 12px;
     margin: 0;
     padding: 0;
     vertical-align: baseline;
@@ -211,6 +211,7 @@ body{
     flex: 0 0 25%;
     margin-bottom: 20px;
     overflow: hidden;
+    margin-left: 20px;
 }
 .contact{
     background: #fff;
@@ -224,6 +225,7 @@ body{
     position: relative;
     cursor: pointer;
     min-height: 375px;
+    max-height: 900px;
 }
 .headNav::after{
     background: #fff;
@@ -339,12 +341,12 @@ border-top: 3px solid #ea690a;
     background: #fff;
     border-radius: 4px;
     text-align: center;
-    height: 50px;
+    height: 30px;
     font-weight: 600;
     font-size: 25px;
     text-transform: uppercase;
     letter-spacing: 1px;
-    padding: 15px;
+    padding: 10px;
     margin: auto;
     text-align: center;
     margin-bottom: 10px;

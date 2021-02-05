@@ -134,6 +134,7 @@ function createElements(data){
     let displayElement=document.getElementById("productsCard");
     let output="";
     for(i in data){
+        if(i<=28)
         output+=`
         <div id="${data[i].id}" class="cardCover">
             <div class="cardImgCover">
