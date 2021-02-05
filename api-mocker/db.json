@@ -136,7 +136,8 @@
           "rating": 4.6,
           "img": "https://contents.mediadecathlon.com/p1030211/k$536aa7aaab21e2a33dd054d4189c24db/cross-training-push-up-bar-grips.jpg?&f=250x250&format=auto",
           "id": 15,
-          "brand":"domyos"
+          "brand":"domyos",
+          "nature":"pushUpBar"
       },
       {
           "name": "Adjustable Hand Grip",
@@ -145,7 +146,8 @@
           "rating": 4.3,
           "img": "https://contents.mediadecathlon.com/p91666/k$615ed8660aea0c1175cccf41d7bef293/adjustable-hand-grip.jpg?&f=250x250&format=auto",
           "id": 16,
-          "brand":"domyos"
+          "brand":"domyos",
+          "nature":"elasticBand"
       },
       {
           "name": "120 Women's Fitness Cardio Training Leggings-Burgundy",
@@ -171,7 +173,8 @@
           "current_price": 499,
           "rating": 4.6,
           "img": "https://contents.mediadecathlon.com/p1833694/k$7371d614fb7e289832b1d07789ad7559/fitness-1-kg-dumbbells-twin-pack-green.jpg?&f=250x250&format=auto",
-          "id": 19
+          "id": 19,
+          "nature":"dumbbell"
       },
       {
           "name": "Regular Skipping Rope",
@@ -179,7 +182,8 @@
           "current_price": 359,
           "rating": 4.1,
           "img": "https://contents.mediadecathlon.com/p1709851/k$04c01420b81518df6a0d0b0dcadc9a3f/regular-skipping-rope-yellow.jpg?&f=250x250&format=auto",
-          "id": 20
+          "id": 20,
+          "nature":"skippingRope"
       },
       {
           "name": "Yoga Knee & Wrist Pad - Green",
@@ -188,7 +192,8 @@
           "rating": 4.7,
           "img": "https://contents.mediadecathlon.com/p1789747/k$27d6a1a0277bf6ff6da1a2ab3ac60789/yoga-knee-wrist-pad-green.jpg?&f=250x250&format=auto",
           "id": 21,
-          "brand":"kimjaly"
+          "brand":"kimjaly",
+          "nature":"pad"
       },
       {
           "name": "Women's Cardio Fitness T-shirt 120-White/Printed Yellow",
@@ -206,7 +211,9 @@
           "current_price": 999,
           "rating": 4.5,
           "img": "https://contents.mediadecathlon.com/p1113578/k$592983277aa7012e3eb746bd1fe69e5b/versatile-cross-training-push-up-wheel-grips-red-black.jpg?&f=250x250&format=auto",
-          "id": 23
+          "id": 23,
+          "color":"red",
+          "nature":"pushUpBar"
       },
       {
           "name": "Yoga Mat Cover - Grey",
@@ -214,7 +221,8 @@
           "current_price": 299,
           "rating": 4.5,
           "img": "https://contents.mediadecathlon.com/p1587570/k$4f7401ff54f9a3d2baf44cd9dede4b2d/yoga-mat-cover-grey.jpg?&f=250x250&format=auto",
-          "id": 24
+          "id": 24,
+          "nature":"yogaMat"
       },
       {
           "name": "Ankle Weight 2*0.75 Kg",
@@ -230,7 +238,8 @@
           "current_price": 359,
           "rating": 4.5,
           "img": "https://contents.mediadecathlon.com/p1035863/k$bd37421f9c337ac180e17fe799f3b8b1/700-ml-first-shaker-clear.jpg?&f=250x250&format=auto",
-          "id": 26
+          "id": 26,
+          "nature":"shaker"
       },
       {
           "name": "Kettlebell 4 kg",
@@ -238,15 +247,17 @@
           "current_price": 999,
           "rating": 4.9,
           "img": "https://contents.mediadecathlon.com/p1248535/k$04bf197d37359252cc11916fab681b18/kettlebell-4-kg.jpg?&f=250x250&format=auto",
-          "id": 27
+          "id": 27,
+          "nature":"kettlebell"
       },
       {
           "name": "Women's Cardio Fitness Training Bra 900 - White/Black Print",
           "mrp": 1299,
           "current_price": 999,
           "rating": 4.7,
-          "img": "https://contents.mediadecathlon.com/p188780/k$5c513c3dd9678c93ae2dc6ad5a4f3d51/ankle-weight-2075-kg.jpg?&f=250x250&format=auto",
-          "id": 28
+          "img": "https://www.decathlon.in/_next/image?url=https%3A%2F%2Fcontents.mediadecathlon.com%2Fp1850901%2Fk%245c0a4214a41b9575108c83e6476e64f5%2Fwomen-s-cardio-fitness-training-bra-900-white-black-print.jpg%3F%26f%3D250x250%26format%3Dauto&w=384&q=75",
+          "id": 28,
+          "nature":"bra"
       },
       {
           "name": "Kids' Yoga Mat 5mm - Blue Bear",
@@ -255,7 +266,8 @@
           "rating": 3.6,
           "img": "https://contents.mediadecathlon.com/p1288263/k$4b80ca273a6d67ce8b63ba356bc52c4f/kids-yoga-mat-5-mm-blue-bear.jpg?&f=250x250&format=auto",
           "id": 29,
-          "brand":"kimjaly"
+          "brand":"kimjaly",
+          "nature":"yogaMat"
       },
       {
         "id": 30,
