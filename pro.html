@@ -5,220 +5,381 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="pro.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">   
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
 </head>
 <body>
-    <div class="container">
-        <!-- left part starts here -->
-        <div class="left-container">
-            <nav class="navbar">
-                <span >All Sports &nbsp; /</span>
-                <span>Hiking And Trekking &nbsp; /</span>
-                <span>Clothing &nbsp; /</span>
-                <span>Winter Jackets And Down Jackets</span>
-            </nav>
-            <div class="product_sticker">
-                <p class="sticker_bestsellers">Best Seller</p>
+    <div class="pageBody">
+        <div class="deliveryPin">
+            <div id="pin">
+                delivering to <strong>110001 Delhi</strong>
             </div>
-            <img src="https://contents.mediadecathlon.com/p1949673/e381a1ca10cbd5534c34c793f3f55e8a/p1949673.jpg?f=650x650&format=auto" alt="">
+            <div>
+                <button onclick="changePin()">CHANGE</button>
+            </div>   
         </div>
-        <!-- right part starts here -->
-        <div class="right-container">
-            <div class="heading">
-                <h2>FORCLAZ</h2>
-                <h1>MEN'S MOUNTAIN TREKKING PADDED JACKET - TEMP RATING 10°C - TREK 50 - BLACK</h1>
-                <p>Reference: 8370601</p>
-            </div>
-            <hr>
-            <div class="price_con">
-                <span class="price">₹ <!-- -->999</span>
-                <span class="price-w">₹ <!-- -->1,699</span>
-                <div class="rating">
-                    <span class="">4.4<!-- -->/5</span>
-                    <div class="star">★</div>
-                    <large class="ml-2">\ <!-- -->875</large>
+        <div class="container">
+            <!-- left part starts here -->
+            <div class="left-container">
+                <nav class="navbar">
+                    <span >All Sports &nbsp; /</span>
+                    <span>Hiking And Trekking &nbsp; /</span>
+                    <span>Clothing &nbsp; /</span>
+                    <span>Winter Jackets And Down Jackets</span>
+                </nav>
+                <div class="product_sticker">
+                    <p class="sticker_bestsellers">Best Seller</p>
                 </div>
-                <button type="button" class="review-btn btn btn-outline-secondary">VIEW ALL REVIEW<!-- --> <img src="data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjUxMiIgdmlld0JveD0iMCAwIDE2IDE2IiB3aWR0aD0iNTEyIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9IiM0MjQ0NTMiPjxwYXRoIGQ9Im0xMi44NTMgMTYuMDkwNWMtLjA2ODg0NzcgMC0uMTM4MTg0LS4wMTQxODMtLjIwMzEyNS0uMDQzMDM4NGwtNC42MTgxNi0yLjA1NjA2LTQuNjE4MTYgMi4wNTYwNmMtLjE3MDg5OC4wNzU4MDY2LS4zNzAxMTcuMDQ5Mzk1Ni0uNTE1NjI1LS4wNjcwMDMzLS4xNDU5OTYtLjExNjg4OC0uMjE0MzU1LS4zMDU2Ny0uMTc3NzM0LS40ODkwNzJsMS4wMTg1NS01LjEwMjQ5LTMuNTYwNTUtMy41NjY4Yy0uMTMwMzcxLS4xMzA1ODItLjE3ODIyMy0uMzIyMjk5LS4xMjUtLjQ5OTM0My4wNTMyMjI3LS4xNzY1NTUuMTk5NzA3LS4zMDk1ODMuMzgwMzcxLS4zNDU3NzRsNS4xMDM1Mi0xLjAyMjY1IDIuMDM3Ni00LjU5MjM5Yy4xNjExMzMtLjM2MTkxMy43NTI5My0uMzYxOTEzLjkxNDA2MyAwbDIuMDM3NiA0LjU5MjM5IDUuMTAzNTIgMS4wMjI2NWMuMTgwNjY0LjAzNjE5MTUuMzI3MTQ4LjE2OTIxOS4zODAzNzEuMzQ1Nzc0LjA1MzIyMjcuMTc3MDQ0LjAwNTM3MTEuMzY4NzYxLS4xMjUuNDk5MzQzbC0zLjU2MDU1IDMuNTY2OCAxLjAxODU1IDUuMTAyNDljLjAzNjYyMTEuMTgzNDAyLS4wMzE3MzgzLjM3MjE4NC0uMTc3NzM0LjQ4OTA3Mi0uMDkwMzMyMS4wNzIzODMtLjIwMTE3Mi4xMTAwNDItLjMxMjUuMTEwMDQyem0tNC44MjEyOS0zLjE0ODE2Yy4wNjkzMzU5IDAgLjEzODY3Mi4wMTQxODMuMjAzMTI1LjA0MzAzODRsMy45Mzg0OCAxLjc1MzgxLS44ODE4MzYtNC40MTY4MWMtLjAzMjcxNDgtLjE2NDMyOC4wMTg1NTQ3LS4zMzQwMzYuMTM2NzE5LS40NTIzOTJsMy4wODkzNi0zLjA5NDM2LTQuNDQwOTItLjg5MDExMWMtLjE1OTE4LS4wMzE3ODk5LS4yOTI5NjktLjEzODg5Ny0uMzU4ODg3LS4yODc1NzVsLTEuNjg2MDQtMy43OTk2LTEuNjg2MDQgMy43OTk2Yy0uMDY1OTE4LjE0ODY3OC0uMTk5NzA3LjI1NTc4NS0uMzU4ODg3LjI4NzU3NWwtNC40NDA5Mi44OTAxMTEgMy4wODkzNiAzLjA5NDM2Yy4xMTgxNjQuMTE4MzU2LjE2OTQzNC4yODgwNjQuMTM2NzE5LjQ1MjM5MmwtLjg4MTgzNiA0LjQxNjgxIDMuOTM4NDgtMS43NTM4MWMuMDY0NDUzLS4wMjg4NTUzLjEzMzc4OS0uMDQzMDM4NC4yMDMxMjUtLjA0MzAzODR6IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtLjAzMiAtLjA5KSIvPjwvc3ZnPg==" alt="Rating"></button>
-            </div>
-            <hr>
-            <div class="warranty">
-                <a href="https://www.decathlon.in/page/decathlon-sports-india-guarantee?icn=productpromise&amp;icm=2yearwarranty" class="d-md-flex align-items-md-center"><img src="https://contents.mediadecathlon.com/s810456/k$3d1c34a67fc4a7d2659a8f40f2f68cb7/Warranty.png" alt="Warranty"><h3>2 YEARS<!-- --> <small>WARRANTY*</small></h3></a>
-            </div>
-            <hr>
-            <div class="product_size">
-                <h5>SIZE</h5>
-                <select name="Select your size" class="size" id="" aria-placeholder="Select your size">
-                    <option value="size">Select your size</option>
-                    <option value="s">S</option>
-                    <option value="m">M</option>
-                    <option value="L">L</option>
-                    <option value="XL">XL</option>
-                    <option value="2XL">2XL</option>
-                    <option value="3XL">3Xl</option>
-                </select>
-                <button type="button" class="size_chart" id="open">
-                    <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI2Ni41NCIgaGVpZ2h0PSIzNC4zNDMiIHZpZXdCb3g9IjAgMCA2Ni41NCAzNC4zNDMiPjxkZWZzPjxzdHlsZT4uYXtmaWxsOiMwMDgyYzM7c3Ryb2tlOiMwMDc5YmE7c3Ryb2tlLWxpbmVjYXA6cm91bmQ7c3Ryb2tlLXdpZHRoOjJweDt9PC9zdHlsZT48L2RlZnM+PGcgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTEyMzcgLTYxOS4wMykiPjxwYXRoIGNsYXNzPSJhIiBkPSJNNDk0MCwyMzQ1Ljc4NnYyNC40NzEiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0zNzAyIC0xNzE3Ljg4NSkiLz48cGF0aCBjbGFzcz0iYSIgZD0iTTQ5NDAsMjM0NS43ODZ2MTIuMjM2IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMzY4OS4wOTIgLTE3MDUuNjUpIi8+PHBhdGggY2xhc3M9ImEiIGQ9Ik00OTQwLDIzNDUuNzg2djE3LjM0NSIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTM2NzYuMTg0IC0xNzEwLjc2KSIvPjxwYXRoIGNsYXNzPSJhIiBkPSJNNDk0MCwyMzQ1Ljc4N3YzMi4zNDMiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0zNjYzLjI3NiAtMTcyNS43NTcpIi8+PHBhdGggY2xhc3M9ImEiIGQ9Ik00OTQwLDIzNDUuNzg2djEyLjIzNiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTM2NTAuMzY5IC0xNzA1LjY1KSIvPjxwYXRoIGNsYXNzPSJhIiBkPSJNNDk0MCwyMzQ1Ljc4NnYyNC40NzEiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0zNjM3LjQ2IC0xNzE3Ljg4NSkiLz48L2c+PC9zdmc+" class="img-fluid" alt="Size Chart">VIEW SIZE CHART<img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4LjA0NSIgaGVpZ2h0PSIxNC4wNjIiIHZpZXdCb3g9IjAgMCA4LjA0NSAxNC4wNjIiPjxkZWZzPjxzdHlsZT4uYXtmaWxsOiMwMDgyYzM7c3Ryb2tlOiMwMDgyYzM7fTwvc3R5bGU+PC9kZWZzPjxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKDcuNDkgMC41NTUpIHJvdGF0ZSg5MCkiPjxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKDAgNi45MzQpIHJvdGF0ZSgtOTApIj48ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSgwIDApIj48cGF0aCBjbGFzcz0iYSIgZD0iTS40MzIsNi45MzZBLjQzNC40MzQsMCwwLDEsLjEyNiw2LjJMNi4yLjEyNmEuNDMyLjQzMiwwLDEsMSwuNjExLjYxMUwuNzM3LDYuODA4QS40MzQuNDM0LDAsMCwxLC40MzIsNi45MzZaIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgwIDYuMDcxKSIvPjxwYXRoIGNsYXNzPSJhIiBkPSJNNi41LDYuOTM2QS40MzQuNDM0LDAsMCwxLDYuMiw2LjgwOEwuMTI2LjczOEEuNDMyLjQzMiwwLDAsMSwuNzM3LjEyNkw2LjgwOCw2LjJhLjQzNC40MzQsMCwwLDEtLjMwNi43MzlaIi8+PC9nPjwvZz48L2c+PC9zdmc+" class="img-fluid arrow" alt="Arrow Icon">
-                </button>
-
-                <!-- Modal starts here -->
-              
-
-            </div>
-            <hr>
-            <div class="product-button">
-                <button type="button" loader-start="Adding to cart..." loader-end="Added to cart" class="btn-yellow">ADD TO CART<img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMi4yNDkiIGhlaWdodD0iMTkuODAzIiB2aWV3Qm94PSIwIDAgMjIuMjQ5IDE5LjgwMyI+PGRlZnM+PHN0eWxlPi5he2ZpbGw6IzM2MzYzNjt9PC9zdHlsZT48L2RlZnM+PGcgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMC4wMDEgMCkiPjxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKDAgMCkiPjxwYXRoIGNsYXNzPSJhIiBkPSJNMTMuMDk0LDE3LjQ3N2EuNzQ3Ljc0NywwLDAsMS0uNzE0LS41MzFMOS4xODUsNi40NThBLjc1Ljc1LDAsMCwxLDkuOSw1LjQ5SDI3LjIzNmEuNzQ3Ljc0NywwLDAsMSwuNzQ3Ljc0N3Y4LjIyYS43NDcuNzQ3LDAsMCwxLS42MzEuNzQ3TDEzLjIwNiwxNy40NjlaTTEwLjkxMiw2Ljk4NWwyLjcwOSw4LjksMTIuODY4LTIuMDc3VjYuOTg1Wm0xNi4zMjUsNy40NzNaIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtNS43MzQgLTMuNDM5KSIvPjxwYXRoIGNsYXNzPSJhIiBkPSJNMjMuNTQ2LDQzLjZhMi44LDIuOCwwLDEsMSwyLjgtMi44LDIuOCwyLjgsMCwwLDEtMi44LDIuOFptMC00LjExYTEuMzA4LDEuMzA4LDAsMSwwLDEuMywxLjMwOCwxLjMwOCwxLjMwOCwwLDAsMC0xLjMtMS4zMDhaIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMTIuOTkyIC0yMy44MDEpIi8+PHBhdGggY2xhc3M9ImEiIGQ9Ik00NS41MTYsNDMuNmEyLjgsMi44LDAsMSwxLDIuOC0yLjgsMi44LDIuOCwwLDAsMS0yLjgsMi44Wm0wLTQuMTFhMS4zMDgsMS4zMDgsMCwxLDAsMS4zLDEuMzA4LDEuMzA4LDEuMzA4LDAsMCwwLTEuMy0xLjMwOFoiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0yNi43NTMgLTIzLjgwMSkiLz48cGF0aCBjbGFzcz0iYSIgZD0iTTQuMjU0LDMuODIzYS43NDcuNzQ3LDAsMCwxLS43MS0uNTEybC0uNS0xLjQ5NS0xLjk2Mi45NjhBLjc0OC43NDgsMCwwLDEsLjQxNywxLjQ0NkwzLjE1Mi4wNzlBLjc0Ny43NDcsMCwwLDEsNC4xOTQuNTEybC43NywyLjMzMmEuNzQ3Ljc0NywwLDAsMS0uNzEuOTc5WiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTAuMDAzIDApIi8+PC9nPjwvZz48L3N2Zz4=" class="img-fluid" alt="Cart">
-                </button>
-            </div>
-            <hr>
-            <div class="delivery-services">
-                <div class="row">
-                    <div class="mb-md-3 order-md-1  col">
-                        <div class="delivery-pincode">
-                            <h5>DELIVERY &amp; SERVICES</h5>
-                            <p>Currently showing the delivery options for pincode</p>
-                            <div class="pincode">800027<img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMi42NDIiIGhlaWdodD0iOS4wMjMiIHZpZXdCb3g9IjAgMCAxMi42NDIgOS4wMjMiPjxkZWZzPjxzdHlsZT4uYXtmaWxsOiNmZmY7c3Ryb2tlOiNmZmY7fTwvc3R5bGU+PC9kZWZzPjxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKDAuNTA1IDAuNTUzKSI+PGcgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMCkiPjxwYXRoIGNsYXNzPSJhIiBkPSJNMTEuNC4xMjFhLjM4Ni4zODYsMCwwLDAtLjU0NCwwTDMuOTMxLDcuMDQ3LjYsMy43MmEuMzg2LjM4NiwwLDEsMC0uNTQ0LjU0NmwzLjYsMy42YS4zODkuMzg5LDAsMCwwLC41NDYsMGw3LjItNy4yYS4zODYuMzg2LDAsMCwwLDAtLjU0NFoiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDAuMDcgLTAuMDA4KSIvPjwvZz48L2c+PC9zdmc+" class="img-fluid" alt="Success">
-                                <button type="button" class="ml-auto btn btn-link">CHANGE</button>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="mb-3 order-md-2 col-auto">
-                        <div class="delivery-returns"> <!-- --> 
-                            <div class="blocks mr-3">
-                                <img src="https://contents.mediadecathlon.com/s810453/k$b01109de2bacb669e5db58aefa3c6ee9/Free%20delivery.png" width="35px" class="img-fluid" alt="Home Delivery">Home Delivery at Your Doorstep<br>
-                            </div>
-                            <div class="blocks">
-                                <img src="https://contents.mediadecathlon.com/s810455/k$5d275c8ba3f1f586032fc19f5bacf57f/90%20dats%20return.png" width="30px" class="img-fluid" alt="Returns">Easy 90 Days Return<br>
-                            </div>
-                        </div>
-                    </div>
-                    
+                <div id="productImg">
+                    <!-- <img src="https://contents.mediadecathlon.com/p1949673/e381a1ca10cbd5534c34c793f3f55e8a/p1949673.jpg?f=650x650&format=auto" alt=""> -->
                 </div>
-                <div class="delivery-services-info">
-                    <div class="blocks mb-3">
-                        <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzNi4yMTYiIGhlaWdodD0iMjYuODU5IiB2aWV3Qm94PSIwIDAgMzYuMjE2IDI2Ljg1OSI+PGRlZnM+PHN0eWxlPi5he2ZpbGw6IzQyNDQ1MztzdHJva2U6IzQyNDQ1Mzt9PC9zdHlsZT48L2RlZnM+PHBhdGggY2xhc3M9ImEiIGQ9Ik0zNS4yMTUsMTcuMjI2VjkuOGEuNjA3LjYwNywwLDAsMC0uMy0uNTI4bC03Ljk2LTQuNTQ4YS42MDcuNjA3LDAsMCwwLS4zODktLjA3M2wtNC4zNzIuNjA3Vi42YS42MDcuNjA3LDAsMCwwLS4yMTMtLjQ2MS42MDcuNjA3LDAsMCwwLS41LS4xNDZMLjUsMy42MzhhLjYwNy42MDcsMCwwLDAtLjUuNjA3VjIzLjA2N2EuNjA3LjYwNywwLDAsMCwuMjM3LjQ2OC42MDcuNjA3LDAsMCwwLC40NzQuMjQzaC4xbDMuOC0uNzFhNC4yMiw0LjIyLDAsMCwwLDguMTcyLTEuNDM5bDExLjQyMS0yLjAyMmE0LjI1LDQuMjUsMCwwLDAsOC4xMDYtMS40bDIuNDI5LS40MjVIMzQuOGEuNS41LDAsMCwwLC4xMzQtLjA0OWwuMDQyLS4xMzRhLjM0Ni4zNDYsMCwwLDAsLjEtLjA5MS4zMS4zMSwwLDAsMCwuMDU1LS4wNzkuNTM1LjUzNSwwLDAsMCwuMDU1LS4xMjEuNjA4LjYwOCwwLDAsMCwuMDM2LS4wODVaTTIwLjk3NywxLjMyNXY5LjkzOUwxLjIxNCwxNC43NDlWNC43MzFMOS43NzMsMy4yNTZaTTEuMjE0LDIyLjQ2VjE1Ljk4MkwyMC45NzcsMTIuNXY2LjQ0OGwtOC4zNTUsMS40NjlBNC4yNSw0LjI1LDAsMCwwLDQuMzQxLDIxLjU4YzAsLjEsMCwuMTk0LDAsLjI5MVptNy4zNTMsMi4xNjFhMy4wMjEsMy4wMjEsMCwxLDAsMC0uMDNabTEzLjYyNS01Ljg2NVY2LjVMMjYuNTMzLDUuOSwzNCwxMC4xNDd2Ni41TDMyLjE3OSwxN2E0LjI1LDQuMjUsMCwwLDAtOC4zMDYuOTcxYzAsLjE1MiwwLC4zMSwwLC40NjFaTTI4LjEsMjFhMi45OSwyLjk5LDAsMSwwLDAtLjAzWiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMC41IDAuNTE0KSIvPjwvc3ZnPg==" class="img-fluid" alt="Home Delivery">
-                        <div>
-                            <h6>Home Delivery by Wednesday, 17th Feb</h6>Order before 6:00PM
-                        </div>
+            </div>
+            <!-- right part starts here -->
+            <div class="right-container">
+                <div class="heading" id='heading'>
+                    <!-- <h2>FORCLAZ</h2> -->
+                    <h3>MEN'S MOUNTAIN TREKKING PADDED JACKET - TEMP RATING 10°C - TREK 50 - BLACK</h3>
+                    <p>Reference: 8370601</p>
+                </div>
+                <hr>
+                <div class="price_con">
+                    <!-- <span class="price">₹ 999</span>
+                    <span class="price-w">₹ 1,699</span>
+                    <div class="rating">
+                        <span class="">4.4/5</span>
+                        <div class="star">★</div>
+                        <large class="ml-2">\ 875</large>
                     </div>
-                    <div class="blocks" style="">
-                        <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMS4zOTUiIGhlaWdodD0iMzEuODAxIiB2aWV3Qm94PSIwIDAgMzEuMzk1IDMxLjgwMSI+PGRlZnM+PHN0eWxlPi5he2ZpbGw6IzQyNDQ1Mzt9LmJ7ZmlsbDpub25lO30uY3tmaWxsOiM1MjU3NWE7c3Ryb2tlOiM0MjQ0NTM7fTwvc3R5bGU+PC9kZWZzPjxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKDAuNSAwLjUpIj48cmVjdCBjbGFzcz0iYSIgd2lkdGg9IjEyLjQ0MSIgaGVpZ2h0PSIzLjA5NCIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMTUuMjIyIDEzLjIxNikiLz48cGF0aCBjbGFzcz0iYiIgZD0iTTI1LjMwOSwxNUgyVjMyLjk4NkgxMy4yMzVhLjQ0OS40NDksMCwwLDEsLjE3My4wMzhWMTguMDM1YS41NDEuNTQxLDAsMCwxLC41NDEtLjU0MWgxMS4zNloiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0wLjkxOCAtNi44ODYpIi8+PHBhdGggY2xhc3M9ImIiIGQ9Ik0yNS4wOSwyMS42MVYzOS41NDJsNC42NTItLjgxMXYtNi42YS41NDEuNTQxLDAsMCwxLC41NDEtLjU0MWg1LjM2MWEuNTQxLjU0MSwwLDAsMSwuNTQxLjU0MXY1LjQ4NWw0LjY0Ny0uODA2VjIxLjYxWiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTExLjUxOCAtOS45MikiLz48cGF0aCBjbGFzcz0iYyIgZD0iTTI5Ljg1NCwxMC42MDhIMjUuNDcydi0yLjhoMFY3Ljc2OGEuNDc2LjQ3NiwwLDAsMCwuMDMyLS4xNTFzMCwwLDAtLjAyN2gwYS40NTQuNDU0LDAsMCwwLS4wMzgtLjE4OVY3LjM3M2EuNDM4LjQzOCwwLDAsMC0uMDU0LS4xTDIwLjAxNC4yMTFBLjU0MS41NDEsMCwwLDAsMTkuNTgyLDBINS45NWEuNTQxLjU0MSwwLDAsMC0uNDMzLjIxMUwuMTM1LDcuMjQzYS40MzguNDM4LDAsMCwwLS4wNTQuMXMwLDAsMCwuMDI3QS40NTQuNDU0LDAsMCwwLDAsNy41NzNWMjYuNjQxYS41NDEuNTQxLDAsMCwwLC41NDEuNTQxSDEyLjMxN2EuNTc5LjU3OSwwLDAsMCwuMTczLS4wMzJ2My4xMWEuNTM5LjUzOSwwLDAsMCwuNTQxLjU0MWguMWwxNi44MTctMi45MjFhLjU0MS41NDEsMCwwLDAsLjQ0OS0uNTQxVjExLjE0OUEuNTQxLjU0MSwwLDAsMCwyOS44NTQsMTAuNjA4Wk0xOS4zMzMsMS4wODJsNC41Niw1Ljk1SDEzLjNWMS4wODJabS0xMy4xMzksMEgxMi4yMnY1Ljk1SDEuNjIzWm02LjgzNyw5LjUyNmEuNTQxLjU0MSwwLDAsMC0uNTQxLjU0MVYyNi4xMzhhLjQ0OS40NDksMCwwLDAtLjE3My0uMDM4SDEuMDgyVjguMTE0SDI0LjM5VjEwLjZaTTIzLjU4NSwyNy44NzlsLTQuMjc5Ljc0NnYtNS44OGg0LjI3OVptNS43MjgtMS00LjY0Ny44MDZWMjIuMjA1YS41NDEuNTQxLDAsMCwwLS41NDEtLjU0MUgxOC43NjVhLjU0MS41NDEsMCwwLDAtLjU0MS41NDF2Ni42bC00LjY1Mi44MTFWMTEuNjg5SDI5LjMxM1oiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDAgMCkiLz48L2c+PC9zdmc+" class="img-fluid" alt="Pickup">
-                        <div>
-                            <h6>View all store stock.</h6>
-                        </div>
-                        <button type="button" class="btn btn-secondary">VIEW ALL STORE STOCK<img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4LjA0NSIgaGVpZ2h0PSIxNC4wNjIiIHZpZXdCb3g9IjAgMCA4LjA0NSAxNC4wNjIiPjxkZWZzPjxzdHlsZT4uYXtmaWxsOiM0MjQ0NTM7c3Ryb2tlOiM0MjQ0NTM7fTwvc3R5bGU+PC9kZWZzPjxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKDcuNDkgMC41NTUpIHJvdGF0ZSg5MCkiPjxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKDAgNi45MzQpIHJvdGF0ZSgtOTApIj48ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSgwIDApIj48cGF0aCBjbGFzcz0iYSIgZD0iTS40MzIsNi45MzZBLjQzNC40MzQsMCwwLDEsLjEyNiw2LjJMNi4yLjEyNmEuNDMyLjQzMiwwLDEsMSwuNjExLjYxMUwuNzM3LDYuODA4QS40MzQuNDM0LDAsMCwxLC40MzIsNi45MzZaIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgwIDYuMDcxKSIvPjxwYXRoIGNsYXNzPSJhIiBkPSJNNi41LDYuOTM2QS40MzQuNDM0LDAsMCwxLDYuMiw2LjgwOEwuMTI2LjczOEEuNDMyLjQzMiwwLDAsMSwuNzM3LjEyNkw2LjgwOCw2LjJhLjQzNC40MzQsMCwwLDEtLjMwNi43MzlaIi8+PC9nPjwvZz48L2c+PC9zdmc+" class="img-fluid" alt="Arrow Icon">
-                        </button>
+                    <button type="button" class="review-btn btn btn-outline-secondary">VIEW ALL REVIEW <img src="data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjUxMiIgdmlld0JveD0iMCAwIDE2IDE2IiB3aWR0aD0iNTEyIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9IiM0MjQ0NTMiPjxwYXRoIGQ9Im0xMi44NTMgMTYuMDkwNWMtLjA2ODg0NzcgMC0uMTM4MTg0LS4wMTQxODMtLjIwMzEyNS0uMDQzMDM4NGwtNC42MTgxNi0yLjA1NjA2LTQuNjE4MTYgMi4wNTYwNmMtLjE3MDg5OC4wNzU4MDY2LS4zNzAxMTcuMDQ5Mzk1Ni0uNTE1NjI1LS4wNjcwMDMzLS4xNDU5OTYtLjExNjg4OC0uMjE0MzU1LS4zMDU2Ny0uMTc3NzM0LS40ODkwNzJsMS4wMTg1NS01LjEwMjQ5LTMuNTYwNTUtMy41NjY4Yy0uMTMwMzcxLS4xMzA1ODItLjE3ODIyMy0uMzIyMjk5LS4xMjUtLjQ5OTM0My4wNTMyMjI3LS4xNzY1NTUuMTk5NzA3LS4zMDk1ODMuMzgwMzcxLS4zNDU3NzRsNS4xMDM1Mi0xLjAyMjY1IDIuMDM3Ni00LjU5MjM5Yy4xNjExMzMtLjM2MTkxMy43NTI5My0uMzYxOTEzLjkxNDA2MyAwbDIuMDM3NiA0LjU5MjM5IDUuMTAzNTIgMS4wMjI2NWMuMTgwNjY0LjAzNjE5MTUuMzI3MTQ4LjE2OTIxOS4zODAzNzEuMzQ1Nzc0LjA1MzIyMjcuMTc3MDQ0LjAwNTM3MTEuMzY4NzYxLS4xMjUuNDk5MzQzbC0zLjU2MDU1IDMuNTY2OCAxLjAxODU1IDUuMTAyNDljLjAzNjYyMTEuMTgzNDAyLS4wMzE3MzgzLjM3MjE4NC0uMTc3NzM0LjQ4OTA3Mi0uMDkwMzMyMS4wNzIzODMtLjIwMTE3Mi4xMTAwNDItLjMxMjUuMTEwMDQyem0tNC44MjEyOS0zLjE0ODE2Yy4wNjkzMzU5IDAgLjEzODY3Mi4wMTQxODMuMjAzMTI1LjA0MzAzODRsMy45Mzg0OCAxLjc1MzgxLS44ODE4MzYtNC40MTY4MWMtLjAzMjcxNDgtLjE2NDMyOC4wMTg1NTQ3LS4zMzQwMzYuMTM2NzE5LS40NTIzOTJsMy4wODkzNi0zLjA5NDM2LTQuNDQwOTItLjg5MDExMWMtLjE1OTE4LS4wMzE3ODk5LS4yOTI5NjktLjEzODg5Ny0uMzU4ODg3LS4yODc1NzVsLTEuNjg2MDQtMy43OTk2LTEuNjg2MDQgMy43OTk2Yy0uMDY1OTE4LjE0ODY3OC0uMTk5NzA3LjI1NTc4NS0uMzU4ODg3LjI4NzU3NWwtNC40NDA5Mi44OTAxMTEgMy4wODkzNiAzLjA5NDM2Yy4xMTgxNjQuMTE4MzU2LjE2OTQzNC4yODgwNjQuMTM2NzE5LjQ1MjM5MmwtLjg4MTgzNiA0LjQxNjgxIDMuOTM4NDgtMS43NTM4MWMuMDY0NDUzLS4wMjg4NTUzLjEzMzc4OS0uMDQzMDM4NC4yMDMxMjUtLjA0MzAzODR6IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtLjAzMiAtLjA5KSIvPjwvc3ZnPg==" alt="Rating"></button> -->
+                </div>
+                <hr>
+                <div class="warranty">
+                    <div>
+                        <img src="https://contents.mediadecathlon.com/s810456/k$3d1c34a67fc4a7d2659a8f40f2f68cb7/Warranty.png" alt="Warranty">
+                    </div>
+                    <div class="warrantyYr">
+                        <h3>2 YEARS</h3>
+                        <small>WARRANTY*</small>
                     </div>
                 </div>
                 <hr>
-                <div class="made-for">
-                    <h5>MADE FOR</h5>
-                    <p>Our designers developed this padded jacket for your mountain outings in good weather.. This comfortable padded jacket is the ideal solution for every season! Thanks to its compact size, it fits anywhere, so that you can keep yourself warm whenever you need.</p>
+                <div class="product_size">
+                    <h5>SIZE</h5>
+                    <select name="Select your size" class="size" id="sizeSelect" aria-placeholder="Select your size">
+                        <option value="size">Select your size</option>
+                        <option value="s">S</option>
+                        <option value="m">M</option>
+                        <option value="L">L</option>
+                        <option value="XL">XL</option>
+                        <option value="2XL">2XL</option>
+                        <option value="3XL">3Xl</option>
+                    </select>
+                    <button type="button" class="size_chart" id="open">
+                        <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI2Ni41NCIgaGVpZ2h0PSIzNC4zNDMiIHZpZXdCb3g9IjAgMCA2Ni41NCAzNC4zNDMiPjxkZWZzPjxzdHlsZT4uYXtmaWxsOiMwMDgyYzM7c3Ryb2tlOiMwMDc5YmE7c3Ryb2tlLWxpbmVjYXA6cm91bmQ7c3Ryb2tlLXdpZHRoOjJweDt9PC9zdHlsZT48L2RlZnM+PGcgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTEyMzcgLTYxOS4wMykiPjxwYXRoIGNsYXNzPSJhIiBkPSJNNDk0MCwyMzQ1Ljc4NnYyNC40NzEiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0zNzAyIC0xNzE3Ljg4NSkiLz48cGF0aCBjbGFzcz0iYSIgZD0iTTQ5NDAsMjM0NS43ODZ2MTIuMjM2IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMzY4OS4wOTIgLTE3MDUuNjUpIi8+PHBhdGggY2xhc3M9ImEiIGQ9Ik00OTQwLDIzNDUuNzg2djE3LjM0NSIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTM2NzYuMTg0IC0xNzEwLjc2KSIvPjxwYXRoIGNsYXNzPSJhIiBkPSJNNDk0MCwyMzQ1Ljc4N3YzMi4zNDMiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0zNjYzLjI3NiAtMTcyNS43NTcpIi8+PHBhdGggY2xhc3M9ImEiIGQ9Ik00OTQwLDIzNDUuNzg2djEyLjIzNiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTM2NTAuMzY5IC0xNzA1LjY1KSIvPjxwYXRoIGNsYXNzPSJhIiBkPSJNNDk0MCwyMzQ1Ljc4NnYyNC40NzEiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0zNjM3LjQ2IC0xNzE3Ljg4NSkiLz48L2c+PC9zdmc+" class="img-fluid" alt="Size Chart">VIEW SIZE CHART   <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4LjA0NSIgaGVpZ2h0PSIxNC4wNjIiIHZpZXdCb3g9IjAgMCA4LjA0NSAxNC4wNjIiPjxkZWZzPjxzdHlsZT4uYXtmaWxsOiMwMDgyYzM7c3Ryb2tlOiMwMDgyYzM7fTwvc3R5bGU+PC9kZWZzPjxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKDcuNDkgMC41NTUpIHJvdGF0ZSg5MCkiPjxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKDAgNi45MzQpIHJvdGF0ZSgtOTApIj48ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSgwIDApIj48cGF0aCBjbGFzcz0iYSIgZD0iTS40MzIsNi45MzZBLjQzNC40MzQsMCwwLDEsLjEyNiw2LjJMNi4yLjEyNmEuNDMyLjQzMiwwLDEsMSwuNjExLjYxMUwuNzM3LDYuODA4QS40MzQuNDM0LDAsMCwxLC40MzIsNi45MzZaIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgwIDYuMDcxKSIvPjxwYXRoIGNsYXNzPSJhIiBkPSJNNi41LDYuOTM2QS40MzQuNDM0LDAsMCwxLDYuMiw2LjgwOEwuMTI2LjczOEEuNDMyLjQzMiwwLDAsMSwuNzM3LjEyNkw2LjgwOCw2LjJhLjQzNC40MzQsMCwwLDEtLjMwNi43MzlaIi8+PC9nPjwvZz48L2c+PC9zdmc+" class="img-fluid arrow" alt="Arrow Icon">
+                    </button>
+                    <!-- Modal starts here -->
+                </div>
+                <hr>
+                <div class="product-button">
+                    <button type="button" loader-start="Adding to cart..." loader-end="Added to cart" class="btn-yellow" id="cartBtn">ADD TO CART<img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMi4yNDkiIGhlaWdodD0iMTkuODAzIiB2aWV3Qm94PSIwIDAgMjIuMjQ5IDE5LjgwMyI+PGRlZnM+PHN0eWxlPi5he2ZpbGw6IzM2MzYzNjt9PC9zdHlsZT48L2RlZnM+PGcgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMC4wMDEgMCkiPjxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKDAgMCkiPjxwYXRoIGNsYXNzPSJhIiBkPSJNMTMuMDk0LDE3LjQ3N2EuNzQ3Ljc0NywwLDAsMS0uNzE0LS41MzFMOS4xODUsNi40NThBLjc1Ljc1LDAsMCwxLDkuOSw1LjQ5SDI3LjIzNmEuNzQ3Ljc0NywwLDAsMSwuNzQ3Ljc0N3Y4LjIyYS43NDcuNzQ3LDAsMCwxLS42MzEuNzQ3TDEzLjIwNiwxNy40NjlaTTEwLjkxMiw2Ljk4NWwyLjcwOSw4LjksMTIuODY4LTIuMDc3VjYuOTg1Wm0xNi4zMjUsNy40NzNaIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtNS43MzQgLTMuNDM5KSIvPjxwYXRoIGNsYXNzPSJhIiBkPSJNMjMuNTQ2LDQzLjZhMi44LDIuOCwwLDEsMSwyLjgtMi44LDIuOCwyLjgsMCwwLDEtMi44LDIuOFptMC00LjExYTEuMzA4LDEuMzA4LDAsMSwwLDEuMywxLjMwOCwxLjMwOCwxLjMwOCwwLDAsMC0xLjMtMS4zMDhaIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMTIuOTkyIC0yMy44MDEpIi8+PHBhdGggY2xhc3M9ImEiIGQ9Ik00NS41MTYsNDMuNmEyLjgsMi44LDAsMSwxLDIuOC0yLjgsMi44LDIuOCwwLDAsMS0yLjgsMi44Wm0wLTQuMTFhMS4zMDgsMS4zMDgsMCwxLDAsMS4zLDEuMzA4LDEuMzA4LDEuMzA4LDAsMCwwLTEuMy0xLjMwOFoiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0yNi43NTMgLTIzLjgwMSkiLz48cGF0aCBjbGFzcz0iYSIgZD0iTTQuMjU0LDMuODIzYS43NDcuNzQ3LDAsMCwxLS43MS0uNTEybC0uNS0xLjQ5NS0xLjk2Mi45NjhBLjc0OC43NDgsMCwwLDEsLjQxNywxLjQ0NkwzLjE1Mi4wNzlBLjc0Ny43NDcsMCwwLDEsNC4xOTQuNTEybC43NywyLjMzMmEuNzQ3Ljc0NywwLDAsMS0uNzEuOTc5WiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTAuMDAzIDApIi8+PC9nPjwvZz48L3N2Zz4=" class="img-fluid" alt="Cart">
+                    </button>
+                </div>
+                <hr>
+                <div class="delivery-services">
+                    <div class="row">
+                        <div class="mb-md-3 order-md-1  col">
+                            <div class="delivery-pincode">
+                                <h5>DELIVERY &amp; SERVICES</h5>
+                                <p>Currently showing the delivery options for pincode</p>
+                                <div class="pincode">800027<img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMi42NDIiIGhlaWdodD0iOS4wMjMiIHZpZXdCb3g9IjAgMCAxMi42NDIgOS4wMjMiPjxkZWZzPjxzdHlsZT4uYXtmaWxsOiNmZmY7c3Ryb2tlOiNmZmY7fTwvc3R5bGU+PC9kZWZzPjxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKDAuNTA1IDAuNTUzKSI+PGcgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMCkiPjxwYXRoIGNsYXNzPSJhIiBkPSJNMTEuNC4xMjFhLjM4Ni4zODYsMCwwLDAtLjU0NCwwTDMuOTMxLDcuMDQ3LjYsMy43MmEuMzg2LjM4NiwwLDEsMC0uNTQ0LjU0NmwzLjYsMy42YS4zODkuMzg5LDAsMCwwLC41NDYsMGw3LjItNy4yYS4zODYuMzg2LDAsMCwwLDAtLjU0NFoiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDAuMDcgLTAuMDA4KSIvPjwvZz48L2c+PC9zdmc+" class="img-fluid" alt="Success">
+                                    <button type="button" class="ml-auto btn btn-link" onclick="changePin()">CHANGE</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mb-3 order-md-2 col-auto">
+                            <div class="delivery-returns"> <!-- --> 
+                                <div class="blocks mr-3">
+                                    <img src="https://contents.mediadecathlon.com/s810453/k$b01109de2bacb669e5db58aefa3c6ee9/Free%20delivery.png" width="35px" class="img-fluid" alt="Home Delivery">Home Delivery at Your Doorstep<br>
+                                </div>
+                                <div class="blocks">
+                                    <img src="https://contents.mediadecathlon.com/s810455/k$5d275c8ba3f1f586032fc19f5bacf57f/90%20dats%20return.png" width="30px" class="img-fluid" alt="Returns">Easy 90 Days Return<br>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="delivery-services-info">
+                        <div class="blocks mb-3">
+                            <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzNi4yMTYiIGhlaWdodD0iMjYuODU5IiB2aWV3Qm94PSIwIDAgMzYuMjE2IDI2Ljg1OSI+PGRlZnM+PHN0eWxlPi5he2ZpbGw6IzQyNDQ1MztzdHJva2U6IzQyNDQ1Mzt9PC9zdHlsZT48L2RlZnM+PHBhdGggY2xhc3M9ImEiIGQ9Ik0zNS4yMTUsMTcuMjI2VjkuOGEuNjA3LjYwNywwLDAsMC0uMy0uNTI4bC03Ljk2LTQuNTQ4YS42MDcuNjA3LDAsMCwwLS4zODktLjA3M2wtNC4zNzIuNjA3Vi42YS42MDcuNjA3LDAsMCwwLS4yMTMtLjQ2MS42MDcuNjA3LDAsMCwwLS41LS4xNDZMLjUsMy42MzhhLjYwNy42MDcsMCwwLDAtLjUuNjA3VjIzLjA2N2EuNjA3LjYwNywwLDAsMCwuMjM3LjQ2OC42MDcuNjA3LDAsMCwwLC40NzQuMjQzaC4xbDMuOC0uNzFhNC4yMiw0LjIyLDAsMCwwLDguMTcyLTEuNDM5bDExLjQyMS0yLjAyMmE0LjI1LDQuMjUsMCwwLDAsOC4xMDYtMS40bDIuNDI5LS40MjVIMzQuOGEuNS41LDAsMCwwLC4xMzQtLjA0OWwuMDQyLS4xMzRhLjM0Ni4zNDYsMCwwLDAsLjEtLjA5MS4zMS4zMSwwLDAsMCwuMDU1LS4wNzkuNTM1LjUzNSwwLDAsMCwuMDU1LS4xMjEuNjA4LjYwOCwwLDAsMCwuMDM2LS4wODVaTTIwLjk3NywxLjMyNXY5LjkzOUwxLjIxNCwxNC43NDlWNC43MzFMOS43NzMsMy4yNTZaTTEuMjE0LDIyLjQ2VjE1Ljk4MkwyMC45NzcsMTIuNXY2LjQ0OGwtOC4zNTUsMS40NjlBNC4yNSw0LjI1LDAsMCwwLDQuMzQxLDIxLjU4YzAsLjEsMCwuMTk0LDAsLjI5MVptNy4zNTMsMi4xNjFhMy4wMjEsMy4wMjEsMCwxLDAsMC0uMDNabTEzLjYyNS01Ljg2NVY2LjVMMjYuNTMzLDUuOSwzNCwxMC4xNDd2Ni41TDMyLjE3OSwxN2E0LjI1LDQuMjUsMCwwLDAtOC4zMDYuOTcxYzAsLjE1MiwwLC4zMSwwLC40NjFaTTI4LjEsMjFhMi45OSwyLjk5LDAsMSwwLDAtLjAzWiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMC41IDAuNTE0KSIvPjwvc3ZnPg==" class="img-fluid" alt="Home Delivery">
+                            <div>
+                                <h6>Home Delivery by Wednesday, 17th Feb</h6>Order before 6:00PM
+                            </div>
+                        </div>
+                        <div class="blocks" style="">
+                            <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMS4zOTUiIGhlaWdodD0iMzEuODAxIiB2aWV3Qm94PSIwIDAgMzEuMzk1IDMxLjgwMSI+PGRlZnM+PHN0eWxlPi5he2ZpbGw6IzQyNDQ1Mzt9LmJ7ZmlsbDpub25lO30uY3tmaWxsOiM1MjU3NWE7c3Ryb2tlOiM0MjQ0NTM7fTwvc3R5bGU+PC9kZWZzPjxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKDAuNSAwLjUpIj48cmVjdCBjbGFzcz0iYSIgd2lkdGg9IjEyLjQ0MSIgaGVpZ2h0PSIzLjA5NCIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMTUuMjIyIDEzLjIxNikiLz48cGF0aCBjbGFzcz0iYiIgZD0iTTI1LjMwOSwxNUgyVjMyLjk4NkgxMy4yMzVhLjQ0OS40NDksMCwwLDEsLjE3My4wMzhWMTguMDM1YS41NDEuNTQxLDAsMCwxLC41NDEtLjU0MWgxMS4zNloiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0wLjkxOCAtNi44ODYpIi8+PHBhdGggY2xhc3M9ImIiIGQ9Ik0yNS4wOSwyMS42MVYzOS41NDJsNC42NTItLjgxMXYtNi42YS41NDEuNTQxLDAsMCwxLC41NDEtLjU0MWg1LjM2MWEuNTQxLjU0MSwwLDAsMSwuNTQxLjU0MXY1LjQ4NWw0LjY0Ny0uODA2VjIxLjYxWiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTExLjUxOCAtOS45MikiLz48cGF0aCBjbGFzcz0iYyIgZD0iTTI5Ljg1NCwxMC42MDhIMjUuNDcydi0yLjhoMFY3Ljc2OGEuNDc2LjQ3NiwwLDAsMCwuMDMyLS4xNTFzMCwwLDAtLjAyN2gwYS40NTQuNDU0LDAsMCwwLS4wMzgtLjE4OVY3LjM3M2EuNDM4LjQzOCwwLDAsMC0uMDU0LS4xTDIwLjAxNC4yMTFBLjU0MS41NDEsMCwwLDAsMTkuNTgyLDBINS45NWEuNTQxLjU0MSwwLDAsMC0uNDMzLjIxMUwuMTM1LDcuMjQzYS40MzguNDM4LDAsMCwwLS4wNTQuMXMwLDAsMCwuMDI3QS40NTQuNDU0LDAsMCwwLDAsNy41NzNWMjYuNjQxYS41NDEuNTQxLDAsMCwwLC41NDEuNTQxSDEyLjMxN2EuNTc5LjU3OSwwLDAsMCwuMTczLS4wMzJ2My4xMWEuNTM5LjUzOSwwLDAsMCwuNTQxLjU0MWguMWwxNi44MTctMi45MjFhLjU0MS41NDEsMCwwLDAsLjQ0OS0uNTQxVjExLjE0OUEuNTQxLjU0MSwwLDAsMCwyOS44NTQsMTAuNjA4Wk0xOS4zMzMsMS4wODJsNC41Niw1Ljk1SDEzLjNWMS4wODJabS0xMy4xMzksMEgxMi4yMnY1Ljk1SDEuNjIzWm02LjgzNyw5LjUyNmEuNTQxLjU0MSwwLDAsMC0uNTQxLjU0MVYyNi4xMzhhLjQ0OS40NDksMCwwLDAtLjE3My0uMDM4SDEuMDgyVjguMTE0SDI0LjM5VjEwLjZaTTIzLjU4NSwyNy44NzlsLTQuMjc5Ljc0NnYtNS44OGg0LjI3OVptNS43MjgtMS00LjY0Ny44MDZWMjIuMjA1YS41NDEuNTQxLDAsMCwwLS41NDEtLjU0MUgxOC43NjVhLjU0MS41NDEsMCwwLDAtLjU0MS41NDF2Ni42bC00LjY1Mi44MTFWMTEuNjg5SDI5LjMxM1oiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDAgMCkiLz48L2c+PC9zdmc+" class="img-fluid" alt="Pickup">
+                            <div>
+                                <h6>View all store stock.</h6>
+                            </div>
+                            <button type="button" class="btn btn-secondary">VIEW ALL STORE STOCK<img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4LjA0NSIgaGVpZ2h0PSIxNC4wNjIiIHZpZXdCb3g9IjAgMCA4LjA0NSAxNC4wNjIiPjxkZWZzPjxzdHlsZT4uYXtmaWxsOiM0MjQ0NTM7c3Ryb2tlOiM0MjQ0NTM7fTwvc3R5bGU+PC9kZWZzPjxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKDcuNDkgMC41NTUpIHJvdGF0ZSg5MCkiPjxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKDAgNi45MzQpIHJvdGF0ZSgtOTApIj48ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSgwIDApIj48cGF0aCBjbGFzcz0iYSIgZD0iTS40MzIsNi45MzZBLjQzNC40MzQsMCwwLDEsLjEyNiw2LjJMNi4yLjEyNmEuNDMyLjQzMiwwLDEsMSwuNjExLjYxMUwuNzM3LDYuODA4QS40MzQuNDM0LDAsMCwxLC40MzIsNi45MzZaIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgwIDYuMDcxKSIvPjxwYXRoIGNsYXNzPSJhIiBkPSJNNi41LDYuOTM2QS40MzQuNDM0LDAsMCwxLDYuMiw2LjgwOEwuMTI2LjczOEEuNDMyLjQzMiwwLDAsMSwuNzM3LjEyNkw2LjgwOCw2LjJhLjQzNC40MzQsMCwwLDEtLjMwNi43MzlaIi8+PC9nPjwvZz48L2c+PC9zdmc+" class="img-fluid" alt="Arrow Icon">
+                            </button>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="made-for">
+                        <h5>MADE FOR</h5>
+                        <p>Our designers developed this padded jacket for your mountain outings in good weather.. This comfortable padded jacket is the ideal solution for every season! Thanks to its compact size, it fits anywhere, so that you can keep yourself warm whenever you need.</p>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-    <!-- down part starts here -->
-    <div class="product-information">
-        <div class="product-tabs">
-            <div class="container-fluid">
-                <div class="tabs-header fixed">
-                    <ul>
-                        <li class="active">ADVANTAGES</li>
-                        <li class="">TECHNICAL INFORMATION</li>
-                        <li id="product-reviews-tab" class="">REVIEWS</li>
-                        <li class="">TREK CHECKLIST</li>
-                    </ul>
-                    <div class="active-tab-indicator" style="width: 107px; left: 95px;"></div>
-                </div>
-                <div class="tabs-content">
-                    <div class="container">
-                        <div class="active tab-content-wrapper">
-                            <div class="advantages">
-                                <div class="row">
-                                    <div class="col-lg-6">
-                                        <div class="media">
-                                            <div class="media-left">
-                                                <img src="https://contents-spid.decathlon.net/pictoBu/6e/89/6e899147-6511-4dd1-bf47-4e3a83ca8659.jpg" alt="Decathlon" class="img-fluid media-object">
-                                            </div>
-                                            <div class="media-body">
-                                                <h6>Warmth</h6>Comfortable at 10°C . Wadding with good fill power (100g/sqm).
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-6">
-                                        <div class="media">
-                                            <div class="media-left">
-                                                <img src="https://contents-spid.decathlon.net/pictoBu/57/76/5776a334-1973-4c59-a1b7-25085e3bc2c9.jpg" alt="Decathlon" class="img-fluid media-object">
-                                            </div>
-                                            <div class="media-body">
-                                                <h6>Eco-design</h6>Wadding made of 90% recycled polyester. Lining dye with a low carbon footprint</div>
-                                            </div>
-                                        </div>
+        <!-- down part starts here -->
+        <div class="product-information">
+            <div class="product-tabs">
+                <div class="container-fluid">
+                    <div class="tabs-header fixed">
+                        <ul>
+                            <li class="active">ADVANTAGES</li>
+                            <li class="">TECHNICAL INFORMATION</li>
+                            <li id="product-reviews-tab" class="">REVIEWS</li>
+                            <li class="">TREK CHECKLIST</li>
+                        </ul>
+                        <div class="active-tab-indicator" style="width: 107px; left: 95px;"></div>
+                    </div>
+                    <div class="tabs-content">
+                        <div class="container">
+                            <div class="active tab-content-wrapper">
+                                <div class="advantages">
+                                    <div class="row">
                                         <div class="col-lg-6">
                                             <div class="media">
                                                 <div class="media-left">
-                                                    <img src="https://contents-spid.decathlon.net/pictoBu/5e/3a/5e3ad9dc-a2ce-45d8-bd07-afcf6bf3f0a1.jpg" alt="Decathlon" class="img-fluid media-object">
+                                                    <img src="https://contents-spid.decathlon.net/pictoBu/6e/89/6e899147-6511-4dd1-bf47-4e3a83ca8659.jpg" alt="Decathlon" class="img-fluid media-object">
                                                 </div>
                                                 <div class="media-body">
-                                                    <h6>User comfort</h6>Protective tab on the zip of the stand-up collar at the chin
+                                                    <h6>Warmth</h6>Comfortable at 10°C . Wadding with good fill power (100g/sqm).
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="col-lg-6">
                                             <div class="media">
                                                 <div class="media-left">
-                                                    <img src="https://contents-spid.decathlon.net/pictoBu/05/f3/05f3247d-e08e-4b3a-a623-39c2d3a4a8af.jpg" alt="Decathlon" class="img-fluid media-object">
+                                                    <img src="https://contents-spid.decathlon.net/pictoBu/57/76/5776a334-1973-4c59-a1b7-25085e3bc2c9.jpg" alt="Decathlon" class="img-fluid media-object">
                                                 </div>
                                                 <div class="media-body">
-                                                    <h6>Pockets</h6>2 zipped pockets for securing your belongings
+                                                    <h6>Eco-design</h6>Wadding made of 90% recycled polyester. Lining dye with a low carbon footprint</div>
                                                 </div>
                                             </div>
-                                        </div>
-                                        <div class="col-lg-6">
-                                            <div class="media">
-                                                <div class="media-left">
-                                                    <img src="https://contents-spid.decathlon.net/pictoBu/d7/18/d718337c-deed-4dc5-b13b-f7288422805e.jpg" alt="Decathlon" class="img-fluid media-object">
-                                                </div>
-                                                <div class="media-body">
-                                                    <h6>Lightweight</h6>This padded jacket weighs approximately 400 g in size L
+                                            <div class="col-lg-6">
+                                                <div class="media">
+                                                    <div class="media-left">
+                                                        <img src="https://contents-spid.decathlon.net/pictoBu/5e/3a/5e3ad9dc-a2ce-45d8-bd07-afcf6bf3f0a1.jpg" alt="Decathlon" class="img-fluid media-object">
+                                                    </div>
+                                                    <div class="media-body">
+                                                        <h6>User comfort</h6>Protective tab on the zip of the stand-up collar at the chin
+                                                    </div>
                                                 </div>
                                             </div>
-                                        </div>
-                                        <div class="col-lg-6">
-                                            <div class="media">
-                                                <div class="media-left">
-                                                    <img src="https://contents-spid.decathlon.net/pictoBu/a7/22/a72270b4-0ade-4ac5-88b0-ed92488d6ce0.jpg" alt="Decathlon" class="img-fluid media-object">
+                                            <div class="col-lg-6">
+                                                <div class="media">
+                                                    <div class="media-left">
+                                                        <img src="https://contents-spid.decathlon.net/pictoBu/05/f3/05f3247d-e08e-4b3a-a623-39c2d3a4a8af.jpg" alt="Decathlon" class="img-fluid media-object">
+                                                    </div>
+                                                    <div class="media-body">
+                                                        <h6>Pockets</h6>2 zipped pockets for securing your belongings
+                                                    </div>
                                                 </div>
-                                                <div class="media-body">
-                                                    <h6>Easy maintenance</h6>This padded jacket is easy to machine wash | Quick drying
+                                            </div>
+                                            <div class="col-lg-6">
+                                                <div class="media">
+                                                    <div class="media-left">
+                                                        <img src="https://contents-spid.decathlon.net/pictoBu/d7/18/d718337c-deed-4dc5-b13b-f7288422805e.jpg" alt="Decathlon" class="img-fluid media-object">
+                                                    </div>
+                                                    <div class="media-body">
+                                                        <h6>Lightweight</h6>This padded jacket weighs approximately 400 g in size L
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6">
+                                                <div class="media">
+                                                    <div class="media-left">
+                                                        <img src="https://contents-spid.decathlon.net/pictoBu/a7/22/a72270b4-0ade-4ac5-88b0-ed92488d6ce0.jpg" alt="Decathlon" class="img-fluid media-object">
+                                                    </div>
+                                                    <div class="media-body">
+                                                        <h6>Easy maintenance</h6>This padded jacket is easy to machine wash | Quick drying
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
+                                <div class=" tab-content-wrapper"></div>
+                                <div class=" tab-content-wrapper"></div>
+                                <div class=" tab-content-wrapper"></div>
                             </div>
-                            <div class=" tab-content-wrapper"></div>
-                            <div class=" tab-content-wrapper"></div>
-                            <div class=" tab-content-wrapper"></div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+        <div class="footerContainer">
+            <div class="part1">
+                <div class="left-content">
+                    <div class="our-promise">
+                        <h5>OUR <br> PROMISE</h5>
+                        <a href="https://www.decathlon.in/page/decathlon-sports-india-guarantee" target="">
+                            <span class="mr-2">
+                                <img src="https://contents.mediadecathlon.com/s815922/k$4c96f3fc80da8eca20c8ade8d1347d06/warranty%20black.png?format=auto" alt="Minimum 2 Years Warranty*">
+                            </span>Minimum 2 Years <br> Warranty*
+                        </a>
+                        <a href="https://www.decathlon.in/shop/decathlon-pick-up-in-store" target="">
+                            <span class="mr-2">
+                                <img src="https://contents.mediadecathlon.com/s815921/k$7da28335077c70d5cdb391aa4efb67d5/home%20delivery%20black.png?format=auto" alt="Drive through/Free Pickup in Stores">
+                            </span>Drive through/Free <br> Pickup in Stores
+                        </a>
+                        <a href="https://www.decathlon.in/shop/decathlon-delivery" target="">
+                            <span class="mr-2">
+                                <img src="https://contents.mediadecathlon.com/s815924/k$346d028b8589907624e5287a02e8046d/Free%20pickup%20black.png?format=auto" alt="Home Delivery at Your Doorstep">
+                            </span>Home Delivery at <br> Your Doorstep
+                        </a>
+                        <a href="https://www.decathlon.in/shop/decathlon-return-policy" target="">
+                            <span class="mr-2">
+                                <img src="https://contents.mediadecathlon.com/s815923/k$b11fcb85d69a3af8c77d574cd4eaacf5/eaasy%20return%20black.png?format=auto" alt="Easy 90 Days Return">
+                            </span>Easy 90 Days Return
+                        </a>
+                    </div>
+                    <div class="useful_links">
+                        <div class="support">
+                            <h4>SUPPORT</h4>
+                            <div class="foot-links">
+                                <a href="https://www.decathlon.in/cms/decathlon-stores-2020">Contact our Stores</a>
+                                <a href="https://www.decathlon.in/shop/decathlon-delivery">Delivery</a>
+                            </div>
+                        </div>
+                        <div class="our-services">
+                            <h4>OUR SERVICEs</h4>
+                            <div class="foot-links">
+                                <a href="https://www.decathlon.in/shop/decathlon-for-schools">Decathlon for Schools</a>
+                                <a href="https://www.decathlon.in/shop/decathlon-for-corporates">Decathlon for Corporates</a>
+                                <a href="https://www.decathlon.in/shop/decathlon-for-sports-clubs">Decathlon for Sport Clubs</a>
+                                <a href="https://giftcard.decathlon.in/?icm=footer&amp;icn=giftcard">E-Gift Vouchers</a>
+                                <a href="https://www.decathlon.in/page/decathlon-gift-card">Decathlon Gift Cards</a>
+                            </div>
+                        </div>
+                        <div class="about-us">
+                            <h4>ABOUT US</h4>
+                            <div class="foot-links">
+                                <a href="https://www.decathlon-united.com/en">Who we are</a>
+                                <a href="https://www.decathlon.in/shop/decathlon-csr-policy">Decathlon CSR</a>
+                                <a href="https://recruitment.decathlon.in">Careers</a>
+                                <a href="https://www.decathlon.in/shop/decathlon-newsroom-2020">Newsroom</a>
+                                <a href="https://www.decathlon.in/shop/decathlon-mii">Made In India</a>
+                            </div>
+                        </div>
+                        <div class="legal">
+                            <h4>LEGAL</h4>
+                            <div class="foot-links">
+                                <a href="https://www.decathlon.in/shop/decathlon-return-policy">Return Policy</a>
+                                <a href="https://www.decathlon.in/page/decathlon-terms-and-condition">Terms and Conditions</a>
+                                <a href="https://www.decathlon.in/page/decathlon-privacy-policy">Privacy Policy</a>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="secure_tran">
+                        <div class="secure">
+                            <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzNy40MjciIGhlaWdodD0iNDMuODcxIiB2aWV3Qm94PSIwIDAgMzcuNDI3IDQzLjg3MSI+PGRlZnM+PHN0eWxlPi5he2ZpbGw6IzQyNDQ1MztzdHJva2U6IzQyNDQ1Mzt9PC9zdHlsZT48L2RlZnM+PGcgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMC41IDAuNSkiPjxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKDAgMCkiPjxwYXRoIGNsYXNzPSJhIiBkPSJNMTguMjA5LDQyLjg1OUMxNi4zNTQsNDIuODU5LDAsMzUuNDE4LDAsOC43YS43MzkuNzM5LDAsMCwxLC41NjktLjczOUMuNjk1LDcuOTQ5LDEzLjMsNC45LDE3LjY3Ny4yMTlhLjczOS43MzksMCwwLDEsMS4wNzIsMGM0LjQsNC42OTMsMTcsNy43MywxNy4xMDgsNy43NmEuNzM5LjczOSwwLDAsMSwuNTY5LjczOUMzNi40MjYsMzUuNDE4LDIwLjA3MSw0Mi44NTksMTguMjA5LDQyLjg1OVpNMS40NzgsOS4yNzJDMS43MDcsMzQuMSwxNi41MjQsNDEuMzM3LDE4LjIxNiw0MS4zODFTMzQuNzMzLDM0LjEsMzQuOTQ4LDkuMjcyQzMyLjQ1Nyw4LjYzNiwyMi43LDUuOTA5LDE4LjIwOSwxLjc2MywxMy43MjMsNS45MDksMy45NjgsOC42MzYsMS40NzgsOS4yNzJaIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgwIDAuMDExKSIvPjwvZz48L2c+PC9zdmc+" alt="Secure">
+                            <div class="secure_content">
+                                <h6>100% SECURE TRANSACTION</h6><p>Secure SSL encryption</p>
+                            </div>
+                        </div>
+                        <div class="card-4">
+                            <img class="card" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI2Ni41NTciIGhlaWdodD0iMzYuODYyIiB2aWV3Qm94PSIwIDAgNjYuNTU3IDM2Ljg2MiI+PGRlZnM+PHN0eWxlPi5he2ZpbGw6IzAwNzliYTt9LmJ7ZmlsbDojZmFmYWZhO2ZvbnQtc2l6ZTo5cHg7Zm9udC1mYW1pbHk6Um9ib3RvQ29uZGVuc2VkLUl0YWxpYywgUm9ib3RvIENvbmRlbnNlZDtmb250LXN0eWxlOml0YWxpYztsZXR0ZXItc3BhY2luZzotMC4wMmVtO30uY3tmaWxsOm5vbmU7c3Ryb2tlOiNmN2Y3Zjc7fTwvc3R5bGU+PC9kZWZzPjxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0wLjA5NyAwLjIwMSkiPjxyZWN0IGNsYXNzPSJhIiB3aWR0aD0iNjMuODkzIiBoZWlnaHQ9IjM2Ljg2MiIgcng9IjMiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDAuMDk3IC0wLjIwMSkiLz48dGV4dCBjbGFzcz0iYiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMzIuMDk3IDIxLjc5OSkiPjx0c3BhbiB4PSItMTkuOTg3IiB5PSIwIj5ERUJJVCBDQVJEPC90c3Bhbj48L3RleHQ+PHBhdGggY2xhc3M9ImMiIGQ9Ik0wLDBWMTIuMjM5IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSg2Ni42NTQgNy45NjgpIHJvdGF0ZSg5MCkiLz48L2c+PC9zdmc+" alt="Debit">
+                            <img class="card" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI2NC44MTEiIGhlaWdodD0iMzYuODYyIiB2aWV3Qm94PSIwIDAgNjQuODExIDM2Ljg2MiI+PGRlZnM+PHN0eWxlPi5he2ZpbGw6IzU3NWQ1ZTt9LmJ7ZmlsbDojZmFmYWZhO2ZvbnQtc2l6ZTo5cHg7Zm9udC1mYW1pbHk6Um9ib3RvQ29uZGVuc2VkLUl0YWxpYywgUm9ib3RvIENvbmRlbnNlZDtmb250LXN0eWxlOml0YWxpYztsZXR0ZXItc3BhY2luZzotMC4wMmVtO30uY3tmaWxsOm5vbmU7c3Ryb2tlOiNmN2Y3Zjc7fTwvc3R5bGU+PC9kZWZzPjxyZWN0IGNsYXNzPSJhIiB3aWR0aD0iNjMuODkzIiBoZWlnaHQ9IjM2Ljg2MiIgcng9IjMiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDAgMCkiLz48dGV4dCBjbGFzcz0iYiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMzEuNjM2IDIyLjIyKSI+PHRzcGFuIHg9Ii0yMi4zNCIgeT0iMCI+Q1JFRElUIENBUkQ8L3RzcGFuPjwvdGV4dD48cGF0aCBjbGFzcz0iYyIgZD0iTTAsMFYxMi4yMzkiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDY0LjgxMSA3Ljk2OCkgcm90YXRlKDkwKSIvPjxwYXRoIGNsYXNzPSJjIiBkPSJNMCwwVjEyLjIzOSIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoNjQuODExIDEwLjQyNSkgcm90YXRlKDkwKSIvPjwvc3ZnPg==" alt="Credit">
+                            <img class="card" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI2My44OTMiIGhlaWdodD0iMzYuODYyIiB2aWV3Qm94PSIwIDAgNjMuODkzIDM2Ljg2MiI+PGRlZnM+PHN0eWxlPi5hLC5me2ZpbGw6bm9uZTt9LmF7c3Ryb2tlOiM3MDcwNmU7fS5ie2ZpbGw6IzcwNzA2ZTt9LmN7ZmlsbDojMDk4MDQxO30uZHtmaWxsOiNlOTc2MjY7fS5le3N0cm9rZTpub25lO308L3N0eWxlPjwvZGVmcz48ZyBjbGFzcz0iYSIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMCAwKSI+PHJlY3QgY2xhc3M9ImUiIHdpZHRoPSI2My44OTMiIGhlaWdodD0iMzYuODYyIiByeD0iMyIvPjxyZWN0IGNsYXNzPSJmIiB4PSIwLjUiIHk9IjAuNSIgd2lkdGg9IjYyLjg5MyIgaGVpZ2h0PSIzNS44NjIiIHJ4PSIyLjUiLz48L2c+PGcgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoOS4yMzggMTIuNjA2KSI+PGcgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMCkiPjxwYXRoIGNsYXNzPSJiIiBkPSJNNjk5LjIzNyw5Ny41MzJINjk2LjhMNzAwLjE4Nyw4NS4zaDIuNDM3WiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTY2NC40MTQgLTg1LjMpIi8+PGcgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMTUuOTkgMC4wMzMpIj48cGF0aCBjbGFzcz0iYiIgZD0iTTQxOS4wNjcsODYuMjVhLjkuOSwwLDAsMC0uNzgzLS4zNUg0MDQuODkybC0uNjYxLDIuNGgxMi4xODJsLS43MTEsMi41NmgtOS43NDR2LS4wMDZoLTIuNDM3bC0yLjAyMSw3LjNoMi40MzdsMS4zNTUtNC45aDEwLjk1NWExLjU0NCwxLjU0NCwwLDAsMCwuOTY2LS4zNSwxLjYyNywxLjYyNywwLDAsMCwuNTk0LS44NjZsMS4zNTUtNC45QS45OTMuOTkzLDAsMCwwLDQxOS4wNjcsODYuMjVaIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtNDAxLjUgLTg1LjkpIi8+PC9nPjxwYXRoIGNsYXNzPSJiIiBkPSJNMTI4LjA4Nyw5Ny4zMzJhMS4xMjMsMS4xMjMsMCwwLDEtMS4wNzcuODIySDExNC40NDVhLjg3OC44NzgsMCwwLDEtLjc2Ni0uMzUuOTYxLjk2MSwwLDAsMS0uMTA1LS44NjZMMTE2LjYzOCw4NS45aDIuNDM3bC0yLjczNyw5Ljg2MWg5Ljc1bDIuNzM3LTkuODYxaDIuNDM3WiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTExMy41MTggLTg1Ljg2NykiLz48ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSgzNi44NDkgMC4wMjIpIj48cGF0aCBjbGFzcz0iYyIgZD0iTTgxOS43LDg1LjdsMy4wODEsNi4xMy02LjQ4LDYuMTNaIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtODE0LjEyOSAtODUuNykiLz48cGF0aCBjbGFzcz0iZCIgZD0iTTc4MC42LDg1LjdsMy4wODIsNi4xMy02LjQ4NSw2LjEzWiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTc3Ny4yIC04NS43KSIvPjwvZz48L2c+PC9nPjwvc3ZnPg==" alt="UPI">
+                            <img class="card" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI2My44OTMiIGhlaWdodD0iMzYuODYyIiB2aWV3Qm94PSIwIDAgNjMuODkzIDM2Ljg2MiI+PGRlZnM+PHN0eWxlPi5hLC5le2ZpbGw6bm9uZTt9LmF7c3Ryb2tlOiM3MDcwNzA7fS5iLC5je2ZpbGw6IzU3NWQ1ZTtmb250LXNpemU6OXB4O2ZvbnQtc3R5bGU6aXRhbGljO2xldHRlci1zcGFjaW5nOi0wLjAyZW07fS5ie2ZvbnQtZmFtaWx5OlJvYm90b0NvbmRlbnNlZC1JdGFsaWMsIFJvYm90byBDb25kZW5zZWQ7fS5je2ZvbnQtZmFtaWx5OlJvYm90b0NvbmRlbnNlZC1Cb2xkSXRhbGljLCBSb2JvdG8gQ29uZGVuc2VkO2ZvbnQtd2VpZ2h0OjcwMDt9LmR7c3Ryb2tlOm5vbmU7fTwvc3R5bGU+PC9kZWZzPjxnIGNsYXNzPSJhIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgwIDApIj48cmVjdCBjbGFzcz0iZCIgd2lkdGg9IjYzLjg5MyIgaGVpZ2h0PSIzNi44NjIiIHJ4PSIzIi8+PHJlY3QgY2xhc3M9ImUiIHg9IjAuNSIgeT0iMC41IiB3aWR0aD0iNjIuODkzIiBoZWlnaHQ9IjM1Ljg2MiIgcng9IjIuNSIvPjwvZz48dGV4dCBjbGFzcz0iYiIgdHJhbnNmb3JtPSJtYXRyaXgoMC45ODUsIC0wLjE3NCwgMC4xNzQsIDAuOTg1LCAyNi40NDIsIDE3LjMyMSkiPjx0c3BhbiB4PSItNy42NzMiIHk9IjAiPk5FVCA8L3RzcGFuPjwvdGV4dD48dGV4dCBjbGFzcz0iYyIgdHJhbnNmb3JtPSJtYXRyaXgoMC45ODUsIC0wLjE3NCwgMC4xNzQsIDAuOTg1LCAzNC42MTMsIDI1LjA3OCkiPjx0c3BhbiB4PSItMTUuNDcxIiB5PSIwIj5CQU5LSU5HPC90c3Bhbj48L3RleHQ+PC9zdmc+" alt="Net Banking">
+                        </div>
+                        <div class="site_map">
+                            <a href="/sitemap" >Site Map</a>
+                        </div>
+                        <div class="decathlon">DECATHLON is present in<div class="countries"><p class="p-c">46<!-- --> <!-- -->Countries</p></div>
+                        </div>
+                    </div>
+                    <hr>
+                
+                </div>
+                <div class="right-content">
+                    <div class="app">
+                        <h6>EXPERIENCE DECATHLON APP ON <br> MOBILE</h6>
+                        <div class="google_play">
+                            <a href="https://play.google.com/store/apps/details?id=com.evamall.evacustomer&amp;hl=en_IN" target="_blank">
+                                <img src="data:image/png;base64,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" alt="Gplay">
+                            </a>
+                            <a href="https://apps.apple.com/in/app/decathlon-online-shopping-app/id1387810949" target="_blank">
+                                <img src="https://cdncontent.decathlon.in/_next/static/images/app_store-76193f3bfd9ae751fd53079ddca46099.svg" alt="Gplay">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="follow">
+                        <h6>FOLLOW US</h6>
+                        <div class="social_media">
+                            <a href="https://www.facebook.com/decathlonindia" title="Facebook" target="_blank">
+                                <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5LjE0OSIgaGVpZ2h0PSIxOS44MTkiIHZpZXdCb3g9IjAgMCA5LjE0OSAxOS44MTkiPjxkZWZzPjxzdHlsZT4uYXtmaWxsOiNlZmViZTM7fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJhIiBkPSJNMi4wNzUsMTkuODE5aDMuOTlWOS44MjVIOC44NTFsLjMtMy4zMjlINi4wNjVWNC41ODZjMC0uNzkxLjE2MS0xLjEuOTIxLTEuMUg5LjE0OVYwSDYuMzg2QzMuNDEzLDAsMi4wNzUsMS4zMDcsMi4wNzUsMy44MjJWNi41SDB2My4zOUgyLjA3NVoiLz48L3N2Zz4=" target="_blank" alt="facebook">
+                            </a>
+                            <a href="https://twitter.com/decathlon_india" title="Twitter" target="_blank">
+                                <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNC4zNjEiIGhlaWdodD0iMTkuODE5IiB2aWV3Qm94PSIwIDAgMjQuMzYxIDE5LjgxOSI+PGRlZnM+PHN0eWxlPi5he2ZpbGw6I2VmZWJlMzt9PC9zdHlsZT48L2RlZnM+PHBhdGggY2xhc3M9ImEiIGQ9Ik0wLDE3LjUzMmExNC4xNTUsMTQuMTU1LDAsMCwwLDcuNjY0LDIuMjQ5LDE0LjEzNywxNC4xMzcsMCwwLDAsMTQuMi0xNC44NjksMTAuMTc5LDEwLjE3OSwwLDAsMCwyLjQ5NC0yLjU4NSw5Ljk2Niw5Ljk2NiwwLDAsMS0yLjg3My43ODMsNC45OTQsNC45OTQsMCwwLDAsMi4yLTIuNzY2LDkuOTcxLDkuOTcxLDAsMCwxLTMuMiwxLjIxNSw1LDUsMCwwLDAtOC41MjcsNC41NTdBMTQuMiwxNC4yLDAsMCwxLDEuNjk1LjksNSw1LDAsMCwwLDMuMjQ2LDcuNTcxLDQuOTMsNC45MywwLDAsMSwuOTgxLDYuOTQyYTUsNSwwLDAsMCw0LjAwOCw0Ljk2Nyw1LjAyLDUuMDIsMCwwLDEtMi4yNi4wODVBNSw1LDAsMCwwLDcuNCwxNS40NjQsMTAuMDMsMTAuMDMsMCwwLDEsMCwxNy41MzJaIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgwIDAuMDM4KSIvPjwvc3ZnPg==" target="_blank" alt="twitter">
+                            </a>
+                            <a href="https://www.instagram.com/decathlonsportsindia/" title="instagram" target="_blank">
+                                <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxOS44MTkiIGhlaWdodD0iMTkuODE5IiB2aWV3Qm94PSIwIDAgMTkuODE5IDE5LjgxOSI+PGRlZnM+PHN0eWxlPi5he2ZpbGw6I2VmZWJlMzt9PC9zdHlsZT48L2RlZnM+PGcgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTIzNy41MDYgLTg1LjIyNSkiPjxwYXRoIGNsYXNzPSJhIiBkPSJNOS45MSwxLjc4NmMyLjY0NiwwLDIuOTQ5LDAsNCwuMDU1YTUuNTYxLDUuNTYxLDAsMCwxLDEuODQxLjM0MSwzLjEzLDMuMTMsMCwwLDEsMS4xNDIuNzQyLDMuMDY3LDMuMDY3LDAsMCwxLC43MzcsMS4xNDJBNS4zNDIsNS4zNDIsMCwwLDEsMTcuOTc0LDUuOWMuMDUxLDEuMDQ1LjA1OSwxLjM1Ny4wNTksNHMwLDIuOTQ5LS4wNTksNGE1LjM0Miw1LjM0MiwwLDAsMS0uMzQxLDEuODQxLDMuMjMyLDMuMjMyLDAsMCwxLTEuODc5LDEuODc5LDUuMzQyLDUuMzQyLDAsMCwxLTEuODQxLjM0MWMtMS4wNDUuMDUxLTEuMzU3LjA1OS00LC4wNTlzLTIuOTQ5LDAtNC0uMDU5YTUuMzQyLDUuMzQyLDAsMCwxLTEuODQxLS4zNDEsMy4wNjcsMy4wNjcsMCwwLDEtMS4xNDItLjcyOSwzLjEzLDMuMTMsMCwwLDEtLjc0Mi0xLjE0Miw1LjU2MSw1LjU2MSwwLDAsMS0uMzQxLTEuODVjLS4wNDYtMS4wNDUtLjA1NS0xLjM1Ny0uMDU1LTRzMC0yLjk0OS4wNTUtNGE1LjU2MSw1LjU2MSwwLDAsMSwuMzQxLTEuODQxQTMuMjc0LDMuMjc0LDAsMCwxLDQuMDY2LDIuMTgyLDUuNTYxLDUuNTYxLDAsMCwxLDUuOSwxLjg0MWMxLjA0NS0uMDQ2LDEuMzU3LS4wNTUsNC0uMDU1TTkuOSwwQzcuMjA5LDAsNi44NzIsMCw1LjgxNC4wNTlhNy4zNzcsNy4zNzcsMCwwLDAtMi40LjQ1OUE0LjkyNSw0LjkyNSwwLDAsMCwxLjY4NSwxLjY4NSw0LjkyNSw0LjkyNSwwLDAsMCwuNTE4LDMuNDE3LDcuMzc3LDcuMzc3LDAsMCwwLC4wNTksNS44MjNDMCw2Ljg4LDAsNy4yMTcsMCw5LjkwOVMwLDEyLjkzOS4wNTksMTRBNy4zNzcsNy4zNzcsMCwwLDAsLjUxOCwxNi40YTQuOTI1LDQuOTI1LDAsMCwwLDEuMTY3LDEuNzUzQTQuODU4LDQuODU4LDAsMCwwLDMuNDE3LDE5LjNhNy4yNTUsNy4yNTUsMCwwLDAsMi40MDYuNDYzYzEuMDU4LjA0NiwxLjM5NS4wNTksNC4wODcuMDU5czMuMDI5LDAsNC4wODctLjA1OUE3LjI1NSw3LjI1NSwwLDAsMCwxNi40LDE5LjMsNS4wNTYsNS4wNTYsMCwwLDAsMTkuMywxNi40LDcuMjU1LDcuMjU1LDAsMCwwLDE5Ljc2LDE0Yy4wNDYtMS4wNTguMDU5LTEuMzk1LjA1OS00LjA4N3MwLTMuMDI5LS4wNTktNC4wODdBNy4yNTUsNy4yNTUsMCwwLDAsMTkuMywzLjQxN2E0Ljg1OCw0Ljg1OCwwLDAsMC0xLjE0Mi0xLjczMkE0LjkyNSw0LjkyNSwwLDAsMCwxNi40LjUzOSw3LjM3Nyw3LjM3NywwLDAsMCwxNCwuMDU5QzEyLjkzOSwwLDEyLjYsMCw5LjkxLDAiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDIzNy41MDYgODUuMjI1KSIvPjxwYXRoIGNsYXNzPSJhIiBkPSJNMTYuNTMsMTEuNDRhNS4wOSw1LjA5LDAsMSwwLDUuMDksNS4wOSw1LjA5LDUuMDksMCwwLDAtNS4wOS01LjA5bTAsOC4zOTNhMy4zLDMuMywwLDEsMSwzLjMtMy4zLDMuMywzLjMsMCwwLDEtMy4zLDMuMyIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMjMwLjg4NiA3OC42MDQpIi8+PHBhdGggY2xhc3M9ImEiIGQ9Ik0zNS42MjUsOS4zNjhBMS4xOTIsMS4xOTIsMCwxLDEsMzQuNDMyLDguMThhMS4xOTIsMS4xOTIsMCwwLDEsMS4xOTIsMS4xODgiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDIxOC4yNzEgODAuNDkxKSIvPjwvZz48L3N2Zz4=" target="_blank" alt="instagram">
+                            </a>
+                            <a href="https://www.youtube.com/user/decathlonsportindia" title="Youtube" target="_blank">
+                                <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNy4xNzIiIGhlaWdodD0iMTkuODE5IiB2aWV3Qm94PSIwIDAgMTcuMTcyIDE5LjgxOSI+PGRlZnM+PHN0eWxlPi5he2ZpbGw6I2VmZWJlMzt9PC9zdHlsZT48L2RlZnM+PGcgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTMzMC44MDcgLTg1LjIyNSkiPjxwYXRoIGNsYXNzPSJhIiBkPSJNMjcuNTExLDEwLjkxNGExLjY2NCwxLjY2NCwwLDAsMCwxLjIxNS0uNzA4di42MjdoMS4wNDlWNS4xODRIMjguNzI2djQuMjhjLS4xMjguMTYzLS40MTQuNDIyLS42MTkuNDIycy0uMjc5LS4xNTEtLjI3OS0uMzg3VjUuMThIMjYuNzhWOS45QzI2Ljc4LDEwLjQ1NCwyNi45NSwxMC45MTQsMjcuNTExLDEwLjkxNFoiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDMxNC4zODkgODIuMDQ5KSIvPjxwYXRoIGNsYXNzPSJhIiBkPSJNMTYuNjA3LDkuMzU1YTEuMzU3LDEuMzU3LDAsMCwwLDEuNTQ4LDEuNTA5LDEuNDM2LDEuNDM2LDAsMCwwLDEuNTA5LTEuNTA5VjYuNmExLjQ3LDEuNDcsMCwwLDAtMS41MDktMS41MTNBMS40MzksMS40MzksMCwwLDAsMTYuNjA3LDYuNlptMS4wOC0yLjY3NGMwLS4zMS4xNDMtLjUzOC40MzctLjUzOHMuNDYuMjI0LjQ2LjUzOFY5LjNjMCwuMzA2LS4xNTkuNTMtLjQ0MS41M2EuNDcyLjQ3MiwwLDAsMS0uNDU3LS41M1oiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDMyMC42MjcgODIuMTEpIi8+PHBhdGggY2xhc3M9ImEiIGQ9Ik03LjkxNSw3LjY1SDkuMXYtMy4xTDEwLjQ3MiwwaC0xLjJMOC41MTQsMy4wNTcsNy43LDBINi41MWwxLjQsNC41NDdaIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgzMjYuODE1IDg1LjIyNSkiLz48cGF0aCBjbGFzcz0iYSIgZD0iTTE0Ljc2OSwyMy4wOEgyLjM4N0EyLjQwNywyLjQwNywwLDAsMCwwLDI1LjQ4N3Y2LjA3NWEyLjQwNywyLjQwNywwLDAsMCwyLjQsMi40MDdIMTQuNzg1YTIuNDA3LDIuNDA3LDAsMCwwLDIuMzg3LTIuNDA3VjI1LjQ4N2EyLjQwNywyLjQwNywwLDAsMC0yLjQtMi40MDdaTTQuMDUxLDMyLjE2NUgyLjkyOVYyNS45MzlIMS43NjhWMjQuODgzSDUuMjJ2MS4wNTZINC4wNTlabTQsMGgtMXYtLjZhMi4xLDIuMSwwLDAsMS0uNTczLjVjLS41MzguMzEtMS4yNzcuMy0xLjI3Ny0uNzc0VjI2Ljc5NWguOTg3djQuMTE3YzAsLjIxNy4wNS4zNjQuMjYzLjM2NHMuNDY4LS4yNTIuNTg4LS4zODdWMjYuNzk1aDFaTTExLjksMzEuMDU1YzAsLjY2Mi0uMjQ4LDEuMTgtLjkxMywxLjE4YTEuMTYxLDEuMTYxLDAsMCwxLS45NDgtLjQ4di40MUg5LjAyN1YyNC44ODNoMS4wMXYyLjM0NWExLjIsMS4yLDAsMCwxLC44ODYtLjVjLjczMSwwLC45NzUuNjE5Ljk3NSwxLjM0N1ptMy42OTEtMS40MjhIMTMuNjgydjEuMDE0YzAsLjM4Ny4wMzEuNzUxLjQzMy43NTFzLjQ0OS0uMjg2LjQ0OS0uNzUxdi0uMzg3SDE1LjU5di4zODdjMCwxLjAzMy0uNDQ1LDEuNjYtMS41LDEuNjYtLjk1MiwwLTEuNDM5LS43LTEuNDM5LTEuNjZ2LTIuNGExLjQ3NCwxLjQ3NCwwLDAsMSwxLjUxNy0xLjU3OWMuOTYsMCwxLjQyLjYwNywxLjQyLDEuNTc5WiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMzMwLjgwNyA3MS4wNzUpIi8+PHBhdGggY2xhc3M9ImEiIGQ9Ik0yNi4xNDUsMzQuNzU1YS43NzQuNzc0LDAsMCwwLS4yMDUuMTY2djMuMzQ3YS44MzIuODMyLDAsMCwwLC4yMzYuMTkuNDI2LjQyNiwwLDAsMCwuNTExLS4wNTQuNjI3LjYyNywwLDAsMCwuMDg1LS4zODdWMzUuMjU4YS42ODkuNjg5LDAsMCwwLS4xLS40MTRBLjQyMi40MjIsMCwwLDAsMjYuMTQ1LDM0Ljc1NVoiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDMxNC45MDMgNjMuOTUpIi8+PC9nPjwvc3ZnPg==" target="_blank" alt="youtube">
+                            </a>
+                        </div>
+                        <div class="blog">
+                            <h6>SPORT ADVICE FOR YOU</h6>
+                            <div class="social_blog">
+                                <a href="https://blog.decathlon.in/?utm_source=website&amp;utm_medium=footer" title="Facebook" target="_blank">blog.decathlon.in</a>
+                            </div>
+                        </div>
+                        <div class="explore">
+                            <h6>EXPLORE SPORTS EVENTS NEAR YOU</h6>
+                            <div class="social_blog">
+                                <a href="https://www.allforsport.in/?utm_source=footer&amp;utm_medium=dsi%20website&amp;utm_campaign=footer_button" title="Facebook" target="_blank">allforsport.in</a>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
+            <div class="part2">
+                <h3>OUR PURPOSE</h3>
+                <p class="sustain">
+                    <span>To Sustainably <!-- --> </span>Make the Pleasure and Benefits of Sports Accessible to the Many
+                </p>
+                <div class="logo">
+                    <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNDA1LjM1OCIgaGVpZ2h0PSIyMTUuMDU2IiB2aWV3Qm94PSIwIDAgMTQwNS4zNTggMjE1LjA1NiI+PGRlZnM+PHN0eWxlPi5he29wYWNpdHk6MC4xMTM7fS5ie2ZpbGw6IzQyNDQ1Mzt9PC9zdHlsZT48L2RlZnM+PGcgY2xhc3M9ImEiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDAgLTE4KSI+PGcgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMCAxOCkiPjxwYXRoIGNsYXNzPSJiIiBkPSJNNzcsMS43OUgxOTVWNDcuMTY2bC02NC45MjMuMDQ4djMzLjdsNTYuMjA5LS4wNDh2NDQuMzE3bC01Ni4yMDkuMXYzNy4zNkgxOTV2NDUuMjA4SDc3WiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMTA4LjM1NiAyLjUxOSkiLz48cGF0aCBjbGFzcz0iYiIgZD0iTTM2NC40LDQuMjEzcy02OC4yOTMsMTE2LjItNzQuOTM3LDEyNi42NjhjLTcuOCwxMi4zMjUtMjQuNzQ2LDMxLjgyMy01MC4zODMsMzEuNDg2LTQxLjc0MS0uNjI2LTU3LjQxMi0yOS40NjQtNTcuNDEyLTU1LjM2NmE1NS4zNjYsNTUuMzY2LDAsMCwxLDU0LjEzOC01NS4zNjZjMzQuNjY0LS43LDYwLjQ0NSwzMi41LDYwLjQ0NSwzMi41bDI3LjEwNS00My42NjdTMjkyLjY4OC0xLjE3OSwyMzYuMzExLjFjLTg0LjksMS44NzgtMTA5LjYsNzMuMDExLTEwOS42LDEwNS45MTgsMCw2OS40LDUzLjQ0LDEwNC4wNjQsOTcuMDU5LDEwOC4zMjVDMjg2LjYsMjIwLjQ1NCwzMjEsMTc5LjQxLDMyMSwxNzkuNDFzLS40MzMsMCwxLjcwOS0uMTY5YzEyLjY4Ni0uMTQ0LDQ2LjEyMi4xNjksNDYuMTIyLjE2OXYzMC44NjFoNTEuMDU3VjQuMjEzWm01LjQ2NCwxMzIuMDM2SDM0Mi41MTdsMjcuMzQ2LTQ2LjY3NloiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDE3OC4zMDggMC4wOTYpIi8+PHBhdGggY2xhc3M9ImIiIGQ9Ik0yOTQuMzExLDIwOC4wMVY1MS4wMzZIMjUzLjFWMS43NkgzODguNTA2VjUxLjAzNkgzNDcuMzY3VjIwOC4wMVoiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDM1Ni4xNjcgMi40NzcpIi8+PHBhdGggY2xhc3M9ImIiIGQ9Ik00MjEuNTIzLDEyOS4xaC01NC42djc4Ljg4NUgzMTMuOTJWMS43OGg1My4wMDdWODAuMDg3aDU0LjZWMS43OGg1My4wMzF2MjA2LjJINDIxLjUyM1oiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDQ0MS43NTQgMi41MDUpIi8+PHBhdGggY2xhc3M9ImIiIGQ9Ik0zODcuMzgsMjA3Ljk1NFYxLjhoNTIuNzQyVjE2Mi40MWg2MS44OXY0NS41NDVaIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSg1NDUuMTI4IDIuNTMzKSIvPjxwYXRoIGNsYXNzPSJiIiBkPSJNNTI5LjE5MiwxNjMuNTQ2YzMwLjA0MiwwLDU0LjQ1MS0yMy44OCw1NC40NTEtNTcuNzczYTU0LjczNCw1NC43MzQsMCwxLDAtMTA5LjQ2OCwwYy4wMTIsMzIuNjY2LDI2LjE3OSw1Ny43NzMsNTUuMDE3LDU3Ljc3M20tNzUuOS0xMzMuMjE1QzQ3My45LDEwLjIwNyw0OTkuNjc5LDAsNTI5LjQ4LDBhMTA2LjMyNywxMDYuMzI3LDAsMCwxLDc0Ljc0NSwzMC42MiwxMDQuNCwxMDQuNCwwLDAsMSwzMi4zNTMsNzUuNTE0QTEwNi44OCwxMDYuODgsMCwwLDEsNTI5LjE5MiwyMTQuOTE2Yy0zMC45MDksMC01Ny4zNjQtMTEuMDQ5LTc3Ljk5NC0zMi43MTQtMTkuNjY3LTIwLjY1NC0yOS42NTctNDYuMjkxLTI5LjY1Ny03Ni45MTFhMTAzLjM2NywxMDMuMzY3LDAsMCwxLDMxLjc1MS03NC45NjEiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDU5My4xOTggMCkiLz48cGF0aCBjbGFzcz0iYiIgZD0iTTUwOC44OCwyMDcuOTY4VjEuNzloNDcuODA4TDYzNi4yNDcsMTE2LjNWMS43OWg1My4wMDdWMjA3Ljk2OGgtNDYuNkw1NjEuODM5LDkzLjEyVjIwNy45NjhaIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSg3MTYuMTA1IDIuNTE5KSIvPjxwYXRoIGNsYXNzPSJiIiBkPSJNMTM0LjE1NCwxMDQuMTY5YzAtMzcuMTE5LTIxLjA2My01OC4wMzgtNjAuMDM2LTU4LjAzOEg1Mi45NTlWMTYyLjY4OEg3NC4zODNjNDAuNTg2LDAsNTkuNzcxLTE3LjkzNCw1OS43NzEtNTguNTE5TTAsMjA3Ljk2OFYxLjc5SDc0LjExOGMzNC40NDcsMCw1OC41MTksNC4zMzMsODEuMSwyNC41NzgsMjAuNjc4LDE4LjU2LDMxLjY1NSw0NS41MiwzMS42NTUsNzkuNDM4LDAsMzEuMjk0LTEwLjY2NCw1Ny4xLTMxLjI5NCw3Ni41NS0yMy4xMzMsMjEuNDI0LTQzLjU3MSwyNS41MTYtNzQuMDcsMjUuNTE2WiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMCAyLjUxOSkiLz48L2c+PC9nPjwvc3ZnPg==" alt="Decathlon">
+                    <p>© 2021 Decathlon Sports India Pvt Ltd. All rights reserved.</p>
+                </div>
+                <div class="foot_bottom">
+                    <span class="blue"></span>
+                    <span class="orange"></span>
+                    <span class="green"></span>
+                </div>
+            </div>
         </div>
-
-        <!-- modal starts here -->
+            <!-- modal starts here -->
         <div class="popup-container" id="container">
             <div class="popup">
                 <button id="close">&times;</button>
                 <div class="header">
                     <h1><small>size chart</small><br>TOP - MEN</h1>
                 </div>
-                  <div class="table-responsive">
+                    <div class="table-responsive">
                     <table class="table table-sizes table-h over">
                         <tbody>
-                           <tr class="">
-                               <th rowspan="2">Size</th>
-                               <th colspan="4">Chest Size</th>
-                           </tr>
+                            <tr class="">
+                                <th rowspan="2">Size</th>
+                                <th colspan="4">Chest Size</th>
+                            </tr>
                             <tr class="third-head">
                                 <td><span class="">Centimetres</span></td>
                                 </tr>
@@ -258,6 +419,83 @@
                 </div>
             </div>
         </div>
-        <script src="product.js"></script>
+    </div>
+    <div class="modal">
+        <div class="modalContainer">
+            <div class="leftSection">
+                <div class="leftSectionHeading">
+                    <p>LOCATION</p>
+                </div>
+                <div>
+                    <p>Select your location/address to see accurate product delivery date</p>
+                </div>
+                <div class="leftSectionImg">
+                    <img src="https://cdncontent.decathlon.in/_next/static/images/delivery-truck-c40a8b92f5392fe19b284856137c64bd.svg"/>
+                </div>
+            </div>
+            <div class="rightSection">
+                <h4>SELECT ADDRESS</h4>
+                <div class="rightSectionAddress">
+                    <p>Sorry, no address found.</p>
+                    <button>Add <Address></Address></button>
+                </div>
+                <div>
+                    <p>OR</p>
+                </div>
+                <h4>PINCODE</h4>
+                <div>
+                    <p>Enter a pincode</p>
+                    <div>
+                        <input id="pincode">
+                        <button id="pinBlue">APPLY</button>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <div class="orderModal">
+        <div>
+            <div class="orderSection">
+                <!-- <div class="itemsSection">
+                    <div class="items">
+                        <div class="itemImg">
+                            <img src="https://contents.mediadecathlon.com/p1949673/e381a1ca10cbd5534c34c793f3f55e8a/p1949673.jpg?f=150x150"/>
+                        </div>
+                        <div class= "itemDesc">
+                            <div class="itemDescName">
+                                <p>MEN'S MOUNTAIN TREKKING</p>
+                            </div>
+                            <div class="itemOrderDetail">
+                                <p>Size: <strong>M</strong></p>
+                                <p>Quantity: <strong>2</strong></p>
+                                <p><strong>1998</strong></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="shippingDetails">
+                        <div class="shipping">
+                            <p>Shipping</p>
+                            <p>FREE</p>
+                        </div>
+                        <div class="orderAmt">
+                            <p><strong>TOTAL</strong></p>
+                            <p><strong>1998</strong></p>
+                        </div>
+                        <div>
+                            <p><a>VIEW DETAILS</a></p>
+                        </div>
+                    </div> 
+                    <div>
+                        <button>Go to Cart</button>
+                        <button>Continue Shopping</button>
+                    </div>
+                </div>  -->
+            </div>
+        </div>
+    </div>
+    <!-- <script src="product.js"></script> -->
+    <script src="cart.js"></script>
+    <script src="pro.js"></script>
 </body>
 </html>

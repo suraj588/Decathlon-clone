@@ -308,5 +308,19 @@
         "brand":"FORCLAZ",
         "nature":"Jacket"
       }
-    ]
-  }
+    ],
+
+   "cart": [
+    {
+      "name": "Men's Eco friendly cardio Training Short",
+      "mrp": 799,
+      "current_price": 499,
+      "rating": 4.5,
+      "img": "https://contents.mediadecathlon.com/p1851233/cac900e006b222532d61bf8b896573b0/p1851233.jpg?f=260x260&format=auto&format=auto",
+      "id": 4,
+      "size": "2XL",
+      "qty": 2
+    }
+  ]
+}
+
