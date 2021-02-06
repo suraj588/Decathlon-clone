@@ -312,14 +312,14 @@
   ],
   "cart": [
     {
-      "name": "Ab wheel",
-      "mrp": 1099,
+      "name": "Cross Training Elastic Training Band 25kg",
+      "mrp": 999,
       "current_price": 699,
-      "rating": 4.7,
-      "img": "https://contents.mediadecathlon.com/p1924078/e72f912dcfce82bfa115761989a4f5a2/p1924078.jpg?f=260x260&format=auto&format=auto",
-      "id": 3,
+      "rating": 4.4,
+      "img": "https://contents.mediadecathlon.com/p1248556/2f6f907bc739c38795f117ec842866ae/p1248556.jpg?f=260x260&format=auto&format=auto",
+      "id": 2,
       "brand": "domyos",
-      "size": "s",
+      "size": "L",
       "qty": 1
     }
   ]

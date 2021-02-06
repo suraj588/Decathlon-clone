@@ -9,6 +9,10 @@ const home = () => {
     window.location.href = "./login.html"
 }
 
+const changelocation = () => {
+    window.location.href = "./fitnessEssentials.html"
+}
+
 // const login = () => {
 //     let user = localStorage.getItem('number')
 
