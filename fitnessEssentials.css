@@ -2,6 +2,71 @@ body{
     font-family: "Roboto Condensed", sans-serif;
     position: relative;
 }
+body{
+    display: relative;
+}
+
+/* NAV BAR*/
+.nav_bar{
+    display: flex;
+    height: auto;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    justify-content: space-evenly;
+    /* border: 1px solid black; */
+}
+
+.nav_bar>div:nth-child(n){
+    margin: auto;
+    /* border: 1px solid black; */
+}
+
+.nav_bar>div:nth-child(1){
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav_bar>div:nth-child(1) i{
+    font-size: 40px;
+}
+
+.nav_bar>div:nth-child(1) button{
+    border: none;
+    background-color: transparent;
+    outline: none;
+}
+
+.nav_bar>div:nth-child(1)>p{
+    margin-left: 7px;
+}
+
+
+.nav_bar>div:nth-child(2)>img{
+    margin-top: 4px;
+}
+
+.nav_bar>div:nth-child(3)>form{
+    position: relative;
+}
+
+.nav_bar>div:nth-child(3)>form>input{
+    color: black !important;
+    width: 600px;
+    height: 50px;
+    padding-left: 50px; 
+    border-radius: 0px 3px 3px 0px;
+}
+
+.nav_bar>div:nth-child(3)>form>input::placeholder{
+    color: #21222a;
+}
+
+.nav_bar>div:nth-child(4)>div:nth-child(1), .nav_bar>div:nth-child(5)>div:nth-child(1), .nav_bar>div:nth-child(6)>div:nth-child(1){
+    margin-left: 17px;
+} 
+
 .backgroundCover{
     width: 100%;
 }
@@ -239,7 +304,7 @@ body {
 .part1 .left-content {
     flex-grow: 1;
     flex-basis: 0%;
-    max-width: 77%;
+    max-width: 75%;
     padding-top: 10px;
     padding-left: 40px;
     height: auto;
@@ -255,7 +320,7 @@ body {
 .part1 .right-content {
     flex-grow: 1;
     flex-basis: 0%;
-    max-width: 23%;
+    max-width: 25%;
     padding-top: 10px;
     padding-right: 40px;
 }
@@ -267,25 +332,25 @@ body {
 }
 .our-promise h5{
     font-weight: 600;
-    font-size: 20px;
+    font-size: 1rem;
 }
 .our-promise > a{
     display: flex;
     align-items: center;
     text-decoration: none;
-    font-size: 1.2rem;
+    font-size: 1rem;
     color: #424453;
 
 }
 .our-promise img{
     /* margin-top: 25px; */
-    max-width: 50px;
+    max-width: 30px;
     vertical-align: middle;
     /* border-style: none; */
     align-items: center;
 }
 .useful_links{
-    margin-top: 50px;
+    margin-top: 10px;
 }
 .our-promise span{
     float: left;
@@ -296,61 +361,83 @@ body {
 }
 .useful_links h4{
     font-weight: 600;
-    font-size: 20px;
+    font-size: 12px;
 }
 .foot-links a{
     width: 100%;
     display: block;
-    line-height: 3;
+    line-height: 2;
     color: #424453;
     text-decoration: none;
+    font-size: 16px;
 }
 .secure_tran{
-    display: flex;
+    /* display: flex; */
+    margin-top: 50px;
 }
 .secure{
     display: flex !important;
+    float: left;
 }
 .secure img{
-    max-width: 33px;
+    max-width: 23px;
 }
 .secure_content {
     margin-left: 15px;
+    font-size: 10px;
+    /* margin-top: 30px; */
 }
 .secure_content h6{
     font-weight: 600;
-    font-size: 15px;
+    font-size: 7px;
+    /* float: left; */
 }
 .secure_content p{
     color: #bbbbbb;
-    margin-top: 5px;
+    /* margin-top: 5px; */
 }
 .card-4{
+    float: left;
     display: flex;
+    margin-left: 20px;
 }
 .card{
-    width: 105px;
-    height: 87px;
-    margin-top: 20px;
-    padding: 10px;
+    /* width: 105px;
+    height: 87px; */
+    margin-top: 10px;
+    padding: 7px;  
+    max-width: 100%;
+    height: auto;
+    /* margin-left: 10px; */
+}
+hr::before{
+    margin-top: 30px;
 }
 .site_map{
-    margin-top: 60px;
-    margin-left: 30px;
+    float: left;
+    margin-top: 25px;
+    margin-left: 40px;
+    box-sizing: border-box;
 }
 .site_map a {
+    font-size: 10px;
     color: #424453;
-    padding: 18px 25px;
+    padding: 8px 15px;
     border-left: 1px solid #dee2e6 !important;
     border-right: 1px solid #dee2e6 !important;
     text-decoration: none;
     /* margin-top: 20px; */
 }
 .decathlon{
+    float: right;
     display: flex;
-    margin-top: 60px;
-    font-size: 1.2rem;
-    margin-left: 25px;
+    /* margin-top: -10px; */
+    margin-top: 30px;
+    font-size: 10px;
+    margin-left: 10px;
+}
+.decathlon p{
+    margin-top: 10px;
 }
 .countries{
     text-align: center;
@@ -373,15 +460,22 @@ body {
     margin-left: 7px;
 }
 .app h6{
-    margin-left: 10px;
+    /* margin-left: 10px; */
     /* text-align: center; */
     margin-top: -1px;
     margin-top: 10px;
     font-weight: 600;
-    font-size: 16px;
+    font-size: 10px;
+    line-height: 10px;
 }
-.google_play a{
-    margin-left: 10px;
+.google_play {
+    display: flex;
+}
+.google_play a img{
+    max-width: 110px;
+    height: 36px;
+    width: 100%;
+    margin-right: 10px;
 }
 .follow{
     background: #f4f4f4;
@@ -391,27 +485,27 @@ body {
     margin-left: 10px;
 }
 .follow h6{
-    margin-left: 10px;
-    margin-top: 20px;
+    /* margin-left: 10px; */
+    margin-top: 5px;
     font-weight: 600;
-    font-size: 16px;
+    font-size: 12px;
 }
 .social_media{
     display: flex;
     justify-content: space-between;
-    margin-left: 10px;
+    /* margin-left: 10px; */
 }
 .social_media a{
     background: #424453;
-    width: 40px;
-    height: 40px;
+    width: 25px;
+    height: 25px;
     line-height: 2;
     text-align: center;
     border-radius: 3px;
-    padding-top: 10px;
+    padding: 3px;
 }
 .blog h6{
-    margin-top: 50px;
+    margin-top: 20px;
 }
 .social_blog a{
     /* width: 100%; */
@@ -420,11 +514,11 @@ body {
     text-align: center;
     border-radius: 3px;
     color: #424453;
-    padding: 20px;
+    padding: 12px;
     text-decoration: none;
 }
 .explore h6{
-    margin-top: 60px;
+    margin-top: 10px;
 }
 .part2{
     text-align: center;
@@ -439,7 +533,7 @@ body {
 }
 .part2 p{
     color: #0082c3;
-    font-size: 1.5rem;
+    font-size: 1.1rem;
 }
 .part2 p span{
     color: #85bc4a;
@@ -448,7 +542,7 @@ body {
     position: relative;
 }
 .logo img{
-    max-width: 1200px;
+    max-width: 900px;
     margin: 1.2rem auto 1.7rem auto;
     width: 100%;
     height: auto;
@@ -469,43 +563,31 @@ body {
 }
 .logo p{
     color: #424453;
-    font-size: 20px;
+    font-size: 12px;
 }
 .foot_bottom .blue{
     width: 100%;
-    height: 7px;
+    height: 5px;
     background: #0082c3;
     display: block;
     float: left;
-    max-width: 500px;
-    min-width: 500px;
+    max-width: 400px;
+    min-width: 400px;
 }
 .foot_bottom .orange{
     width: 100%;
-    height: 7px;
+    height: 5px;
     background: #ec6607;
     display: inline-block;
-    max-width: 300px;
-    min-width: 300px;
-    float: left;
+    max-width: 200px;
+    min-width: 200px;
+    /* float: left; */
 }
 .foot_bottom .green{
     width: 100%;
-    height: 7px;
+    height: 5px;
     background: #85bc4a;
-    max-width: 250px;
-    min-width: 250px;
+    max-width: 150px;
+    min-width: 150px;
     float: left;
 }
-/* .part2::after{
-    background-image: url(images.png);
-    content: "";
-    height: 200px;
-    width: 200px;
-    background-size: cover;
-    position: absolute;
-    left: 0;
-    bottom: -20px;
-    z-index: 1;
-} */
-/* https://cdncontent.decathlon.in/_next/static/images/right-leaf-e1c4e49a470eee3c8b85a4708e0c2ba8.png */
