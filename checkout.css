@@ -149,6 +149,10 @@ body {
     justify-content: space-between;
 }
 
+.itemOrderDetail p {
+    margin-left: 5px;
+}
+
 .shippingDetails {
     border-radius: 10px;
     border-top: 1px solid whitesmoke;

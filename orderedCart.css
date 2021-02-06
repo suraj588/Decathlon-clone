@@ -169,7 +169,15 @@ body {
     padding: 5px;
     width: 100%;
     border-radius: 10px 10px 10px 0px;
+}
 
+.shippingOfferSection p {
+    display: flex;
+    align-items: center;
+}
+
+.shippingOfferSection span {
+    margin-left: 5px;
 }
 
 .addressSection > div{
@@ -197,7 +205,6 @@ body {
     padding: 5px;
 }
 .securityRight div span {
-    /* border: 1px solid red; */
     margin-top: 10px;
 }
 .security{
@@ -349,5 +356,71 @@ margin-top: 10px;
 
 .modalContainer {
     display: flex;
+    /* padding: 10px; */
 }
 
+.leftSection {
+    width: 40%;
+    height: 360px;
+    font-size: 12px;
+    background-color: whitesmoke;
+    padding: 20px;
+    border-radius: 5px 0px 0px 5px;
+
+}
+
+.leftSectionHeading p {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.leftSectionImg {
+    margin-top: 50px;
+}
+
+.rightSection {
+    /* display: flex; */
+    margin: auto;
+    flex-direction: column;
+    font-size: 12px;
+    align-items: center;
+    
+}
+
+.rightSectionAddress, .pinCodeSection {
+    width: 100%;
+    margin: auto;
+    padding:10px;
+    background-color: whitesmoke;
+}
+
+.rightSectionAddress button {
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    background-color: rgb(0,130,195);
+    color: white;
+    border: none;
+}
+
+.pinCodeSection > div {
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+}
+
+.pinCodeSection input {
+    width: 45%;
+    height: 35px;
+    border-radius: 5px;
+    border: 2px solid rgb(0,130,195);
+}
+
+.pinCodeSection button {
+    width: 45%;
+    height: 40px;
+    background-color: rgb(0,130,195);
+    color: white;
+    border: none;
+    border-radius: 5px;
+}

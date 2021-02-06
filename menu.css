@@ -1,5 +1,6 @@
 .container_dropdown {
     position: absolute;
+    width: 100%;
     top:90px;
     left:0px;
     display: none;
