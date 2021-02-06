@@ -1,0 +1,236 @@
+body {
+  position: relative;
+}
+
+.nav_bar{
+    display: flex;
+    height: auto;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    justify-content: space-evenly;
+    border: 1px solid black;
+}
+
+.nav_bar>div:nth-child(n){
+    margin: auto;
+    /* border: 1px solid black; */
+}
+
+.nav_bar>div:nth-child(1){
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav_bar>div:nth-child(1) i{
+    font-size: 40px;
+}
+
+.nav_bar>div:nth-child(1) button{
+    border: none;
+    background-color: transparent;
+    outline: none;
+}
+
+.nav_bar>div:nth-child(1)>p{
+    margin-left: 7px;
+}
+
+
+.nav_bar>div:nth-child(2)>img{
+    margin-top: 4px;
+}
+
+.nav_bar>div:nth-child(3)>form{
+    position: relative;
+}
+
+.nav_bar>div:nth-child(3)>form>input{
+    color: black !important;
+    width: 600px;
+    height: 50px;
+    padding-left: 50px; 
+    border-radius: 0px 3px 3px 0px;
+}
+
+.nav_bar>div:nth-child(3)>form>input::placeholder{
+    color: #21222a;
+}
+
+.nav_bar>div:nth-child(4)>div:nth-child(1), .nav_bar>div:nth-child(5)>div:nth-child(1), .nav_bar>div:nth-child(6)>div:nth-child(1){
+    margin-left: 17px;
+} 
+
+#overlay {
+    position: fixed; 
+    display: none; 
+    width: 100%; 
+    height: 100%; 
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(
+      0,
+      0,
+      0,
+      0.5
+    ); /* Black background with opacity */
+    z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+    cursor: pointer; /* Add a pointer on hover */
+  }
+
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+
+    z-index: 105;
+    position: absolute;
+    top: 100px; 
+    left: 25%;
+
+    width: 50%;
+    height: fit-content;
+    padding: 1.5%;
+    margin: auto;
+    border: 1px solid black;
+    
+    text-align: left;
+    background-color: white;    
+}
+
+.card>div>div:nth-child(n+2){
+    border-top: 1px solid black
+}
+
+.searchIcon{
+    position: absolute;
+    top: 10px;
+    left: 5px;
+    font-size: 25px;
+    color: grey;
+}
+
+/* PINCODE SECTION */
+.pin_bar{
+    display: flex;
+    height: auto;
+    width: 100%;
+
+    padding: 10px 0px 10px 0px;
+    /* border: 1px solid black; */
+
+    justify-content: center;
+    background-color: #21222a;
+    color: whitesmoke;
+}
+
+.pin_bar>div{
+    margin-top: 8px;
+}
+
+.pin_bar>button{
+    padding: 8px;
+    margin-left: 6px;
+
+    border-radius: 6px;
+    border-color: whitesmoke;
+    
+    background-color: #313238;
+    color: whitesmoke;
+}
+
+/* SLIDESHOW-1 */
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+.slideshow-container {
+  max-width: 100%;
+  position: relative;
+  margin: auto;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+/* .active, .dot:hover {
+  background-color: #717171;
+} */
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}

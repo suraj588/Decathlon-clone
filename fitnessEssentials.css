@@ -1,5 +1,6 @@
 body{
-    font-family: "Roboto Condensed", sans-serif
+    font-family: "Roboto Condensed", sans-serif;
+    position: relative;
 }
 body{
     display: relative;
@@ -75,6 +76,7 @@ body{
     display: flex;
     gap: 20px;
     padding: 10px;
+    font-size: 14px;
     justify-content: center;
 }
 .backgroundCover>:nth-child(1)>div{
@@ -82,11 +84,12 @@ body{
     font-weight: normal;
 }
 .backgroundCover>:nth-child(1)>div>span{
-    font-weight: 900;
+    font-weight: 700;
 }
 .backgroundCover>:nth-child(1)>button{
     color: white;
     border: 1px solid white;
+    border-radius: 5px;
     background-color: #424353;
 }
 .backgroundCover>:nth-child(2){
