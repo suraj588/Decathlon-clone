@@ -281,7 +281,7 @@
     },
     {
       "id": 31,
-       "name": "KALENJI RUN 100 MEN'S RUNNING SHOES...",
+      "name": "KALENJI RUN 100 MEN'S RUNNING SHOES...",
       "mrp": 799,
       "current_price": 999,
       "rating": 4.3,
@@ -310,5 +310,41 @@
       "nature": "Jacket"
     }
   ],
-  "cart": []
+  "cart": [
+    {
+      "id": 33,
+      "name": "Women's Mountain Trekking Padded Jacket",
+      "mrp": 1299,
+      "current_price": 999,
+      "rating": 4.5,
+      "img": "https://www.decathlon.in/_next/image?url=https%3A%2F%2Fcontents.mediadecathlon.com%2Fp1949672%2Fb964ad569c3d163b2369c8ab38441113%2Fp1949672.jpg%26format%3Dauto&w=384&q=75",
+      "brand": "FORCLAZ",
+      "nature": "Jacket",
+      "size": "m",
+      "qty": 1
+    },
+    {
+      "name": "Yoga Foam Block - Dark Gray",
+      "mrp": 499,
+      "current_price": 299,
+      "rating": 4.3,
+      "img": "https://contents.mediadecathlon.com/p1588822/k$5d39144dbcf00fc891254c22b3729244/yoga-foam-block-dark-grey.jpg?&f=250x250&format=auto",
+      "id": 7,
+      "brand": "domyos",
+      "size": "m",
+      "qty": 1
+    },
+    {
+      "id": 30,
+      "name": "MEN'S MOUNTAIN TREKKING PADDED JACKET - TEMP RATING 10°C - TREK 50 - BLACK",
+      "mrp": 1699,
+      "current_price": 999,
+      "rating": 4.4,
+      "img": "https://www.decathlon.in/_next/image?url=https%3A%2F%2Fcontents.mediadecathlon.com%2Fp1949673%2Fe381a1ca10cbd5534c34c793f3f55e8a%2Fp1949673.jpg%26format%3Dauto&w=384&q=75",
+      "brand": "FORCLAZ",
+      "nature": "Jacket",
+      "size": "3XL",
+      "qty": 1
+    }
+  ]
 }

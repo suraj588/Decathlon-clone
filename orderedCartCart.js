@@ -59,8 +59,8 @@ const minus = (id) => {
 }
 const createCart = (data) => {
     if(data.length == 0) {
-        id = queryFun()
-        window.location.href = ('./pro.html?' + id )
+        // id = queryFun()
+        window.location.href = ('./emptyCart.html')
     }
     for(i in data){
         quantity = data[i].qty
