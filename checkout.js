@@ -1,3 +1,17 @@
+let count = 0;
+const addressModal = () => {
+    count++;
+    if(count%2==1) {
+        document.querySelector('.selectDeliveryAddress').style.display = "block"
+    } else {
+        document.querySelector('.selectDeliveryAddress').style.display = "none" 
+    }
+}
+
+const goToHome = () => {
+    window.location.href ="./main_page/main_page.html"
+}
+
 const queryFun = () => {
     let query = window.location.search;
     let id = new URLSearchParams(query)

@@ -124,6 +124,32 @@ body {
 
 }
 
+.deliveryBtn {
+    position: relative;
+}
+
+.selectDeliveryAddress {
+    display: none;
+    position: absolute;
+    width:45%;
+    height: fit-content;
+    background-color: white;
+    right:32px;
+    top: 42px;
+    border-radius: 5px;
+}
+
+.selectDeliveryAddress a {
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 700;
+    color: #424453;
+}
+
+.selectDeliveryAddress div {
+    padding: 10px;
+}
+
 /* Right section */
 .items {
     display: flex;
@@ -205,9 +231,25 @@ margin-top: 10px;
         /* justify-content: center; */
         /* align-items: center; */
     }
+}
 
-    /* .orderSection {
-        /* margin: auto; */
-        align-items: center;
-    } */
+/* ordered page */
+
+.orderPlaced {
+    width: 60%;
+    padding: 5%;
+    margin: auto;
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 15%;
+}
+
+.orderPlaced button {
+    width: 300px;
+    height: 40px;
+    border-radius: 10px;
+    border: 2px solid #424453;
+    background-color: white;
+    color: #424453;
 }
