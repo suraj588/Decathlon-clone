@@ -9,7 +9,7 @@ const addressModal = () => {
 }
 
 const goToHome = () => {
-    window.location.href ="./main_page/main_page.html"
+    window.location.href ="index.html"
 }
 
 const queryFun = () => {
