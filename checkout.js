@@ -19,7 +19,7 @@ const queryFun = () => {
 }
 const loadCartData = () => {
     let id = queryFun()
-    url = `http://localhost:3000/cart`
+    url = `https://decathlon-mock.herokuapp.com/cart`
     console.log(url)
     fetch(url).then((data) => data.json()).then((data) => createCart(data))
 }

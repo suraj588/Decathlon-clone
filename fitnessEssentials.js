@@ -1,7 +1,8 @@
 window.addEventListener('load',fetchData);
 
 function fetchData(){
-    let url=` http://localhost:3000/fitness_essentials`;
+    
+    let url = 'https://decathlon-mock.herokuapp.com/fitness_essentials';
     fetch(url)
     .then(res=>res.json())
     .then(data=>{
@@ -90,7 +91,7 @@ function filterByProductNature(data){
 
 
 function filterByBrand(data){
-    let url=`http://localhost:3000/fitness_essentials?`
+    let url= 'https://decathlon-mock.herokuapp.com/fitness_essentials?';
     let str=`brand=${event.currentTarget.id}`;
     let input=event.currentTarget.firstElementChild;
     if(!input.checked){
@@ -110,7 +111,7 @@ function filterByBrand(data){
 }
 
 function filterByClr(data){
-    let url=`http://localhost:3000/fitness_essentials?`
+    let url='https://decathlon-mock.herokuapp.com/fitness_essentials?';
     let str=`color=${event.currentTarget.id}`;
     let input=event.currentTarget.firstElementChild;
     if(!input.checked){
@@ -178,7 +179,7 @@ let value=priceElements[0].children[1];
 let priceChanger=document.getElementById("priceChanger");
 priceChanger.addEventListener('change',function(){
     value.innerHTML=priceChanger.value;
-    let url=`http://localhost:3000/fitness_essentials?current_price_gte=200&current_price_lte=${value.innerHTML}`;
+    let url=`https://decathlon-mock.herokuapp.com/fitness_essentials?current_price_gte=200&current_price_lte=${value.innerHTML}`;
     fetch(url)
     .then(res=>res.json())
     .then(data=>{

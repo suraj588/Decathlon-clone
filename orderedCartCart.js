@@ -26,7 +26,7 @@ const getPin= () => {
 }
 const loadCartData = () => {
     // changePin()
-    url = `http://localhost:3000/cart`
+    url = `https://decathlon-mock.herokuapp.com/cart`
     console.log(url)
     fetch(url).then((data) => data.json()).then((data) => createCart(data))
 }
@@ -35,9 +35,13 @@ const shippingOffer = (data) => {
  
 }
 
-const deleteCartItem = (id) => {
-    url = `http://localhost:3000/cart/${id}`;
-    fetch(url, {method: 'DELETE'}).then(res => res.text()).then(res => console.log(res))
+async function deleteCartItem  (id) {
+    url = `https://decathlon-mock.herokuapp.com/cart/${id}`;
+    await fetch(url, {method: 'DELETE'}).then(res => res.text()).then(res => console.log(res))
+    
+    await updateCart();
+    let ele = document.getElementById('pro'+id);
+    ele.remove();
 }
 
 const plus = (id) => {
@@ -65,7 +69,7 @@ const createCart = (data) => {
     for(i in data){
         quantity = data[i].qty
         let html = `
-<div class="orderItemSection">
+<div id="pro${data[i].id}" class="orderItemSection">
     <div class="orderItemImg">
         <img src="${data[i].img}"/>
     </div>
@@ -119,26 +123,53 @@ const createCart = (data) => {
     
 }
 
-const updateCart = (id, quantity) => {
+async function updateCart (id=null, quantity){
     // id = queryFun().get('id');
     // console.log(id)
-    url = `http://localhost:3000/cart/${id}`
-    var myHeaders = new Headers();
-    myHeaders.append("Content-Type", "application/json");
+    if(id){
+        url = `https://decathlon-mock.herokuapp.com/cart/${id}`
+        var myHeaders = new Headers();
+        myHeaders.append("Content-Type", "application/json");
+    
+        var raw = JSON.stringify({"qty":quantity});
+    
+        var requestOptions = {
+        method: 'PATCH',
+        headers: myHeaders,
+        body: raw,
+        redirect: 'follow'
+        };
+        
+        await fetch(url, requestOptions)
+        .then(response => response.text())
+        .then(result => console.log(result))
+        .catch(error => console.log('error', error));
+    }
+    
+    let newData;
 
-    var raw = JSON.stringify({"qty":quantity});
+    await fetch(`https://decathlon-mock.herokuapp.com/cart`).then((data) => data.json()).then((data) => {newData = data})
+    let totalAmt = 0;
+    let deliveryChg = 129;
+    for(i in newData){
+        totalAmt += newData[i].current_price * newData[i].qty;
+        console.log(totalAmt)
+        
+        if (totalAmt>=1000){
+            deliveryChg = 0;
+            document.querySelector('.shippingOffer').textContent = "Free home delivery"
+            document.querySelector('.shipping').innerHTML = `<p>SHIPPING</p>
+            <p>FREE</p>`
+        }else{
+            document.querySelector('.shippingOffer').innerHTML = `Add products worth ₹${1000 - totalAmt} more to your cart and get free home delivery`
+            document.querySelector('.shipping').innerHTML = `<p>Estimated delivery</p>
+            <p>₹ 129</p>`
+        }
 
-    var requestOptions = {
-    method: 'PATCH',
-    headers: myHeaders,
-    body: raw,
-    redirect: 'follow'
-    };
+    }
 
-    fetch(url, requestOptions)
-    .then(response => response.text())
-    .then(result => console.log(result))
-    .catch(error => console.log('error', error));
+    document.querySelector('.totalPrice').textContent = totalAmt
+    document.querySelector('.total').textContent = (totalAmt) + deliveryChg;    
 }
 
 const checkOut = () => {

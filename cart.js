@@ -1,9 +1,9 @@
 let itemObj = {}
 const getItemInfo = () => {
     let query = window.location.search;
-    let id = new URLSearchParams(query)
+    let id = new URLSearchParams(query);
     // url = `http://localhost:3000/cart`
-    url = `http://localhost:3000/fitness_essentials?${id}`
+    url = `https://decathlon-mock.herokuapp.com/fitness_essentials?${id}`
     fetch(url).then((data) => data.json()).then((data) => createElements(data))
 }
 
@@ -30,7 +30,7 @@ const createElements = (data) => {
 // }
 
 const postData = (obj) => {
-    let url = "http://localhost:3000/cart";
+    let url = "https://decathlon-mock.herokuapp.com/cart";
     var myHeaders = new Headers();
 myHeaders.append("Content-Type", "application/json");
 
@@ -43,7 +43,7 @@ var requestOptions = {
   redirect: 'follow'
 };
 
-fetch("http://localhost:3000/cart", requestOptions)
+fetch("https://decathlon-mock.herokuapp.com/cart", requestOptions)
   .then(response => response.text())
   .then(result => console.log(result))
   .catch(error => console.log('error', error));
@@ -183,6 +183,6 @@ const createSuggestionElements = (data) => {
 //     console.log(id)
 //   });
 const showSuggestion = () => {
-   url = `http://localhost:3000/fitness_essentials?q=${itemObj.current_price}`
+   url = `https://decathlon-mock.herokuapp.com/fitness_essentials?q=${itemObj.current_price}`
    fetch(url).then((data) => data.json()).then((data) => createSuggestionElements(data))
 }
