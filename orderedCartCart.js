@@ -44,13 +44,14 @@ async function deleteCartItem  (id) {
     ele.remove();
 }
 
-const plus = (id) => {
+const plus = (id,current_price) => {
     let qty = +document.getElementById(id).textContent
-    document.getElementById(id).textContent = ++qty
+    document.getElementById(id).textContent = ++qty;
+    document.getElementsByClassName(id)[0].textContent = '₹' + (qty*current_price);
     updateCart(id, qty)
 }
 
-const minus = (id) => {
+const minus = (id,current_price) => {
     let qty = +document.getElementById(id).textContent
     document.getElementById(id).textContent = --qty
 
@@ -58,7 +59,8 @@ const minus = (id) => {
         deleteCartItem(id)
     } 
     else{
-        updateCart(id, qty)
+        updateCart(id, qty);
+        document.getElementsByClassName(id)[0].textContent = '₹' + (qty*current_price);
     }
 }
 const createCart = (data) => {
@@ -89,12 +91,12 @@ const createCart = (data) => {
         <div class="orderItemQtyPrice" >
             <div class="orderItemQty">
                 <p>Qty</p>
-                <button class="minusBtn" onclick="minus(${data[i].id})">-</button>
+                <button class="minusBtn" onclick="minus(${data[i].id},${data[i].current_price})">-</button>
                 <div><p class="quantity" id='${data[i].id}'>${quantity}</p></div>
-                <button class="addBtn" onclick="plus(${data[i].id})">+</button>
+                <button class="addBtn" onclick="plus(${data[i].id},${data[i].current_price})">+</button>
             </div>
             <div class="orderValue">
-                <p>₹ ${data[i].current_price * quantity}</p>
+                <p class = "${data[i].id}">₹ ${data[i].current_price * quantity}</p>
             </div>
             
         </div>              
